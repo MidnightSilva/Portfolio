@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Allerta+Stencil&display=swap");
+.aboutMeSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: center;
+  padding-top: 2rem;
+  margin-left: 0rem;
+}
+
+.Heading2 {
+  align-content: flex-start;
+  height: -moz-fit-content;
+  height: fit-content;
+  font-family: "Allerta Stencil", sans-serif;
+  font-size: 2rem;
+  line-height: 61px;
+  color: #003844;
+  text-shadow: 2px 7px 5px rgba(0, 0, 0, 0.3),
+    0px -4px 10px rgba(255, 255, 255, 0.3);
+  margin-left: -10.2rem;
+  margin-top: -1rem;
+}
+
+.Passage1 {
+  width: 325px;
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-size: 13px;
+  line-height: 1.3rem;
+  color: #4a4d50;
+  margin-left: 0rem;
+  margin-top: -1rem;
+}
+
+.Passage2 {
+  width: 325px;
+  height: fit-content;
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-size: 13px;
+  line-height: 1.3rem;
+  color: #4a4d50;
+  margin-left: 0rem;
+  margin-top: -1rem;
+}
+.Drop-down {
+  border: none;
+  background: none;
+  margin-top: -1rem;
+}
+.iconify {
+  color: #003844;
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media only screen and (min-device-width: 576px) {
+  .Heading2 {
+    margin-left: -20.5rem;
+  }
+  .Passage1 {
+    width: 30rem;
+    margin-left: 0rem;
+  }
+  .Passage2 {
+    width: 30rem;
+    margin-left: 0rem;
+  }
+  .iconify {
+    color: linear-gradient(180.75deg, #244555 42.03%, #27292c 139.12%);
+  }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media only screen and (min-device-width: 768px) {
+  .Heading2 {
+    margin-left: -29rem;
+    font-size: 3rem;
+  }
+  .Passage1 {
+    font-size: 14px;
+    width: 43rem;
+  }
+  .Passage2 {
+    font-size: 14px;
+    width: 43rem;
+  }
+}
+/* // Large devices (desktops, 992px and up) */
+@media only screen and (min-device-width: 992px) {
+  .aboutMeSection {
+  }
+  .Heading2 {
+    margin-left: -42rem;
+  }
+  .Passage1 {
+    width: 57rem;
+    line-height: 1.5rem;
+    margin-left: 0rem;
+    margin-bottom: 23px;
+  }
+  .Passage2 {
+    width: 57rem;
+    line-height: 1.5rem;
+    margin-top: -31px;
+    line-height: 23px;
+  }
+}
+/* // Extra large devices (large desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .aboutMeSection {
+  }
+  .Heading2 {
+    margin-left: -50rem;
+  }
+  .Passage1 {
+    width: 65rem;
+    font-size: 16px;
+  }
+  .Passage2 {
+    width: 65rem;
+    font-size: 16px;
+  }
+}
+@media only screen and (min-width: 1400px) {
+  .Heading2 {
+    margin-left: -60rem;
+  }
+  .Passage1 {
+    width: 74rem;
+    margin-left: 0rem;
+  }
+  .Passage2 {
+    width: 74rem;
+    margin-left: 0rem;
+  }
+}
+
+@media only screen and (min-width: 1600px) {
+}
+@media only screen and (min-width: 1824px) {
+}

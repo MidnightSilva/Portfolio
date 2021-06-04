@@ -1,0 +1,228 @@
+.heading5 {
+  font-family: "Allerta Stencil", sans-serif;
+  font-size: 2rem;
+  line-height: 61px;
+  color: #003844;
+  text-shadow: 2px 7px 5px rgba(0, 0, 0, 0.3),
+    0px -4px 10px rgba(255, 255, 255, 0.3);
+  margin-left: 1.8rem;
+  margin-top: 0rem;
+}
+.subheading5 {
+  width: 325px;
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-size: 0.9rem;
+  line-height: 1.4rem;
+  color: #27292c;
+  margin-left: 2rem;
+  margin-top: -1rem;
+}
+
+.formpage {
+  padding-bottom: 5rem;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+  /* background-image: url(../assets/images/CompassRose.svg); */
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.email {
+  font-family: "Lato", sans-serif;
+  color: #27292c;
+  position: relative;
+  left: 1.9rem;
+  padding-bottom: 1rem;
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+.message {
+  font-weight: 500;
+  font-family: "Lato", sans-serif;
+  margin-top: 1rem;
+  padding-bottom: 1rem;
+  color: #27292c;
+  position: relative;
+  left: 1.9rem;
+  font-size: 0.9rem;
+}
+.input1 {
+  height: 2rem;
+  width: 20rem;
+  margin-left: 1.5rem;
+  opacity: 0.9;
+  border: none;
+  border-radius: 1rem;
+}
+.input2 {
+  opacity: 0.9;
+  height: 8rem;
+  width: 20rem;
+  margin-left: 1.5rem;
+  border: none;
+  border-radius: 1rem;
+}
+.submit-button {
+  border-radius: 0.6rem;
+  border: none;
+  margin-top: 1rem;
+  height: 2rem;
+  width: 20.5rem;
+  margin-left: 1.5rem;
+  background: linear-gradient(180.75deg, #244555 42.03%, #27292c 139.12%);
+  color: #f1f6f9;
+}
+@media only screen and (min-device-width: 576px) {
+  .heading5 {
+    margin-left: 3rem;
+  }
+  .subheading5 {
+    width: 30rem;
+    margin-left: 3rem;
+  }
+
+  .formpage {
+  }
+  .form {
+    align-items: center;
+  }
+  .email {
+    left: -8.1rem;
+  }
+  .message {
+    left: -7.5rem;
+  }
+  .input1 {
+  }
+  .input2 {
+  }
+  .submit-button {
+  }
+}
+@media only screen and (min-device-width: 768px) {
+  .heading5 {
+    margin-top: 1rem;
+    font-size: 3rem;
+
+    padding-top: 3rem;
+  }
+  .subheading5 {
+    font-size: 1.2rem;
+    width: 43rem;
+  }
+
+  .formpage {
+    margin-top: -1rem;
+  }
+  .form {
+  }
+  .email {
+    display: block;
+    font-weight: 500;
+    font-size: 1.2rem;
+    left: -12.1rem;
+  }
+  .message {
+    display: block;
+    font-weight: 500;
+    font-size: 1.2rem;
+    left: -11.5rem;
+    color: #27292c;
+  }
+  .input1 {
+    width: 30rem;
+  }
+  .input2 {
+    width: 30rem;
+  }
+  .submit-button {
+    width: 30rem;
+  }
+}
+@media only screen and (min-device-width: 992px) {
+  .heading5 {
+    padding-top: 2rem;
+  }
+  .subheading5 {
+    width: 54rem;
+    line-height: 1.5rem;
+    margin-bottom: 2rem;
+    margin-left: 6rem;
+  }
+
+  .formpage {
+  }
+  .form {
+  }
+  .email {
+    display: block;
+  }
+  .message {
+  }
+  .input1 {
+    height: 3rem;
+  }
+  .input2 {
+  }
+  .submit-button {
+    height: 3rem;
+    margin-top: 2rem;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .heading5 {
+    margin-left: 5rem;
+  }
+  .subheading5 {
+    margin-left: 12rem;
+  }
+
+  .formpage {
+  }
+  .form {
+  }
+  .email {
+  }
+  .message {
+  }
+  .input1 {
+  }
+  .input2 {
+  }
+  .submit-button {
+  }
+}
+@media only screen and (min-width: 1400px) {
+  .heading5 {
+    margin-left: 7rem;
+    font-size: 3.5rem;
+  }
+  .subheading5 {
+    margin-left: 17rem;
+  }
+
+  .formpage {
+  }
+  .form {
+  }
+  .email {
+  }
+  .message {
+  }
+  .input1 {
+  }
+  .input2 {
+  }
+  .submit-button {
+  }
+}
+@media only screen and (min-width: 1600px) {
+  .heading5 {
+    margin-left: 13.1rem;
+  }
+}
+@media only screen and (min-width: 1824px) {
+}

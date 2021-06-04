@@ -1,0 +1,70 @@
+{
+  "Project": [
+    {
+      "title": "MindPassage",
+      "image": "MindPassage.png",
+      "tag": "Development",
+      "link1": "http://www.mindpassage.org/",
+      "site": "p1compassrose.svg",
+      "link2": "https://github.com/Jorge1772/c38_final_counseling",
+      "code": "pgithub.svg",
+      "info": "pinfo.svg",
+      "projectDescription": "Mind Passage provides users with a place to find theraphists and mental health tips.",
+      "modalTitle": "MindPassage",
+      "modalBody": "Coming soon",
+      "tech1": "react.svg",
+      "tech2": "nodejs.svg",
+      "tech3": "mongodb.svg",
+      "projectPoint1": "Here’s some of the tech I used during the project and how I implemented them during the project to further push my understanding and knowledge even further.",
+      "projectPoint2": "I took lead in setting up backend routes that ended up allowing the user to log in / log out / delete account/post, update, and delete journal entries.",
+      "projectPoint3": "Implemented sweet alerts to notify users when their journal entier was saved or if there was an error.",
+      "projectPoint4": "Implemented calendar that saves the user’s journal entries on the day the user submits them. The user can log in and view them and edit them at a later date."
+    },
+    {
+      "title": "Social doggy",
+      "image": "socialdoggy.png",
+      "tag": "Development",
+      "link1": "https://socialdoggy.herokuapp.com/",
+      "site": "p1compassrose.svg",
+      "link2": "https://github.com/Jorge1772/C38_midterm_jorge_diana_jNick_astrid",
+      "code": "pgithub.svg",
+      "info": "pinfo.svg",
+      "projectDescription": "Social doggy allows users to search for local dog parks with just one click.",
+      "modalTitle": "Social doggy",
+      "modalBody": "Coming soon",
+      "tech1": "react.svg",
+      "tech2": "css.svg",
+      "tech3": "googlemaps.svg",
+      "projectPoint1": "Here’s some of the tech I used during the project and how I implemented them during the project to further push my understanding and knowledge even further.",
+      "projectPoint2": "Implemented react router dom in the website to handle dynamic routing between the home page, results page, and FAQ page. ",
+      "projectPoint3": "Used google maps API to fetch dog park information and display it on a react-bootstrap card.",
+      "projectPoint4": "Assisted with CSS throughout the webpage "
+    }
+  ],
+  "designProjects": [
+    {
+      "title": "Outpost",
+      "image": "Outpost.png",
+      "tag": "Design",
+      "link1": "https://jorgesilva1892.myportfolio.com/outpost",
+      "site": "p1compassrose.svg",
+      "link2": "https://www.figma.com/file/I9MyTuFeOSC4i6BWgsun6T/Outpost?node-id=0%3A1",
+      "code": "Figma.svg",
+      "info": "pinfo.svg",
+      "projectDescription": "Outpost is to address suicide among veterans.",
+      "modalTitle": "Outpost",
+      "modalBody": "Coming soon"
+    },
+    {
+      "title": "TeaRitual",
+      "image": "TeaRitual.png",
+      "tag": "Design",
+      "site": "p1compassrose.svg",
+      "code": "Figma.svg",
+      "info": "pinfo.svg",
+      "projectDescription": "Tea Ritual Is a mobile E-commerce website that offers natural Tea blends.",
+      "modalTitle": "TeaRitual",
+      "modalBody": "Coming soon"
+    }
+  ]
+}
