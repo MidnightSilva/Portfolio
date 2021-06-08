@@ -1,12 +1,12 @@
-$speed: 11s;
+$speed: 15s;
 $wordCount: 7;
 
 .morphing {
   position: relative;
   top: -20%;
   font-size: 20px;
-  color: white;
-  filter: contrast(25) blur(1px);
+  color: #06a8ff;
+  filter: contrast(20) blur(1px);
 }
 
 .word {
@@ -31,7 +31,7 @@ $wordCount: 7;
     }
     20%,
     80% {
-      filter: blur(1em);
+      filter: blur(0.5em);
       opacity: 0;
     }
   }

@@ -21,7 +21,7 @@
   position: absolute;
   height: 100vh;
   left: 1rem;
-  top: 2rem;
+  top: -2rem;
   width: 100vw;
   display: flex;
   flex-direction: column;
