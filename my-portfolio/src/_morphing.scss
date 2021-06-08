@@ -1,11 +1,11 @@
-$speed: 16s;
+$speed: 11s;
 $wordCount: 7;
 
 .morphing {
   position: relative;
-  font-size: 15px;
-  color: #fff;
-  //   min-height: 100vh;
+  top: -20%;
+  font-size: 20px;
+  color: white;
   filter: contrast(25) blur(1px);
 }
 
