@@ -8,10 +8,10 @@ const HomePage = () => {
   return (
     <div className="Main-Sec">
       <LandingSection />
-      {/* <AboutMeSection /> */}
+      <AboutMeSection />
       <AboutMe />
-      {/* <ProjectSection />
-      <ContactSection /> */}
+      <ProjectSection />
+      <ContactSection />
     </div>
   );
 };

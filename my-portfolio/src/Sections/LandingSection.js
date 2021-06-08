@@ -1,6 +1,6 @@
 import StarIcon from "../components/StarIcon";
 import CompassIcon from "../components/CompassIcon";
-import Down from "../assets/Svgs/Vector.svg";
+
 import "../_morphing.scss";
 
 const LandingSection = () => {
@@ -24,7 +24,6 @@ const LandingSection = () => {
           <span></span>
           <span></span>
         </div>
-        {/* <img src={Down} alt="down arrow" className="down-arrow" /> */}
       </div>
     </div>
   );
