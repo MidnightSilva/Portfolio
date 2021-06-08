@@ -1,4 +1,4 @@
-// import AboutMe from "../components/AboutMe";
+import Skills from "../Sections/Skills";
 import LandingSection from "../Sections/LandingSection";
 import AboutMeSection from "../Sections/AboutMeSection";
 // import ProjectSection from "../Sections/ProjectSection";
@@ -9,9 +9,9 @@ const HomePage = () => {
     <div className="Main-Sec">
       <LandingSection />
       <AboutMeSection />
-      {/* <AboutMe />
-      <ProjectSection />
-      <ContactSection /> */}
+      <Skills />
+      {/* <ProjectSection />
+      <ContactSection />  */}
     </div>
   );
 };

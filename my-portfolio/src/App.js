@@ -1,6 +1,7 @@
 import React from "react";
 import HomePage from "./pages/HomePage";
 import Nav from "./components/Nav";
+import "./CSS/Skills.css";
 import "./CSS/App.css";
 import "./CSS/Nav.css";
 import "./CSS/Resume.css";
