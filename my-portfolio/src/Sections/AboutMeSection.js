@@ -1,7 +1,11 @@
-import React from "react";
+import AboutMe from "../components/AboutMe";
 
 const AboutMeSection = () => {
-  return <div></div>;
+  return (
+    <div>
+      <AboutMe />
+    </div>
+  );
 };
 
 export default AboutMeSection;

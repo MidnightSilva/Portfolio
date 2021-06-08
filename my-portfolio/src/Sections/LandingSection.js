@@ -14,11 +14,11 @@ const LandingSection = () => {
       <div className="greating-compass-container">
         <h2 className="landing-greeting">Welcome 👋🏼 I’m Jorge</h2>
         <CompassIcon />
-        <div class="morphing">
+        {/* <div class="morphing">
           <div class="word">a USN Veteran</div>
           <div class="word">UX/UI Designer &</div>
           <div class="word">Fronted Developer</div>
-        </div>
+        </div> */}
         <div class="arrow">
           <span></span>
           <span></span>
