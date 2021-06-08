@@ -9,7 +9,7 @@ const AboutMe = () => {
   };
 
   return (
-    <div className="aboutMeSection" id="aboutMe">
+    <div className="aboutMeSection">
       <h1 className="Heading2">About Me</h1>
       <p className="Passage1">
         I’m a problem solver, who can analyze and think outside the box.

@@ -2,7 +2,7 @@ import AboutMe from "../components/AboutMe";
 
 const AboutMeSection = () => {
   return (
-    <div>
+    <div id="aboutme">
       <AboutMe />
     </div>
   );
