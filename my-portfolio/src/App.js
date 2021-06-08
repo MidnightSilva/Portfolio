@@ -3,6 +3,7 @@ import HomePage from "./pages/HomePage";
 import Nav from "./components/Nav";
 import "./CSS/App.css";
 import "./CSS/Nav.css";
+import "./CSS/Resume.css";
 import "./CSS/LandingSection.css";
 import "./CSS/AboutMe.css";
 import "./CSS/Project.css";

@@ -7,19 +7,36 @@
   padding-top: 2rem;
   margin-left: 0rem;
 }
-
+.aboutme-top-container {
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 16px;
+  width: 100%;
+}
+.img-place-holder {
+  height: 7rem;
+  width: 7rem;
+  border-radius: 4rem;
+  background-color: aliceblue;
+}
+.bullet-points {
+}
+.bullet-point {
+  font-family: "Inter", sans-serif;
+  color: aliceblue;
+  font-size: 13px;
+}
 .Heading2 {
-  align-content: flex-start;
+  align-self: baseline;
   height: -moz-fit-content;
+  margin-left: 16px;
+  margin-bottom: -3px;
   height: fit-content;
-   font-family: "Inter", sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 2rem;
   line-height: 61px;
   color: white;
-  text-shadow: 2px 7px 5px rgba(0, 0, 0, 0.3),
-    0px -4px 10px rgba(255, 255, 255, 0.3);
-  margin-left: -10.2rem;
-  margin-top: -1rem;
 }
 
 .Passage1 {
@@ -29,8 +46,6 @@
   font-size: 13px;
   line-height: 1.3rem;
   color: white;
-  margin-left: 0rem;
-  margin-top: -1rem;
 }
 
 .Passage2 {
@@ -41,8 +56,6 @@
   font-size: 13px;
   line-height: 1.3rem;
   color: white;
-  margin-left: 0rem;
-  margin-top: -1rem;
 }
 .Drop-down {
   border: none;

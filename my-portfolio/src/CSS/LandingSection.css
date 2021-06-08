@@ -8,6 +8,8 @@
 }
 
 .top-star-controller {
+  animation: spin2 20s ease-in-out both infinite;
+  animation-delay: 0ms;
   z-index: -1;
   position: absolute;
   top: -5rem;
@@ -42,6 +44,8 @@
   align-self: center;
 }
 .morphing {
+  opacity: 0;
+  animation: show 1s ease-in-out forwards 6s;
   display: flex;
   flex-direction: column;
   align-self: center;
@@ -101,6 +105,16 @@
     opacity: 1;
   }
 }
+/* @keyframes spin2 {
+  0% {
+    transform: rotate(0);
+    z-index: 2;
+  }
+  100% {
+    transform: rotate(360deg);
+    z-index: 2;
+  }
+} */
 
 @keyframes show {
   0% {
