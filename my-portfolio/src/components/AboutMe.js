@@ -12,11 +12,9 @@ const AboutMe = () => {
     <div className="aboutMeSection" id="aboutMe">
       <h1 className="Heading2">About Me</h1>
       <p className="Passage1">
-        I’m a passionate Navy Veteran trained in both full stack development and
-        UX/UI design. Traveling with the Navy for four years took me outside my
-        comfort zone and gave me compassion for the state of the world. Through
-        that experience, I discovered I wanted to contribute to making this
-        world a better place.
+        I’m a problem solver, who can analyze and think outside the box.
+        Designing solutions and bring them to life. Independent self starter who
+        can work in any team dynamic. .
         <br />
         <br />
       </p>

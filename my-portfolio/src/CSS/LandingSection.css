@@ -8,30 +8,29 @@
 }
 
 .top-star-controller {
-  transform: rotate(104deg);
   z-index: -1;
   position: absolute;
   top: -5rem;
   transform: rotate(104deg);
   z-index: -1;
   overflow: hidden;
+  /* width: 29rem; */
+  margin-left: -4rem;
 }
 
 .greating-compass-container {
-  position: absolute;
+  margin-top: -41rem;
   height: 100vh;
-  left: 1rem;
-  top: -2rem;
-  width: 100vw;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: center;
   align-content: center;
 }
 
 .compass-icon {
   animation: spin 5s ease-in-out both 1s;
   align-self: center;
+  margin-top: 12rem;
 }
 .landing-greeting {
   opacity: 0;
@@ -42,8 +41,16 @@
   margin-bottom: -10rem;
   align-self: center;
 }
-.down-arrow {
-  height: 2rem;
+.morphing {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  align-items: center;
+  font-size: 20px;
+  color: white;
+}
+
+.word {
 }
 .arrow {
   opacity: 0;
