@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Allerta+Stencil&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&display=swap");
 .Project-sec {
   display: flex;
   flex-direction: column;
@@ -9,23 +9,21 @@
 .heading4 {
   align-self: flex-start;
   margin-left: 30px;
-  font-family: "Allerta Stencil", sans-serif;
+  font-family: "Inter", sans-serif;
   height: fit-content;
   font-weight: bold;
   font-size: 40px;
-  color: #003844;
-  text-shadow: 2px 7px 5px rgba(0, 0, 0, 0.3),
-    0px -4px 10px rgba(255, 255, 255, 0.3);
+  color: white;
 }
 
 .development-description {
   width: 329px;
   height: fit-content;
-  color: #27292c;
-  margin-top: -1rem;
-  margin-bottom: 3rem;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
   font-size: 13px;
-  font-family: "Lato", sans-serif;
+  line-height: 1.3rem;
+  color: white;
   line-height: 1.3rem;
 }
 /* for the projects base code  */

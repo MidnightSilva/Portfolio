@@ -1,8 +1,8 @@
 import Skills from "../Sections/Skills";
 import LandingSection from "../Sections/LandingSection";
 import AboutMeSection from "../Sections/AboutMeSection";
-// import ProjectSection from "../Sections/ProjectSection";
-// import ContactSection from "../Sections/ContactSection";
+import ProjectSection from "../Sections/ProjectSection";
+import ContactSection from "../Sections/ContactSection";
 
 const HomePage = () => {
   return (
@@ -10,8 +10,8 @@ const HomePage = () => {
       <LandingSection />
       <AboutMeSection />
       <Skills />
-      {/* <ProjectSection />
-      <ContactSection />  */}
+      <ProjectSection />
+      <ContactSection />
     </div>
   );
 };

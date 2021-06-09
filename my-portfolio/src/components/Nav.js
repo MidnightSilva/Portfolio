@@ -13,7 +13,7 @@ const Nav = () => {
           <p className="link2">Projects</p>
         </Link>
 
-        <Link activeClass="active" to="form" spy={true} smooth={true} o>
+        <Link activeClass="active" to="form" spy={true} smooth={true}>
           <p className="link3">Contact Me</p>
         </Link>
       </div>

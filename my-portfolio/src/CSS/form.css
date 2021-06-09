@@ -1,22 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&display=swap");
 .heading5 {
-  font-family: "Allerta Stencil", sans-serif;
-  font-size: 2rem;
-  line-height: 61px;
-  color: #003844;
-  text-shadow: 2px 7px 5px rgba(0, 0, 0, 0.3),
-    0px -4px 10px rgba(255, 255, 255, 0.3);
-  margin-left: 1.8rem;
-  margin-top: 0rem;
+  font-family: "Inter", sans-serif;
+  height: fit-content;
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
 }
 .subheading5 {
   width: 325px;
-  font-family: "Lato", sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
-  font-size: 0.9rem;
-  line-height: 1.4rem;
-  color: #27292c;
-  margin-left: 2rem;
-  margin-top: -1rem;
+  font-size: 13px;
+  line-height: 1.3rem;
+  color: white;
 }
 
 .formpage {
@@ -31,23 +27,24 @@
   background-position: center;
 }
 .email {
-  font-family: "Lato", sans-serif;
-  color: #27292c;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-size: 13px;
+  line-height: 1.3rem;
+  color: white;
   position: relative;
   left: 1.9rem;
   padding-bottom: 1rem;
   font-weight: 500;
-  font-size: 0.9rem;
 }
 .message {
-  font-weight: 500;
-  font-family: "Lato", sans-serif;
-  margin-top: 1rem;
-  padding-bottom: 1rem;
-  color: #27292c;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-size: 13px;
+  line-height: 1.3rem;
+  color: white;
   position: relative;
   left: 1.9rem;
-  font-size: 0.9rem;
 }
 .input1 {
   height: 2rem;
