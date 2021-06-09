@@ -23,6 +23,7 @@
   height: 26px;
   width: 108px;
   color: white;
+  font-family: "Inter", sans-serif;
   background-color: rgba(41, 145, 255, 1);
   border-radius: 10px;
 }
@@ -30,9 +31,9 @@
   margin-left: 1.5rem;
   height: 26px;
   width: 108px;
+  font-family: "Inter", sans-serif;
   color: white;
   background-color: rgba(41, 144, 255, 0.308);
-
   border-radius: 10px;
 }
 button {
