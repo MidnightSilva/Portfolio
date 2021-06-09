@@ -25,7 +25,7 @@ const Nav = () => {
       </div>
 
       <div className="nav-left">
-        <a href="https://github.com/Jorge1772">
+        <a href="https://github.com/MidnightSilva">
           <img src={github} className="githublogo" alt="github-logo" />
         </a>
       </div>

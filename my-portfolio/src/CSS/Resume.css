@@ -21,20 +21,20 @@
 }
 .download-resume {
   height: 26px;
-  width: 108px;
+  width: 119px;
   color: white;
   font-family: "Inter", sans-serif;
   background-color: rgba(41, 145, 255, 1);
-  border-radius: 10px;
+  border-radius: 13px;
 }
 .view-Resume {
   margin-left: 1.5rem;
   height: 26px;
-  width: 108px;
+  width: 119px;
   font-family: "Inter", sans-serif;
   color: white;
-  background-color: rgba(41, 144, 255, 0.308);
-  border-radius: 10px;
+  border: 0.3px solid #2991ff;
+  border-radius: 13px;
 }
 button {
   background: none;
