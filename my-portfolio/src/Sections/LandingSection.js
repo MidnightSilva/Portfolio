@@ -10,7 +10,11 @@ const LandingSection = () => {
         <StarIcon />
         <StarIcon />
       </div>
-      <StarIcon />
+      {/* <StarIcon /> */}
+      <div className="top-star-controller-2">
+        <StarIcon />
+        <StarIcon />
+      </div>
       <div className="greating-compass-container">
         <h2 className="landing-greeting">Welcome 👋🏼 I’m Jorge</h2>
         <CompassIcon />

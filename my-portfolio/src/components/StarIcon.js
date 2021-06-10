@@ -7,6 +7,7 @@ function StarIcon() {
       width="137"
       height="371"
       fill="none"
+      className="stars"
       viewBox="0 0 137 371"
     >
       <path

@@ -9,7 +9,7 @@ const DesignProject = (props) => {
   //   const info = require("../assets/images/" + props.info).default;
   return (
     <>
-      <div className="project">
+      <div className="project" onClick={() => setDisplayModal(!displayModal)}>
         <h3 className="project-title">{props.title} </h3>
         {/* <img className="mindPassge" src={image} alt="Project-img" /> */}
         <button className="project-tag2">{props.tag}</button>
