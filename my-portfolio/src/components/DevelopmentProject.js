@@ -15,7 +15,7 @@ const Project = (props) => {
       <div className="project">
         <h3 className="project-title">{props.title} </h3>
         {/* <img className='mindPassge' src={image} alt='Project-img'/> */}
-        <button className="project-tag">{props.tag}</button>
+        <span className="project-tag">{props.tag}</span>
         {/* <div className="project-links">
           <div className="plink1">
             <a href={props.link1} target="blank" ><img className='compassRose-hover' src={site} alt='compassrose logo'/></a>
