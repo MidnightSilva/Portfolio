@@ -16,22 +16,23 @@ const Project = (props) => {
         <h3 className="project-title">{props.title} </h3>
         {/* <img className='mindPassge' src={image} alt='Project-img'/> */}
         <button className="project-tag">{props.tag}</button>
-        <div className="project-links">
+        {/* <div className="project-links">
           <div className="plink1">
-            {/* <a href={props.link1} target="blank" ><img className='compassRose-hover' src={site} alt='compassrose logo'/></a> */}
+            <a href={props.link1} target="blank" ><img className='compassRose-hover' src={site} alt='compassrose logo'/></a>
             <p className="p-link1">Site</p>
           </div>
           <div className="plink2">
-            {/* <a href={props.link2} target="blank" > <img  src={code} className='githublogo-hover' alt='github-logo'/></a>  */}
+            <a href={props.link2} target="blank" > <img  src={code} className='githublogo-hover' alt='github-logo'/></a> 
             <p className="p-link-2">Code</p>
           </div>
           <div className="plink3">
-            {/* <img  src={info} className='info-btn' alt='info-logo' onClick={() => setDisplayModal(!displayModal)}/> */}
+            <img  src={info} className='info-btn' alt='info-logo' onClick={() => setDisplayModal(!displayModal)}/>
             <p className="p-link-3">info</p>
           </div>
         </div>
-        <p className="project-des">{props.projectDescription}</p>
+        <p className="project-des">{props.projectDescription}</p> */}
       </div>
+      <div className="line"></div>
       <div className={`Modal ${displayModal ? "Show" : ""}`}>
         <div class="modal-dialog">
           <div class="modal-header">

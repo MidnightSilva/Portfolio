@@ -27,50 +27,39 @@
   line-height: 1.3rem;
 }
 /* for the projects base code  */
+
+.project-broad {
+  width: 100%;
+}
 .project {
-  width: 19rem;
-  height: fit-content;
-  margin-bottom: 2rem;
+  width: 100%;
+  height: -moz-fit-content;
+  height: 8rem;
+  margin-bottom: 1rem;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  box-shadow: rgb(50 50 93 / 25%) 0px 50px 100px -20px,
-    rgb(0 0 0 / 30%) 0px 30px 60px -30px,
-    rgb(10 37 64 / 35%) 0px -2px 6px 0px inset;
+  justify-content: space-around;
   border-radius: 11px;
-  background: linear-gradient(180.75deg, #003844 -12.97%, #eee 98.12%);
+  background: rgba(54, 58, 72, 1);
 }
 .project2 {
-  width: 19rem;
+  width: 100%;
   height: -moz-fit-content;
-  height: fit-content;
-  margin-bottom: 2rem;
+  height: 8rem;
+  margin-bottom: 1rem;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  box-shadow: rgb(50 50 93 / 25%) 0px 50px 100px -20px,
-    rgb(0 0 0 / 30%) 0px 30px 60px -30px,
-    rgb(10 37 64 / 35%) 0px -2px 6px 0px inset;
+  justify-content: space-around;
   border-radius: 11px;
-  background: linear-gradient(180.75deg, #eee 10.03%, #003844 104.12%);
+  background: rgba(54, 58, 72, 1);
 }
 .project-title {
   align-self: center;
-  font-family: "Allerta Stencil", sans-serif;
-  font-size: 2rem;
-  padding: 0;
-  margin-top: 1rem;
-  margin-left: 0rem;
   color: #eeeeee;
+  order: 2;
 }
 .project-title2 {
   align-self: center;
-  font-family: "Allerta Stencil", sans-serif;
-  font-size: 2rem;
-  padding: 0;
-  margin-top: 1rem;
-  margin-left: 0rem;
-  color: #003844;
+  color: #eeeeee;
+  order: 2;
 }
 .mindPassge {
   width: auto;
@@ -81,34 +70,14 @@
 }
 /* tag */
 .project-tag {
-  border-radius: 4px;
   opacity: 0.7;
-  font-family: "Lato", sans-serif;
-  display: inline-block;
-  border: none;
-  margin-bottom: 1.4rem;
-  margin-left: -8rem;
-  text-decoration: none;
-  background: #d67112;
   color: #eee;
-  font-size: 1rem;
-  cursor: none;
-  text-align: center;
+  order: 1;
 }
 .project-tag2 {
-  border-radius: 4px;
   opacity: 0.7;
-  font-family: "Lato", sans-serif;
-  display: inline-block;
-  border: none;
-  margin-bottom: 1.4rem;
-  margin-left: -11rem;
-  text-decoration: none;
-  background: #535d7a;
   color: #eee;
-  font-size: 1rem;
-  cursor: none;
-  text-align: center;
+  order: 1;
 }
 /* Project links */
 .project-links {
