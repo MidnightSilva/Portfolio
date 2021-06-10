@@ -1,4 +1,5 @@
 .resume-container {
+  margin-bottom: 12px;
   display: flex;
   flex-direction: column;
   align-content: center;

@@ -37,6 +37,7 @@ const DesignProject = (props) => {
         </div> */}
         {/* <p className="project-des2">{props.projectDescription}</p> */}
       </div>
+      <div className="line"></div>
       <div className={`Modal ${displayModal ? "Show" : ""}`}>
         <div class="modal-dialog">
           <div class="modal-header">
