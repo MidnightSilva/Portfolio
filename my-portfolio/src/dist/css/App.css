@@ -3,7 +3,7 @@ body {
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  background: linear-gradient(179.87deg, rgba(20, 20, 20, 0.95) -9.18%, #1f4168 77.16%, #272727 110.07%, #1f4168 124.58%);
+  background: linear-gradient(179.87deg, rgba(20, 20, 20, 0.95) 8%, #1f4168 70.16%, #272727 110.07%, #1f4168 124.58%);
 }
 
 .Main-Sec {
