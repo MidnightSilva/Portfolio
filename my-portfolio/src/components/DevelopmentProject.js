@@ -36,17 +36,17 @@ const Project = (props) => {
       <div className={`Modal ${displayModal ? "Show" : ""}`}>
         <div class="modal-dialog">
           <div class="modal-header">
-            <h3 className="modal-title">{props.modalTitle}</h3>
+            <span className="modal-project-tag">{props.tag}</span>
             <button
               className="Close"
               onClick={() => setDisplayModal(!displayModal)}
             >
               X
             </button>
-          </div>
-
+          </div>{" "}
+          <h3 className="modal-title">{props.modalTitle}</h3>
           <div className="modal-body">
-            <div className="techheading">Tech Call Out's</div>
+            {/* <div className="techheading">Tech Call Out's</div> */}
             <div className="side-images">
               {/* <img className='tech-logo-1' src={tech1} alt='react-logo'/>
                 <img className='tech-logo-2' src={tech2} alt='react-logo'/>
@@ -54,10 +54,10 @@ const Project = (props) => {
             </div>
             <div className="project-points">
               <ul className="project-points1">
-                <li className="p1">{props.projectPoint1}</li>
+                {/* <li className="p1">{props.projectPoint1}</li>
                 <li className="p2">{props.projectPoint2}</li>
                 <li className="p3">{props.projectPoint3}</li>
-                <li className="p4">{props.projectPoint4}</li>
+                <li className="p4">{props.projectPoint4}</li> */}
               </ul>
             </div>
           </div>

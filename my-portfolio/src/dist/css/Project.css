@@ -311,7 +311,6 @@
   background: linear-gradient(180.75deg, #003844 42.03%, #27292c 139.12%);
   width: 78%;
   left: 32px;
-  padding: 0 12px 12px;
   -webkit-transition: bottom 0.3s ease-out;
   transition: bottom 0.3s ease-out;
   z-index: 10;
@@ -320,8 +319,6 @@
 
 .modal-dialog {
   overflow-y: scroll;
-  max-height: 85%;
-  margin-top: 25px;
   margin-bottom: 50px;
 }
 
@@ -341,16 +338,21 @@
 
 .modal-header {
   border-bottom: 2px dashed #eee;
+  border-bottom: 2px dashed #eee;
+  height: 8rem;
+  width: 100%;
+  background-color: #363a48;
+}
+
+.modal-project-tag {
+  color: white;
 }
 
 .Close {
   display: inline-block;
   border: none;
-  position: relative;
-  top: -2.8rem;
-  left: 16.5rem;
   background: none;
-  color: #eee;
+  color: white;
 }
 
 .modal-body {
@@ -380,14 +382,11 @@
 
 .project-points1 {
   list-style-type: square;
-  margin-left: -2rem;
 }
 
 .p1 {
   color: #eee;
   margin-top: -13rem;
-  margin-bottom: 2rem;
-  margin-left: 1rem;
 }
 
 .p2 {
@@ -395,7 +394,6 @@
   margin-bottom: 1rem;
   width: 15rem;
   list-style-type: square;
-  margin-left: 1rem;
 }
 
 .p3 {
