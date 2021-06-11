@@ -6,17 +6,17 @@
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 /* heading  and describtion */
 .heading4 {
   -ms-flex-item-align: baseline;
-      align-self: baseline;
+  align-self: baseline;
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
@@ -50,7 +50,7 @@
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
   border-radius: 11px;
   background: #363a48;
 }
@@ -69,7 +69,7 @@
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
   border-radius: 11px;
   background: #363a48;
 }
@@ -78,26 +78,26 @@
   font-family: "Satisfy", cursive;
   font-size: 16px;
   -ms-flex-item-align: end;
-      align-self: flex-end;
+  align-self: flex-end;
   opacity: 0.9;
   margin-bottom: 8px;
   color: #eeeeee;
   -webkit-box-ordinal-group: 3;
-      -ms-flex-order: 2;
-          order: 2;
+  -ms-flex-order: 2;
+  order: 2;
 }
 
 .project-title2 {
   font-family: "Satisfy", cursive;
   font-size: 16px;
   -ms-flex-item-align: end;
-      align-self: flex-end;
+  align-self: flex-end;
   margin-bottom: 8px;
   opacity: 0.9;
   color: #eeeeee;
   -webkit-box-ordinal-group: 3;
-      -ms-flex-order: 2;
-          order: 2;
+  -ms-flex-order: 2;
+  order: 2;
 }
 
 .mindPassge {
@@ -115,11 +115,11 @@
   opacity: 0.9;
   color: white;
   -ms-flex-item-align: end;
-      align-self: flex-end;
+  align-self: flex-end;
   margin-bottom: 8px;
   -webkit-box-ordinal-group: 2;
-      -ms-flex-order: 1;
-          order: 1;
+  -ms-flex-order: 1;
+  order: 1;
 }
 
 .project-tag2 {
@@ -129,11 +129,11 @@
   opacity: 0.9;
   color: white;
   -ms-flex-item-align: end;
-      align-self: flex-end;
+  align-self: flex-end;
   margin-bottom: 8px;
   -webkit-box-ordinal-group: 2;
-      -ms-flex-order: 1;
-          order: 1;
+  -ms-flex-order: 1;
+  order: 1;
 }
 
 /* Project links */
@@ -142,11 +142,11 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   -webkit-box-align: inherit;
-      -ms-flex-align: inherit;
-          align-items: inherit;
+  -ms-flex-align: inherit;
+  align-items: inherit;
   margin-top: -1rem;
   width: 225px;
   height: -webkit-fit-content;
@@ -161,8 +161,8 @@
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   margin-left: 1px;
 }
 
@@ -203,8 +203,8 @@
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   font-size: 15px;
   color: #003844;
 }
@@ -246,8 +246,8 @@
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   font-size: 15px;
   color: #003844;
 }
@@ -331,14 +331,23 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   color: #eee;
 }
 
 .modal-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
   border-bottom: 2px dashed #eee;
-  border-bottom: 2px dashed #eee;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
   height: 8rem;
   width: 100%;
   background-color: #363a48;
@@ -361,11 +370,11 @@
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .project-points {
@@ -376,8 +385,8 @@
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
 }
 
 .project-points1 {
@@ -429,11 +438,11 @@
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   width: 6rem;
   margin-top: 2rem;
   margin-left: 12rem;
@@ -495,9 +504,6 @@
     margin-left: 20rem;
   }
   .p1 {
-    margin-top: -14rem;
-    margin-bottom: 2rem;
-    margin-left: 1rem;
     width: 16rem;
   }
   .p2 {
@@ -511,8 +517,8 @@
   }
   .techheading {
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
   }
   .tech-logo-1 {
     height: 5rem;
@@ -545,10 +551,10 @@
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
     -webkit-box-pack: space-evenly;
-        -ms-flex-pack: space-evenly;
-            justify-content: space-evenly;
+    -ms-flex-pack: space-evenly;
+    justify-content: space-evenly;
   }
   .Modal.Show {
     margin-left: 2.5rem;
@@ -582,8 +588,8 @@
   }
   .techheading {
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
   }
   .Close {
     left: 36rem;

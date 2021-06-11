@@ -1,8 +1,6 @@
 import StarIcon from "../components/StarIcon";
 import CompassIcon from "../components/CompassIcon";
 
-import "../dist/scss/_morphing.scss";
-
 const LandingSection = () => {
   return (
     <div className="landing-tile">

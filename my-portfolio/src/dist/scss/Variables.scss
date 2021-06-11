@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&display=swap");
+
+// directional
+@mixin flexCenter {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+// fonts
+$TEMP-BACKGROUNDCOLOR: #363a48;
+$font: "Inter", sans-serif;
+
+//colors
+// $TEMP-BACKGROUNDCOLOR is in place of img
+$TEMP-BACKGROUNDCOLOR: #363a48;
+$color-links: white;

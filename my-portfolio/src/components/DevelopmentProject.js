@@ -36,14 +36,14 @@ const Project = (props) => {
       <div className={`Modal ${displayModal ? "Show" : ""}`}>
         <div class="modal-dialog">
           <div class="modal-header">
-            <span className="modal-project-tag">{props.tag}</span>
             <button
               className="Close"
               onClick={() => setDisplayModal(!displayModal)}
             >
               X
             </button>
-          </div>{" "}
+            <span className="modal-project-tag">{props.tag}</span>
+          </div>
           <h3 className="modal-title">{props.modalTitle}</h3>
           <div className="modal-body">
             {/* <div className="techheading">Tech Call Out's</div> */}

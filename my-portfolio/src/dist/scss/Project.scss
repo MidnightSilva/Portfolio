@@ -1,8 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+@import "./Variables.scss";
 
-$TEMP-BACKGROUNDCOLOR: #363a48;
-$color-links: white;
 .Project-sec {
   display: flex;
   flex-direction: column;
@@ -225,7 +224,7 @@ $color-links: white;
   overflow-y: auto;
   position: fixed;
   bottom: -150vh;
-  background: linear-gradient(180.75deg, #003844 42.03%, #27292c 139.12%);
+  background: white;
   width: 78%;
   left: 32px;
   transition: bottom 0.3s ease-out;
@@ -246,14 +245,21 @@ $color-links: white;
   color: #eee;
 }
 .modal-header {
-  border-bottom: 2px dashed #eee;
+  @include flexCenter();
   border-bottom: 2px dashed #eee;
   height: 8rem;
   width: 100%;
   background-color: $TEMP-BACKGROUNDCOLOR;
 }
 .modal-project-tag {
+  height: 100%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin: 8px;
   color: $color-links;
+  font-family: $font;
 }
 .Close {
   display: inline-block;
@@ -316,22 +322,9 @@ $color-links: white;
   margin-left: 12rem;
   height: 13rem;
 }
-.tech-logo-1 {
-  height: 3rem;
-}
-.tech-logo-2 {
-  height: 3rem;
-}
-.tech-logo-3 {
-  height: 3rem;
-}
-.tech-logo-4 {
-  height: 3rem;
-}
 .Modal.Show {
-  overflow-y: initial;
-  bottom: 0;
-  border-radius: 6px;
+  bottom: 24px;
+  border-radius: 10px;
 }
 .Overlay {
   background-color: rgba(0, 0, 0, 0.55);
@@ -365,9 +358,6 @@ $color-links: white;
     margin-left: 20rem;
   }
   .p1 {
-    margin-top: -14rem;
-    margin-bottom: 2rem;
-    margin-left: 1rem;
     width: 16rem;
   }
   .p2 {
@@ -381,22 +371,6 @@ $color-links: white;
   }
   .techheading {
     justify-content: center;
-  }
-  .tech-logo-1 {
-    height: 5rem;
-    margin-bottom: 1rem;
-  }
-  .tech-logo-2 {
-    height: 5rem;
-    margin-bottom: 1rem;
-  }
-  .tech-logo-3 {
-    height: 5rem;
-    margin-bottom: 1rem;
-  }
-  .tech-logo-4 {
-    height: 5rem;
-    margin-bottom: 1rem;
   }
   .Close {
     left: 27rem;
@@ -414,11 +388,6 @@ $color-links: white;
   }
   .Modal.Show {
     margin-left: 2.5rem;
-  }
-  .side-images {
-    margin-left: 29rem;
-    height: 17rem;
-    margin-top: 3rem;
   }
   .project-points {
     height: 0rem;
@@ -482,10 +451,6 @@ $color-links: white;
   .p4 {
     width: 25rem;
   }
-  .side-images {
-    margin-left: 35rem;
-    margin-top: 4rem;
-  }
   .Close {
     left: 41rem;
   }
@@ -548,10 +513,6 @@ $color-links: white;
   .project-points1 {
     margin-left: 1rem;
   }
-
-  .side-images {
-    margin-left: 42rem;
-  }
   .Close {
     left: 46rem;
   }
@@ -575,9 +536,6 @@ $color-links: white;
   }
   .p4 {
     width: 40rem;
-  }
-  .side-images {
-    margin-left: 48rem;
   }
 
   .Close {
