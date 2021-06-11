@@ -1,14 +1,14 @@
 import React from "react";
 import HomePage from "./pages/HomePage";
 import Nav from "./components/Nav";
-import "./CSS/Skills.css";
-import "./CSS/App.css";
-import "./CSS/Nav.css";
-import "./CSS/Resume.css";
-import "./CSS/LandingSection.css";
-import "./CSS/AboutMe.css";
-import "./CSS/Project.css";
-import "./CSS/form.css";
+import "./CSS/Skills.scss";
+import "./CSS/App.scss";
+import "./CSS/Nav.scss";
+import "./CSS/Resume.scss";
+import "./CSS/LandingSection.scss";
+import "./CSS/AboutMe.scss";
+import "./CSS/Project.scss";
+import "./CSS/form.scss";
 
 function App() {
   return (

@@ -1,7 +1,7 @@
 import StarIcon from "../components/StarIcon";
 import CompassIcon from "../components/CompassIcon";
 
-import "../_morphing.scss";
+import "../CSS/_morphing.scss";
 
 const LandingSection = () => {
   return (

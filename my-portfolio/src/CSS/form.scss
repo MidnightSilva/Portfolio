@@ -1,14 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&display=swap");
 .heading5 {
-  -ms-flex-item-align: baseline;
-      align-self: baseline;
-  height: -webkit-fit-content;
-  height: -moz-fit-content;
+  align-self: baseline;
   height: fit-content;
   font-family: "Inter", sans-serif;
   color: white;
 }
-
 .subheading5 {
   width: 325px;
   font-family: "Inter", sans-serif;
@@ -21,21 +17,14 @@
 .formpage {
   padding-bottom: 5rem;
 }
-
 .form {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   overflow-x: hidden;
   /* background-image: url(../assets/images/CompassRose.svg); */
   background-repeat: no-repeat;
   background-position: center;
 }
-
 .email {
   font-family: "Inter", sans-serif;
   font-style: normal;
@@ -45,7 +34,6 @@
   font-weight: 500;
   margin-bottom: 8px;
 }
-
 .message {
   font-family: "Inter", sans-serif;
   font-style: normal;
@@ -54,7 +42,6 @@
   color: white;
   margin-bottom: 8px;
 }
-
 .input1 {
   height: 2rem;
   width: 20rem;
@@ -64,7 +51,6 @@
   background: rgba(255, 255, 255, 0.74);
   margin-bottom: 8px;
 }
-
 .input2 {
   opacity: 0.9;
   height: 8rem;
@@ -74,17 +60,16 @@
   background: rgba(255, 255, 255, 0.74);
   margin-bottom: 8px;
 }
-
 .submit-button {
   border-radius: 13px;
   border: none;
   margin-top: 1rem;
   height: 2rem;
   width: 20.5rem;
-  background: #2991ff;
+
+  background: rgba(41, 145, 255, 1);
   color: #f1f6f9;
 }
-
 @media only screen and (min-device-width: 576px) {
   .heading5 {
     margin-left: 3rem;
@@ -93,10 +78,11 @@
     width: 30rem;
     margin-left: 3rem;
   }
+
+  .formpage {
+  }
   .form {
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    align-items: center;
   }
   .email {
     left: -8.1rem;
@@ -104,20 +90,29 @@
   .message {
     left: -7.5rem;
   }
+  .input1 {
+  }
+  .input2 {
+  }
+  .submit-button {
+  }
 }
-
 @media only screen and (min-device-width: 768px) {
   .heading5 {
     margin-top: 1rem;
     font-size: 3rem;
+
     padding-top: 3rem;
   }
   .subheading5 {
     font-size: 1.2rem;
     width: 43rem;
   }
+
   .formpage {
     margin-top: -1rem;
+  }
+  .form {
   }
   .email {
     display: block;
@@ -142,7 +137,6 @@
     width: 30rem;
   }
 }
-
 @media only screen and (min-device-width: 992px) {
   .heading5 {
     padding-top: 2rem;
@@ -153,18 +147,26 @@
     margin-bottom: 2rem;
     margin-left: 6rem;
   }
+
+  .formpage {
+  }
+  .form {
+  }
   .email {
     display: block;
   }
+  .message {
+  }
   .input1 {
     height: 3rem;
+  }
+  .input2 {
   }
   .submit-button {
     height: 3rem;
     margin-top: 2rem;
   }
 }
-
 @media only screen and (min-width: 1200px) {
   .heading5 {
     margin-left: 5rem;
@@ -172,8 +174,22 @@
   .subheading5 {
     margin-left: 12rem;
   }
-}
 
+  .formpage {
+  }
+  .form {
+  }
+  .email {
+  }
+  .message {
+  }
+  .input1 {
+  }
+  .input2 {
+  }
+  .submit-button {
+  }
+}
 @media only screen and (min-width: 1400px) {
   .heading5 {
     margin-left: 7rem;
@@ -182,11 +198,26 @@
   .subheading5 {
     margin-left: 17rem;
   }
-}
 
+  .formpage {
+  }
+  .form {
+  }
+  .email {
+  }
+  .message {
+  }
+  .input1 {
+  }
+  .input2 {
+  }
+  .submit-button {
+  }
+}
 @media only screen and (min-width: 1600px) {
   .heading5 {
     margin-left: 13.1rem;
   }
 }
-/*# sourceMappingURL=form.css.map */
+@media only screen and (min-width: 1824px) {
+}

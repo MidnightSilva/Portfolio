@@ -1,0 +1,163 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&display=swap");
+.landing-tile {
+  margin-top: 11rem;
+  display: flex;
+  height: 80vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.top-star-controller {
+  animation: spin2 60s ease-in-out both infinite;
+  display: flex;
+  flex-direction: column;
+  z-index: -1;
+  animation-delay: 0ms;
+  z-index: -1;
+  position: absolute;
+  top: 9rem;
+  height: 21rem;
+  z-index: -1;
+  overflow: hidden;
+  align-self: center;
+}
+.top-star-controller-2 {
+  animation: spin3 60s ease-in-out both infinite;
+  display: flex;
+  flex-direction: column;
+  z-index: -1;
+  animation-delay: 0ms;
+  z-index: -1;
+  position: absolute;
+  top: 9rem;
+  height: 21rem;
+  z-index: -1;
+  align-self: center;
+  overflow: hidden;
+}
+
+.stars {
+  transform: rotate(104deg);
+}
+.greating-compass-container {
+  margin-top: -16rem;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+.compass-icon {
+  animation: spin 5s ease-in-out both 1s;
+  align-self: center;
+  margin-top: 12rem;
+}
+.landing-greeting {
+  opacity: 0;
+  animation: show 1s ease-in-out forwards 6s;
+  color: white;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  margin-bottom: -10rem;
+  align-self: center;
+}
+.morphing {
+  opacity: 0;
+  animation: show 1s ease-in-out forwards 6s;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  align-items: center;
+  font-size: 20px;
+  color: white;
+  z-index: 3;
+}
+
+.word {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+}
+.arrow {
+  opacity: 0;
+  animation: show 3s ease-in-out forwards 6s;
+  position: absolute;
+  top: 85%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.arrow span {
+  z-index: 1;
+  display: block;
+  width: 28px;
+  height: 30px;
+  border-bottom: 5px solid #06a8ff;
+  border-right: 5px solid #06a8ff;
+  transform: rotate(45deg);
+  margin: -10px;
+  animation: animate 2s infinite;
+}
+.arrow span:nth-child(2) {
+  animation-delay: -0.2s;
+}
+.arrow span:nth-child(3) {
+  animation-delay: -0.4s;
+}
+@keyframes animate {
+  0% {
+    opacity: 0;
+    transform: rotate(45deg) translate(-20px, -20px);
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: rotate(45deg) translate(20px, 20px);
+  }
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0);
+    z-index: 2;
+    opacity: 0;
+  }
+  100% {
+    transform: rotate(360deg);
+    z-index: 2;
+    opacity: 1;
+  }
+}
+@keyframes spin2 {
+  0% {
+    transform: rotate(0);
+    z-index: 2;
+  }
+  100% {
+    transform: rotate(720deg);
+    z-index: 2;
+  }
+}
+
+@keyframes spin3 {
+  0% {
+    transform: rotate(0);
+    z-index: 2;
+  }
+  100% {
+    transform: rotate(-720deg);
+    z-index: 2;
+  }
+}
+@keyframes show {
+  0% {
+    z-index: 2;
+    opacity: 0;
+  }
+  100% {
+    z-index: 2;
+    opacity: 1;
+  }
+}
