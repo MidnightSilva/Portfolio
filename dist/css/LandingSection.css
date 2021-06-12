@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&display=swap");
 .landing-tile {
-  margin-top: 11rem;
+  margin-top: 14rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -138,9 +139,6 @@
   opacity: 0;
   -webkit-animation: show 3s ease-in-out forwards 6s;
           animation: show 3s ease-in-out forwards 6s;
-  position: absolute;
-  top: 85%;
-  left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
 }

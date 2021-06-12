@@ -233,23 +233,26 @@
 }
 .modal-dialog {
   overflow-y: scroll;
-  margin-bottom: 50px;
+  margin-bottom: 52px;
+}
+.project-tech-used{
+  font-family: $font;
+  font-size: $font-size-project-mobile;
+  color: $TEMP-BACKGROUNDCOLOR;  
 }
 .modal-title {
-  font-family: "Allerta Stencil", sans-serif;
-  font-size: 2rem;
-  margin-top: 0rem;
-  margin-bottom: 0rem;
-  display: flex;
-  justify-content: center;
-  color: #eee;
+  font-family: $font;
+  font-size: $font-size-project-mobile;
+  color: $TEMP-BACKGROUNDCOLOR;
 }
 .modal-header {
   @include flexCenter();
+      flex-direction: column;
   border-bottom: 2px dashed #eee;
   height: 8rem;
   width: 100%;
   background-color: $TEMP-BACKGROUNDCOLOR;
+      border-radius: 10px 10px 0px 0px;
 }
 .modal-project-tag {
   height: 100%;
@@ -262,9 +265,13 @@
   font-family: $font;
 }
 .Close {
-  display: inline-block;
-  border: none;
-  background: none;
+    font-family: $font;
+  font-size: $font-size-project-mobile;
+    display: inline-block;
+    border: none;
+    background: none;
+    align-self: flex-end;
+    margin: 8px;
   color: $color-links;
 }
 .modal-body {
@@ -340,205 +347,16 @@
 .Overlay.Show {
   display: block;
 }
-@media only screen and (min-device-width: 576px) {
-  .development-description {
-    width: 30rem;
-    margin-left: 0rem;
-  }
-  .heading4 {
-    margin-left: 47px;
-  }
-  .Modal.Show {
-    margin-left: 1rem;
-  }
-  .project-points {
-    height: 10rem;
-  }
-  .side-images {
-    margin-left: 20rem;
-  }
-  .p1 {
-    width: 16rem;
-  }
-  .p2 {
-    width: 16rem;
-  }
-  .p3 {
-    width: 16rem;
-  }
-  .p4 {
-    width: 16rem;
-  }
-  .techheading {
-    justify-content: center;
-  }
-  .Close {
-    left: 27rem;
-  }
-}
-@media only screen and (min-device-width: 768px) {
-  .development-description {
-    font-size: 14px;
-    width: 43rem;
-  }
-  .project-broad {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-  }
-  .Modal.Show {
-    margin-left: 2.5rem;
-  }
-  .project-points {
-    height: 0rem;
-  }
-  .project-points1 {
-    margin-left: 0rem;
-  }
-  .p1 {
-    margin-top: -18rem;
-    width: 21rem;
-  }
-  .p2 {
-    width: 21rem;
-    margin-bottom: 2rem;
-  }
-  .p3 {
-    width: 21rem;
-    margin-bottom: 2rem;
-  }
-  .p4 {
-    width: 21rem;
-    margin-bottom: 2rem;
-  }
-  .techheading {
-    justify-content: center;
-  }
-  .Close {
-    left: 36rem;
-  }
-}
-@media only screen and (min-width: 992px) {
-  .development-description {
-    width: 57rem;
-    margin-bottom: 5rem;
-  }
-  .project {
-    margin-left: 2rem;
-  }
-  .project2 {
-    margin-left: 2rem;
-  }
-  .heading4 {
-    font-size: 3.5rem;
-  }
-  .Modal {
-    width: 70%;
-  }
-  .Modal.Show {
-    margin-left: 7.5rem;
-  }
-  .p1 {
-    margin-top: -18rem;
-    width: 25rem;
-  }
-  .p2 {
-    width: 25rem;
-  }
-  .p3 {
-    width: 25rem;
-  }
-  .p4 {
-    width: 25rem;
-  }
-  .Close {
-    left: 41rem;
-  }
-}
+// @media only screen and (min-device-width: 576px) {
+// }
+// @media only screen and (min-device-width: 768px) {
+// }
+// @media only screen and (min-width: 992px) {
+// }
 
-@media only screen and (min-width: 1200px) {
-  .heading4 {
-    margin-left: 80px;
-  }
-  .project {
-    margin-left: 7rem;
-  }
-  .project2 {
-    margin-left: 1rem;
-  }
-  .development-description {
-    width: 65rem;
-    font-size: 16px;
-    line-height: 1.5rem;
-  }
-  .Modal.Show {
-    margin-left: 12rem;
-  }
-  .p1 {
-    margin-top: -17rem;
-    width: 35rem;
-  }
-  .p2 {
-    width: 35rem;
-  }
-  .p3 {
-    width: 35rem;
-  }
-  .p4 {
-    width: 35rem;
-  }
-  .side-images {
-    margin-left: 46rem;
-  }
-  .Close {
-    left: 50rem;
-  }
-}
-@media only screen and (min-width: 1400px) {
-  .project {
-    margin-left: 1rem;
-  }
-  .development-description {
-    width: 74rem;
-    margin-left: 0rem;
-  }
-  .heading4 {
-    margin-left: 109px;
-  }
-  .Modal.Show {
-    margin-left: 11rem;
-    width: 57%;
-    left: 109px;
-  }
-  .project-points1 {
-    margin-left: 1rem;
-  }
-  .Close {
-    left: 46rem;
-  }
-}
-@media only screen and (min-width: 1600px) {
-  .heading4 {
-    margin-left: 13.1rem;
-  }
-  .Modal.Show {
-    margin-left: 12.7rem;
-  }
-  .p1 {
-    margin-top: -17rem;
-    width: 40rem;
-  }
-  .p2 {
-    width: 40rem;
-  }
-  .p3 {
-    width: 40rem;
-  }
-  .p4 {
-    width: 40rem;
-  }
-
-  .Close {
-    left: 53rem;
-  }
-}
+// @media only screen and (min-width: 1200px) {
+// }
+// @media only screen and (min-width: 1400px) {
+// }
+// @media only screen and (min-width: 1600px) {
+// }

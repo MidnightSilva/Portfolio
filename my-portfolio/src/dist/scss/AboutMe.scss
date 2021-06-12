@@ -20,8 +20,6 @@
   border-radius: 4rem;
   background-color: aliceblue;
 }
-.bullet-points {
-}
 .bullet-point {
   margin: 8px;
   font-family: "Inter", sans-serif;
@@ -62,90 +60,19 @@
   color: white;
 }
 
-/* // Small devices (landscape phones, 576px and up) */
-@media only screen and (min-device-width: 576px) {
-  .Heading2 {
-    margin-left: -20.5rem;
-  }
-  .Passage1 {
-    width: 30rem;
-    margin-left: 0rem;
-  }
-  .Passage2 {
-    width: 30rem;
-    margin-left: 0rem;
-  }
-  .iconify {
-    color: linear-gradient(180.75deg, #244555 42.03%, #27292c 139.12%);
-  }
-}
+// @media only screen and (min-device-width: 576px) {
+// }
 
-/* // Medium devices (tablets, 768px and up) */
-@media only screen and (min-device-width: 768px) {
-  .Heading2 {
-    margin-left: -29rem;
-    font-size: 3rem;
-  }
-  .Passage1 {
-    font-size: 14px;
-    width: 43rem;
-  }
-  .Passage2 {
-    font-size: 14px;
-    width: 43rem;
-  }
-}
-/* // Large devices (desktops, 992px and up) */
-@media only screen and (min-device-width: 992px) {
-  .aboutMeSection {
-  }
-  .Heading2 {
-    margin-left: -42rem;
-  }
-  .Passage1 {
-    width: 57rem;
-    line-height: 1.5rem;
-    margin-left: 0rem;
-    margin-bottom: 23px;
-  }
-  .Passage2 {
-    width: 57rem;
-    line-height: 1.5rem;
-    margin-top: -31px;
-    line-height: 23px;
-  }
-}
-/* // Extra large devices (large desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-  .aboutMeSection {
-  }
-  .Heading2 {
-    margin-left: -50rem;
-  }
-  .Passage1 {
-    width: 65rem;
-    font-size: 16px;
-  }
-  .Passage2 {
-    width: 65rem;
-    font-size: 16px;
-  }
-}
-@media only screen and (min-width: 1400px) {
-  .Heading2 {
-    margin-left: -60rem;
-  }
-  .Passage1 {
-    width: 74rem;
-    margin-left: 0rem;
-  }
-  .Passage2 {
-    width: 74rem;
-    margin-left: 0rem;
-  }
-}
+// @media only screen and (min-device-width: 768px) {
+// }
 
-@media only screen and (min-width: 1600px) {
-}
-@media only screen and (min-width: 1824px) {
-}
+// @media only screen and (min-device-width: 992px) {
+// }
+
+// @media only screen and (min-width: 1200px) {
+// }
+
+// @media only screen and (min-width: 1600px) {
+// }
+// @media only screen and (min-width: 1824px) {
+// }

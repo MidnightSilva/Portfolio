@@ -2,7 +2,7 @@
     "version": 3,
     "mappings": "AAAA,OAAO,CAAC,uFAAI",
     "sources": [
-        "../scss/Variables.scss"
+        "../../my-portfolio/src/dist/scss/Variables.scss"
     ],
     "names": [],
     "file": "Variables.css"

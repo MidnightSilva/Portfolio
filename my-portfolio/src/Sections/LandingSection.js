@@ -21,11 +21,11 @@ const LandingSection = () => {
           <div class="word">UX/UI Designer &</div>
           <div class="word">Fronted Developer</div>
         </div>
-        <div class="arrow">
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
+      </div>
+      <div class="arrow">
+        <span></span>
+        <span></span>
+        <span></span>
       </div>
     </div>
   );

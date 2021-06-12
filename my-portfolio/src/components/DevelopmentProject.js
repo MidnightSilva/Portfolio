@@ -44,7 +44,8 @@ const Project = (props) => {
             </button>
             <span className="modal-project-tag">{props.tag}</span>
           </div>
-          <h3 className="modal-title">{props.modalTitle}</h3>
+          <p className="project-tech-used">Tech used for:</p>
+          <p className="modal-title">{props.modalTitle}</p>
           <div className="modal-body">
             {/* <div className="techheading">Tech Call Out's</div> */}
             <div className="side-images">

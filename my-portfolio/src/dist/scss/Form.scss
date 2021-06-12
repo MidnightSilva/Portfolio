@@ -80,8 +80,6 @@
     margin-left: 3rem;
   }
 
-  .formpage {
-  }
   .form {
     align-items: center;
   }
@@ -90,12 +88,6 @@
   }
   .message {
     left: -7.5rem;
-  }
-  .input1 {
-  }
-  .input2 {
-  }
-  .submit-button {
   }
 }
 @media only screen and (min-device-width: 768px) {
@@ -113,8 +105,7 @@
   .formpage {
     margin-top: -1rem;
   }
-  .form {
-  }
+
   .email {
     display: block;
     font-weight: 500;
@@ -138,87 +129,13 @@
     width: 30rem;
   }
 }
-@media only screen and (min-device-width: 992px) {
-  .heading5 {
-    padding-top: 2rem;
-  }
-  .subheading5 {
-    width: 54rem;
-    line-height: 1.5rem;
-    margin-bottom: 2rem;
-    margin-left: 6rem;
-  }
-
-  .formpage {
-  }
-  .form {
-  }
-  .email {
-    display: block;
-  }
-  .message {
-  }
-  .input1 {
-    height: 3rem;
-  }
-  .input2 {
-  }
-  .submit-button {
-    height: 3rem;
-    margin-top: 2rem;
-  }
-}
-@media only screen and (min-width: 1200px) {
-  .heading5 {
-    margin-left: 5rem;
-  }
-  .subheading5 {
-    margin-left: 12rem;
-  }
-
-  .formpage {
-  }
-  .form {
-  }
-  .email {
-  }
-  .message {
-  }
-  .input1 {
-  }
-  .input2 {
-  }
-  .submit-button {
-  }
-}
-@media only screen and (min-width: 1400px) {
-  .heading5 {
-    margin-left: 7rem;
-    font-size: 3.5rem;
-  }
-  .subheading5 {
-    margin-left: 17rem;
-  }
-
-  .formpage {
-  }
-  .form {
-  }
-  .email {
-  }
-  .message {
-  }
-  .input1 {
-  }
-  .input2 {
-  }
-  .submit-button {
-  }
-}
-@media only screen and (min-width: 1600px) {
-  .heading5 {
-    margin-left: 13.1rem;
-  }
-}
-@media only screen and (min-width: 1824px) {
-}
+// @media only screen and (min-device-width: 992px) {
+// }
+// @media only screen and (min-width: 1200px) {
+// }
+// @media only screen and (min-width: 1400px) {
+// }
+// @media only screen and (min-width: 1600px) {
+// }
+// @media only screen and (min-width: 1824px) {
+// }

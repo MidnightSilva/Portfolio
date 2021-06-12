@@ -1,7 +1,7 @@
 @import "./Variables";
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&display=swap");
 .landing-tile {
-  margin-top: 11rem;
+  margin-top: 14rem;
   display: flex;
   height: 80vh;
   flex-direction: column;
@@ -84,9 +84,6 @@
 .arrow {
   opacity: 0;
   animation: show 3s ease-in-out forwards 6s;
-  position: absolute;
-  top: 85%;
-  left: 50%;
   transform: translate(-50%, -50%);
 }
 .arrow span {
@@ -162,3 +159,4 @@
     opacity: 1;
   }
 }
+// yo
