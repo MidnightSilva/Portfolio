@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-
 const DesignProject = (props) => {
   const [displayModal, setDisplayModal] = useState(false);
 

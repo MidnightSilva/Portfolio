@@ -47,13 +47,16 @@ const Project = (props) => {
           <p className="project-tech-used">Tech used for:</p>
           <p className="modal-title">{props.modalTitle}</p>
           <div className="modal-body">
+            {/* tags will go here */}
             {/* <div className="techheading">Tech Call Out's</div> */}
             <div className="side-images">
+              {/* bullet points will go here  */}
               {/* <img className='tech-logo-1' src={tech1} alt='react-logo'/>
                 <img className='tech-logo-2' src={tech2} alt='react-logo'/>
                 <img className='tech-logo-3' src={tech3} alt='react-logo'/> */}
             </div>
             <div className="project-points">
+              {/* The action items will go here i.e the buttons for link and site  */}
               <ul className="project-points1">
                 {/* <li className="p1">{props.projectPoint1}</li>
                 <li className="p2">{props.projectPoint2}</li>
