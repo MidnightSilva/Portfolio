@@ -13,8 +13,9 @@ import "./dist/scss/Form.scss";
 function App() {
   return (
     <>
-      <Nav />
-      <HomePage />
+      
+        <Nav />
+       <HomePage />            
     </>
   );
 }
