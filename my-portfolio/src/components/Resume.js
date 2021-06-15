@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import resume from '../assets/Images/Jorge Resume .jpg'
 
 const Resume = () => {
   const [displayModal, setDisplayModal] = useState(false);
@@ -14,15 +15,13 @@ const Resume = () => {
           View
         </button>
         <div className={`Modal ${displayModal ? "Show" : ""}`}>
-          <div class="modal-dialog">
-            <button
-              className="Close-resume"
-              onClick={() => setDisplayModal(!displayModal)}
-            >
-              X
-            </button>
-          </div>
-          <div className="modal-body"></div>
+          <button
+            className="Close-resume"
+            onClick={() => setDisplayModal(!displayModal)}
+          >
+            X
+          </button>
+          <img src={resume} alt="resume" />
         </div>
       </div>
     </div>

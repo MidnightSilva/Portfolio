@@ -40,16 +40,17 @@
   border-radius: 11px;
   background: rgba(54, 58, 72, 1);
 }
-.modal-tag-section{    display: flex;
+.modal-tag-section{      margin-top: -10px;  display: flex;
     justify-content: space-between;
     padding: 8px;
 
 font-weight: 600;}
 .tag-container{
-     justify-content: space-evenly;
+    justify-content: space-evenly;
     margin-top: -7px;
     display: flex;
     flex-wrap: wrap;
+    margin-bottom: 8px;
 }
 .line {
   border: 0.5px solid rgba(41, 145, 255, 1);
@@ -138,10 +139,6 @@ font-weight: 600;}
   flex-direction: column;
   margin-left: 1px;
 }
-.compassRose-hover {
-  width: auto;
-  height: 2rem;
-}
 .p-link1 {
   margin: 0;
   padding: 0;
@@ -169,10 +166,6 @@ font-weight: 600;}
   font-size: 15px;
   color: #003844;
 }
-.githublogo-hover {
-  width: auto;
-  height: 2rem;
-}
 .p-link-2 {
   margin: 0;
   padding: 0;
@@ -199,16 +192,11 @@ font-weight: 600;}
   font-size: 15px;
   color: #003844;
 }
-.info-btn {
-  width: auto;
-  height: 2rem;
-}
+
 .p-link-3 {
   margin: 0;
   padding: 0;
   width: fit-content;
-  font-family: "Lato", sans-serif;
-  color: #d67112;
   font-size: 13px;
   margin-left: 6px;
   margin-top: 8px;
@@ -217,20 +205,19 @@ font-weight: 600;}
   margin: 0;
   padding: 0;
   width: fit-content;
-  font-family: "Lato", sans-serif;
-  color: #d67112;
   font-size: 13px;
   margin-left: 6px;
   margin-top: 8px;
 }
 /* project description */
 .project-des {
+      margin-top: -14px;
+
 width: 261px;
-    font-family: "Lato", sans-serif;
+    font-family: $font;
     line-height: 1.3rem;
     font-size: 13px;
-    color: #003844;
-    margin-top: -1.5rem;
+    color: $TEMP-BACKGROUNDCOLOR;
     padding: 8px;
 }
 .project-des2 {
@@ -315,16 +302,16 @@ width: 261px;
   list-style-type: square;
 }
 .p1 {
+   color: $TEMP-BACKGROUNDCOLOR;
+      margin: 8px;
      font-family: $font;
   font-size: $font-size-project-mobile;
 list-style-type: square;
-    margin-top: 1rem;
-     margin-bottom: 1rem;
 }
 
 .Modal.Show {
-  bottom: 24px;
-  border-radius: 10px;
+    bottom: 16px;
+    border-radius: 10px;
 }
 .Overlay {
   background-color: rgba(0, 0, 0, 0.55);

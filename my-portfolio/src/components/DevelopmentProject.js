@@ -48,7 +48,9 @@ const Project = (props) => {
             <li className="p1">{props.projectPoint2}</li>
             <li className="p1">{props.projectPoint3}</li>
             <li className="p1">{props.projectPoint4}</li>
-
+            <li className="p1">{props.projectPoint5}</li>
+            <li className="p1">{props.projectPoint6}</li>
+            <li className="p1">{props.projectPoint7}</li>
             <div className="project-links">
               <div className="plink1">
                 <a href={props.link1} target="blank">
