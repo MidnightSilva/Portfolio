@@ -126,88 +126,34 @@ font-weight: 600;}
 }
 /* Project links */
 .project-links {
-  display: flex;
-  justify-content: space-between;
-  align-items: inherit;
-  margin-top: -1rem;
-  width: 225px;
-  height: fit-content;
-  cursor: pointer;
+display: flex;
+    justify-content: space-evenly;
+    justify-content: center;
+    margin-top: 0rem;
+    height: -moz-fit-content;
+    height: fit-content;
+    cursor: pointer;
 }
-.plink1 {
-  display: flex;
-  flex-direction: column;
-  margin-left: 1px;
-}
+
 .p-link1 {
-  margin: 0;
-  padding: 0;
-  width: fit-content;
-  margin-left: 6px;
-  margin-top: 5px;
-  font-family: "Lato", sans-serif;
-  font-size: 13px;
-  color: #d67112;
-}
-.dp-link1 {
-  margin: 0;
-  padding: 0;
-  width: fit-content;
-  margin-left: -14px;
-  margin-top: 5px;
-  font-family: "Lato", sans-serif;
-  font-size: 13px;
-  color: #d67112;
+    background-color: $TEMP-BACKGROUNDCOLOR;
+    color: white;
+    width: 40%;
+    border-radius: 13px;
+       font-family: $font;
+    display: flex;
+    justify-content: center;
 }
 
-.plink2 {
-  display: flex;
-  flex-direction: column;
-  font-size: 15px;
-  color: #003844;
-}
 .p-link-2 {
-  margin: 0;
-  padding: 0;
-  width: fit-content;
-  margin-left: 0px;
-  margin-top: 5px;
-  font-family: "Lato", sans-serif;
-  color: #d67112;
-  font-size: 13px;
-}
-.dp-link-2 {
-  margin: 0;
-  padding: 0;
-  width: fit-content;
-  margin-left: -17px;
-  margin-top: 5px;
-  font-family: "Lato", sans-serif;
-  color: #d67112;
-  font-size: 13px;
-}
-.plink3 {
-  display: flex;
-  flex-direction: column;
-  font-size: 15px;
-  color: #003844;
-}
-
-.p-link-3 {
-  margin: 0;
-  padding: 0;
-  width: fit-content;
-  font-size: 13px;
-  margin-left: 6px;
-  margin-top: 8px;
-}
-.dp-link-3 {
-  margin: 0;
-  padding: 0;
-  width: fit-content;
-  font-size: 13px;
-  margin-left: 6px;
-  margin-top: 8px;
+    background-color:  $TEMP-BACKGROUNDCOLOR;;
+    font-family: $font;
+    color: white;
+    width: 40%;
+    border-radius: 13px;
+    display: flex;
+    justify-content: center;
+        margin-left: 24px;
 }
 /* project description */
 .project-des {
@@ -242,7 +188,6 @@ width: 261px;
 }
 .modal-dialog {
   overflow-y: scroll;
-  margin-bottom: 52px;
 }
 .project-tech-used{
   font-family: $font;
@@ -257,7 +202,6 @@ width: 261px;
 .modal-header {
   @include flexCenter();
       flex-direction: column;
-  border-bottom: 2px dashed #eee;
   height: 8rem;
   width: 100%;
   background-color: $TEMP-BACKGROUNDCOLOR;

@@ -52,7 +52,6 @@ const Project = (props) => {
             <li className="p1">{props.projectPoint6}</li>
             <li className="p1">{props.projectPoint7}</li>
             <div className="project-links">
-              <div className="plink1">
                 <a href={props.link1} target="blank">
                   {/* <img
                         className="compassRose-hover"
@@ -61,8 +60,6 @@ const Project = (props) => {
                       /> */}
                 </a>
                 <p className="p-link1">Site</p>
-              </div>
-              <div className="plink2">
                 <a href={props.link2} target="blank">
                   {" "}
                   {/* <img
@@ -72,7 +69,6 @@ const Project = (props) => {
                       /> */}
                 </a>
                 <p className="p-link-2">Code</p>
-              </div>
             </div>
           </div>
         </div>
