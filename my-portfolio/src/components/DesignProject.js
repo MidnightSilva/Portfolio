@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 const DesignProject = (props) => {
   const [displayModal, setDisplayModal] = useState(false);
-
+  const image = require("../assets/Images/" + props.image).default;
   //   const image = require("../assets/images/" + props.image).default;
   //   const site = require("../assets/images/" + props.site).default;
   //   const code = require("../assets/images/" + props.code).default;
@@ -9,9 +9,11 @@ const DesignProject = (props) => {
   return (
     <>
       <div className="project" onClick={() => setDisplayModal(!displayModal)}>
-        <h3 className="project-title">{props.title} </h3>
-        {/* <img className="mindPassge" src={image} alt="Project-img" /> */}
-        <button className="project-tag2">{props.tag}</button>
+        <img className="mindPassge" src={image} alt="Project-img" />
+        <div className="project-tag-title-container">
+          <h3 className="project-title">{props.title} </h3>
+          <button className="project-tag2">{props.tag}</button>
+        </div>
         {/* <div className="project-links">
           <div className="plink1">
             <a href={props.link1} target="blank" ><img className='compassRose-hover' src={site} alt='compassrose logo'/></a>
