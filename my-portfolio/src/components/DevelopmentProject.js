@@ -16,21 +16,6 @@ const Project = (props) => {
         <h3 className="project-title">{props.title} </h3>
         {/* <img className='mindPassge' src={image} alt='Project-img'/> */}
         <span className="project-tag">{props.tag}</span>
-        {/* <div className="project-links">
-          <div className="plink1">
-            <a href={props.link1} target="blank" ><img className='compassRose-hover' src={site} alt='compassrose logo'/></a>
-            <p className="p-link1">Site</p>
-          </div>
-          <div className="plink2">
-            <a href={props.link2} target="blank" > <img  src={code} className='githublogo-hover' alt='github-logo'/></a> 
-            <p className="p-link-2">Code</p>
-          </div>
-          <div className="plink3">
-            <img  src={info} className='info-btn' alt='info-logo' onClick={() => setDisplayModal(!displayModal)}/>
-            <p className="p-link-3">info</p>
-          </div>
-        </div>
-        <p className="project-des">{props.projectDescription}</p> */}
       </div>
       <div className="line"></div>
       <div className={`Modal ${displayModal ? "Show" : ""}`}>
@@ -44,25 +29,48 @@ const Project = (props) => {
             </button>
             <span className="modal-project-tag">{props.tag}</span>
           </div>
-          <p className="project-tech-used">Tech used for:</p>
-          <p className="modal-title">{props.modalTitle}</p>
+          <div className="modal-tag-section">
+            <p className="project-tech-used">Tech used for:</p>
+            <p className="modal-title">{props.modalTitle}</p>
+          </div>
+          <p className="project-des">{props.projectDescription}</p>
+          <div className="tag-container">
+            <p className="tags">{props.tag1}</p>
+            <p className="tags">{props.tag2}</p>
+            <p className="tags">{props.tag3}</p>
+            <p className="tags">{props.tag4}</p>
+            <p className="tags">{props.tag5}</p>
+            <p className="tags">{props.tag6}</p>
+          </div>
+
           <div className="modal-body">
-            {/* tags will go here */}
-            {/* <div className="techheading">Tech Call Out's</div> */}
-            <div className="side-images">
-              {/* bullet points will go here  */}
-              {/* <img className='tech-logo-1' src={tech1} alt='react-logo'/>
-                <img className='tech-logo-2' src={tech2} alt='react-logo'/>
-                <img className='tech-logo-3' src={tech3} alt='react-logo'/> */}
-            </div>
-            <div className="project-points">
-              {/* The action items will go here i.e the buttons for link and site  */}
-              <ul className="project-points1">
-                {/* <li className="p1">{props.projectPoint1}</li>
-                <li className="p2">{props.projectPoint2}</li>
-                <li className="p3">{props.projectPoint3}</li>
-                <li className="p4">{props.projectPoint4}</li> */}
-              </ul>
+            <li className="p1">{props.projectPoint1}</li>
+            <li className="p1">{props.projectPoint2}</li>
+            <li className="p1">{props.projectPoint3}</li>
+            <li className="p1">{props.projectPoint4}</li>
+
+            <div className="project-links">
+              <div className="plink1">
+                <a href={props.link1} target="blank">
+                  {/* <img
+                        className="compassRose-hover"
+                        src={site}
+                        alt="compassrose logo"
+                      /> */}
+                </a>
+                <p className="p-link1">Site</p>
+              </div>
+              <div className="plink2">
+                <a href={props.link2} target="blank">
+                  {" "}
+                  {/* <img
+                        src={code}
+                        className="githublogo-hover"
+                        alt="github-logo"
+                      /> */}
+                </a>
+                <p className="p-link-2">Code</p>
+              </div>
             </div>
           </div>
         </div>

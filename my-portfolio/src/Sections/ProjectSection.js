@@ -12,8 +12,8 @@ import DesignProject from "../components/DesignProject";
 // button that is hidden will be an out line
 
 const ProjectSection = () => {
-  const [displayDevlomentProject, setDisplayDevlomentProject] = useState(false);
-  const [displayDesginProject, setDisplayDesginProject] = useState(false);
+  const [displayDevlomentProject, setDisplayDevlomentProject] = useState(true);
+  const [displayDesginProject, setDisplayDesginProject] = useState(true);
   // add text to display when desgin button is pressed
   //  Below are the projects that I’ve gotten a chance to work on both
   //           design and development projects alike. With the design project, I keep

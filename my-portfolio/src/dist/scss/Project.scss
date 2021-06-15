@@ -35,11 +35,21 @@
   width: 100%;
   height: -moz-fit-content;
   height: 8rem;
-
   display: flex;
   justify-content: space-around;
   border-radius: 11px;
   background: rgba(54, 58, 72, 1);
+}
+.modal-tag-section{    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+
+font-weight: 600;}
+.tag-container{
+     justify-content: space-evenly;
+    margin-top: -7px;
+    display: flex;
+    flex-wrap: wrap;
 }
 .line {
   border: 0.5px solid rgba(41, 145, 255, 1);
@@ -81,6 +91,18 @@
   margin-bottom: 8px;
 }
 /* tag */
+.tags{     font-family: "Inter", sans-serif;
+    border-radius: 10px;
+    background-color: #363a48;
+    color: #eee;
+    margin: 3px 0px;
+    width: -moz-fit-content;
+    width: fit-content;
+    display: flex;
+    align-self: flex-start;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 4px;}
 .project-tag {
   font-family: "Inter", sans-serif;
   font-weight: bold;
@@ -203,12 +225,13 @@
 }
 /* project description */
 .project-des {
-  width: 261px;
-  font-family: "Lato", sans-serif;
-  line-height: 1.3rem;
-  font-size: 13px;
-  color: #003844;
-  margin-top: 0.5rem;
+width: 261px;
+    font-family: "Lato", sans-serif;
+    line-height: 1.3rem;
+    font-size: 13px;
+    color: #003844;
+    margin-top: -1.5rem;
+    padding: 8px;
 }
 .project-des2 {
   width: 261px;
@@ -220,8 +243,7 @@
 }
 /* Modal */
 .Modal {
-  height: 75vh;
-  overflow-y: auto;
+  height: 85vh;
   position: fixed;
   bottom: -150vh;
   background: white;
@@ -229,7 +251,7 @@
   left: 32px;
   transition: bottom 0.3s ease-out;
   z-index: 10;
-  overflow-y: initial;
+ overflow-y: scroll;
 }
 .modal-dialog {
   overflow-y: scroll;
@@ -275,9 +297,13 @@
   color: $color-links;
 }
 .modal-body {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 8px;
+    margin-top: -9px;
+
 }
 .project-points {
   width: 10rem;
@@ -289,46 +315,13 @@
   list-style-type: square;
 }
 .p1 {
-  color: #eee;
-  margin-top: -13rem;
+     font-family: $font;
+  font-size: $font-size-project-mobile;
+list-style-type: square;
+    margin-top: 1rem;
+     margin-bottom: 1rem;
 }
-.p2 {
-  color: #eee;
-  margin-bottom: 1rem;
-  width: 15rem;
-  list-style-type: square;
-}
-.p3 {
-  color: #eee;
-  margin-bottom: 1rem;
-  width: 15rem;
-  list-style-type: square;
-  margin-left: 1rem;
-}
-.p4 {
-  color: #eee;
-  margin-bottom: 1rem;
-  width: 15rem;
-  list-style-type: square;
-  margin-left: 1rem;
-}
-.techheading {
-  margin-left: 2rem;
-  margin-bottom: -1rem;
-  margin-top: 2rem;
-  font-size: 2.2rem;
-  color: #eee;
-  display: flex;
-}
-.side-images {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  width: 6rem;
-  margin-top: 2rem;
-  margin-left: 12rem;
-  height: 13rem;
-}
+
 .Modal.Show {
   bottom: 24px;
   border-radius: 10px;
