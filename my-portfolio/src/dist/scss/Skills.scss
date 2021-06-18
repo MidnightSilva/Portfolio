@@ -91,5 +91,33 @@
   justify-content: space-around;
   margin-bottom: 8px;
 }
+@media only screen and (min-device-width: 576px) {
+.skill-cards-top {
+    justify-content: space-evenly;
+}
+.skill-card{
+  width: 38%;
+}
+.skill-card-top-row {
+    width: 95%;
+    justify-content: space-evenly;
+}
+.skill-card-middle-row {  width: 95%;
+    justify-content: space-evenly;}
+.skill-card-bottom-row {  width: 95%;
+    justify-content: space-evenly;}
+    .skill-card2{
+      width: 82%;
+    }
+}
+@media only screen and (min-device-width: 992px) {
+}
+@media only screen and (min-width: 1200px) {
+}
+@media only screen and (min-width: 1400px) {
+}
+@media only screen and (min-width: 1600px) {
+}
+@media only screen and (min-width: 1824px) {
+}
 
-// yo

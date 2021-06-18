@@ -60,19 +60,27 @@
   color: white;
 }
 
-// @media only screen and (min-device-width: 576px) {
-// }
+@media only screen and (min-device-width: 576px) {
+  .aboutMeSection {
+    width: 80%;
+}
+.Passage1{
+  width: 100%;
+}
+}
 
-// @media only screen and (min-device-width: 768px) {
-// }
 
-// @media only screen and (min-device-width: 992px) {
-// }
 
-// @media only screen and (min-width: 1200px) {
-// }
+@media only screen and (min-device-width: 992px) {
+  .aboutme-top-container{
+    justify-content: start;
+  }
+}
 
-// @media only screen and (min-width: 1600px) {
-// }
-// @media only screen and (min-width: 1824px) {
-// }
+@media only screen and (min-width: 1200px) {
+}
+
+@media only screen and (min-width: 1600px) {
+}
+@media only screen and (min-width: 1824px) {
+}

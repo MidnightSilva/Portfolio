@@ -71,71 +71,30 @@
   background: rgba(41, 145, 255, 1);
   color: #f1f6f9;
 }
+
 @media only screen and (min-device-width: 576px) {
-  .heading5 {
-    margin-left: 3rem;
-  }
-  .subheading5 {
-    width: 30rem;
-    margin-left: 3rem;
-  }
-
-  .form {
-    align-items: center;
-  }
-  .email {
-    left: -8.1rem;
-  }
-  .message {
-    left: -7.5rem;
-  }
+.input1{
+  width: 22rem;
 }
-@media only screen and (min-device-width: 768px) {
-  .heading5 {
-    margin-top: 1rem;
-    font-size: 3rem;
-
-    padding-top: 3rem;
-  }
-  .subheading5 {
-    font-size: 1.2rem;
-    width: 43rem;
-  }
-
-  .formpage {
-    margin-top: -1rem;
-  }
-
-  .email {
-    display: block;
-    font-weight: 500;
-    font-size: 1.2rem;
-    left: -12.1rem;
-  }
-  .message {
-    display: block;
-    font-weight: 500;
-    font-size: 1.2rem;
-    left: -11.5rem;
-    color: #27292c;
-  }
-  .input1 {
-    width: 30rem;
-  }
-  .input2 {
-    width: 30rem;
-  }
-  .submit-button {
-    width: 30rem;
-  }
+.input2{
+  width: 22rem;
 }
-// @media only screen and (min-device-width: 992px) {
-// }
-// @media only screen and (min-width: 1200px) {
-// }
-// @media only screen and (min-width: 1400px) {
-// }
-// @media only screen and (min-width: 1600px) {
-// }
-// @media only screen and (min-width: 1824px) {
-// }
+
+.formpage {
+    margin-top: 2rem;
+    padding-bottom: 2rem;
+}
+.submit-button{
+  align-self: center;
+}
+}
+@media only screen and (min-device-width: 992px) {
+}
+@media only screen and (min-width: 1200px) {
+}
+@media only screen and (min-width: 1400px) {
+}
+@media only screen and (min-width: 1600px) {
+}
+@media only screen and (min-width: 1824px) {
+}

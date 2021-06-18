@@ -262,16 +262,38 @@ list-style-type: square;
 .Overlay.Show {
   display: block;
 }
-// @media only screen and (min-device-width: 576px) {
-// }
-// @media only screen and (min-device-width: 768px) {
-// }
-// @media only screen and (min-width: 992px) {
-// }
+@media only screen and (min-device-width: 576px) {
+  .Project-sec {
+  width: 80%;
+}
+.development-description{
+      margin-top: 2rem;
+    margin-bottom: 2rem;
+    width: 100%;
+}
+}
 
-// @media only screen and (min-width: 1200px) {
-// }
-// @media only screen and (min-width: 1400px) {
-// }
-// @media only screen and (min-width: 1600px) {
-// }
+@media only screen and (min-width: 992px) {
+  .project{    width: 100%;
+    margin-bottom: 4rem;
+    margin-top: 1rem;
+}
+  
+  .mindPassge{
+    height: 15rem;
+        border-radius: 20px;
+         width: 80%;
+    align-self: center;
+  }
+  .project-tag-title-container{
+    width: 80%;
+    align-self: center;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+}
+@media only screen and (min-width: 1400px) {
+}
+@media only screen and (min-width: 1600px) {
+}

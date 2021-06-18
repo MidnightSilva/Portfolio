@@ -1,12 +1,12 @@
 @import "./Variables";
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&display=swap");
 .landing-tile {
-  margin-top: 14rem;
-  display: flex;
-  height: 80vh;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+    margin-top: 10rem;
+    display: flex;
+    height: fit-content;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .top-star-controller {
@@ -42,12 +42,12 @@
   transform: rotate(104deg);
 }
 .greating-compass-container {
-  margin-top: -16rem;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-content: center;
+     margin-top: -13rem;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
 }
 
 .compass-icon {
@@ -82,17 +82,18 @@
   letter-spacing: 0.05em;
 }
 .arrow {
-  opacity: 0;
-  animation: show 3s ease-in-out forwards 6s;
-  transform: translate(-50%, -50%);
+     margin-top: -4rem;
+    opacity: 0;
+    animation: show 3s ease-in-out forwards 6s;
+    transform: translate(-50%, -50%);
 }
 .arrow span {
   z-index: 1;
   display: block;
   width: 28px;
   height: 30px;
-  border-bottom: 5px solid #06a8ff;
-  border-right: 5px solid #06a8ff;
+  border-bottom: 5px solid #ffffff;
+  border-right: 5px solid #ffffff;
   transform: rotate(45deg);
   margin: -10px;
   animation: animate 2s infinite;
@@ -159,4 +160,14 @@
     opacity: 1;
   }
 }
-// yo
+@media only screen and (min-device-width: 992px) {
+}
+@media only screen and (min-width: 1200px) {
+}
+@media only screen and (min-width: 1400px) {
+}
+@media only screen and (min-width: 1600px) {
+}
+@media only screen and (min-width: 1824px) {
+}
+
