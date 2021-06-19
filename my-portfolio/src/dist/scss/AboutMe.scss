@@ -72,8 +72,14 @@
 
 
 @media only screen and (min-device-width: 992px) {
+  .aboutMeSection{
+    width: 66%;
+  }
   .aboutme-top-container{
-    justify-content: start;
+    justify-content: space-evenly;
+  }
+  .Passage1{
+    margin-top: 3rem;
   }
 }
 

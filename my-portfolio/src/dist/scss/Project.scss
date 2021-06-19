@@ -50,7 +50,7 @@ font-weight: 600;}
     margin-bottom: 8px;
 }
 .line {
-  border: 0.5px solid rgba(41, 145, 255, 1);
+  border-bottom: 0.3px solid white;
   margin: 8px 31px;
 }
 .project-title {
@@ -266,29 +266,47 @@ list-style-type: square;
   .Project-sec {
   width: 80%;
 }
+.modal-header{height: 10rem;}
 .development-description{
       margin-top: 2rem;
     margin-bottom: 2rem;
     width: 100%;
 }
+.p1{  
+margin: 7.5px;
+}
+.Modal.Show{
+margin-left: 2rem;
+}
+.project-des{
+width: 86%;
+margin-left: 4%;
+}
 }
 
 @media only screen and (min-width: 992px) {
-  .project{    width: 100%;
-    margin-bottom: 4rem;
-    margin-top: 1rem;
+.project{
+width: 100%;
+margin-bottom: 4rem;
+margin-top: 1rem;
 }
   
-  .mindPassge{
-    height: 15rem;
-        border-radius: 20px;
-         width: 80%;
-    align-self: center;
+.mindPassge{
+  height: 15rem;
+border-radius: 20px;
+width: 80%;
+align-self: center;
+}
+.project-tag-title-container{
+width: 80%;
+align-self: center;
   }
-  .project-tag-title-container{
-    width: 80%;
-    align-self: center;
-  }
+.line {
+margin: 8px 231px;
+}
+}
+.Project-sec{
+  width: 66%;
 }
 
 @media only screen and (min-width: 1200px) {
