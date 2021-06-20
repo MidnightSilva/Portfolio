@@ -247,6 +247,7 @@ list-style-type: square;
 .Modal.Show {
     bottom: 16px;
     border-radius: 10px;
+    overflow: hidden;
 }
 .Overlay {
   background-color: rgba(0, 0, 0, 0.55);
@@ -276,6 +277,8 @@ list-style-type: square;
 margin: 7.5px;
 }
 .Modal.Show{
+  width: 450px;
+  height:597px ;
 margin-left: 2rem;
 }
 .project-des{
