@@ -33,12 +33,11 @@ const toggleProject2 = () => {
 
       <div className="project-des-heading">
           <div className='project-toggle'>
-          <button className="button-toggle" onClick={toggleProjects}>
-              {" "}
+          <button className={`button-toggle ${toggle ? 'true' : ""}`} onClick={toggleProjects} >
               Development
             </button>
 
-            <button className="button-toggle2" onClick={toggleProject2}>
+            <button className={`button-toggle ${design ? '' : "false"}`}onClick={toggleProject2}>
               {" "}
               Design
             </button>

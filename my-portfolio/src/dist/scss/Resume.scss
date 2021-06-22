@@ -28,9 +28,7 @@
   margin-bottom: 1rem;
   margin-top: -.5rem;
 }
-  .button-toggle::before{
- border: 0.3px solid #ffffff;
-    }
+ 
 .button-toggle{ 
     height: 26px;
     width: 46%;
@@ -42,23 +40,11 @@
     letter-spacing: 0.1rem;
     margin-bottom: 1rem;
     font-weight: 400;}
-.button-toggle2{ 
-    height: 26px;
-    width: 46%;
-    font-family: "Inter", sans-serif;
-    color: white;
-    border: 0.3px solid #2991ff;
-    border-radius: 13px;
-    align-items: center;
-    letter-spacing: 0.1rem;
-    margin-bottom: 1rem;
-    font-weight: 400;}
-    .button-toggle:focus{
- border: 0.3px solid #ffffff;
-    }
-    .button-toggle2:focus{
- border: 0.3px solid #ffffff;
-    }
+    
+.button-toggle.true {
+border: 0.3px solid #ffffff;}
+ .button-toggle.false {
+border: 0.3px solid #ffffff;}
 .download-resume {
   height: 26px;
   width: 119px;
