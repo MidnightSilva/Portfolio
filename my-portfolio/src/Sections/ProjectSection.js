@@ -39,6 +39,7 @@ const toggleProject2 = () => {
           Node, Expres. I am able to create a fully dynamic and enganging
           website viewable on mobile screens and desktops.
         </p>
+        <div className='project-toggle'>
           <button className="button-toggle" onClick={toggleProjects}>
               {" "}
               Development
@@ -48,20 +49,19 @@ const toggleProject2 = () => {
               {" "}
               Design
             </button>
-        <div className='project-toggle'>
         
         </div>
         </div>
           
       <div className="project-broad">
       
-        {toggle === true || design  === true 
+        {toggle === true && design  === true 
           ? projectJson.Project.map((project, i) => (
               <Project {...project} key={uuidv4()} />
             ))
           : null}
 
-        { design  === false || toggle === false
+        { design  === false && toggle === false
           ? projectJson.designProjects.map((designProjects, i) => (
               <DesignProject {...designProjects} key={uuidv4()} />
             ))

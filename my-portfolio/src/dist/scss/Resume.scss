@@ -21,16 +21,20 @@
   display: flex;
   justify-content: center;
 }
+.project-toggle{display: flex;
+    justify-content: space-between;
+    width: 98%;}
+
 .button-toggle{ 
 margin-bottom: 1rem;
     height: 26px;
-    width: 60%;
+    width: 46%;
     font-family: "Inter", sans-serif;
     color: white;
     border: 0.3px solid #2991ff;
     border-radius: 13px;
     align-items: center;
-    letter-spacing: 0.2rem;
+    letter-spacing: 0.1rem;
     font-weight: 400;}
 
 .download-resume {
