@@ -21,12 +21,17 @@
   display: flex;
   justify-content: center;
 }
-.project-toggle{display: flex;
-    justify-content: space-between;
-    width: 98%;}
-
+.project-toggle{
+ display: flex;
+ justify-content: space-between;
+ width: 98%;
+  margin-bottom: 1rem;
+  margin-top: -.5rem;
+}
+  .button-toggle::before{
+ border: 0.3px solid #ffffff;
+    }
 .button-toggle{ 
-margin-bottom: 1rem;
     height: 26px;
     width: 46%;
     font-family: "Inter", sans-serif;
@@ -35,8 +40,25 @@ margin-bottom: 1rem;
     border-radius: 13px;
     align-items: center;
     letter-spacing: 0.1rem;
+    margin-bottom: 1rem;
     font-weight: 400;}
-
+.button-toggle2{ 
+    height: 26px;
+    width: 46%;
+    font-family: "Inter", sans-serif;
+    color: white;
+    border: 0.3px solid #2991ff;
+    border-radius: 13px;
+    align-items: center;
+    letter-spacing: 0.1rem;
+    margin-bottom: 1rem;
+    font-weight: 400;}
+    .button-toggle:focus{
+ border: 0.3px solid #ffffff;
+    }
+    .button-toggle2:focus{
+ border: 0.3px solid #ffffff;
+    }
 .download-resume {
   height: 26px;
   width: 119px;

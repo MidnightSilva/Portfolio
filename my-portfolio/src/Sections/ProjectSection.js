@@ -32,6 +32,18 @@ const toggleProject2 = () => {
       <h1 className="heading4">Projects</h1>
 
       <div className="project-des-heading">
+          <div className='project-toggle'>
+          <button className="button-toggle" onClick={toggleProjects}>
+              {" "}
+              Development
+            </button>
+
+            <button className="button-toggle2" onClick={toggleProject2}>
+              {" "}
+              Design
+            </button>
+        
+        </div>
         <p className="development-description">
           {" "}
           Below are the projects that I’ve gotten a chance to work on. Current
@@ -39,18 +51,6 @@ const toggleProject2 = () => {
           Node, Expres. I am able to create a fully dynamic and enganging
           website viewable on mobile screens and desktops.
         </p>
-        <div className='project-toggle'>
-          <button className="button-toggle" onClick={toggleProjects}>
-              {" "}
-              Development
-            </button>
-
-            <button className="button-toggle" onClick={toggleProject2}>
-              {" "}
-              Design
-            </button>
-        
-        </div>
         </div>
           
       <div className="project-broad">
