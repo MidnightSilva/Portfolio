@@ -11,8 +11,14 @@ import DesignProject from "../components/DesignProject";
 // button that is hidden will be an out line
 
 const ProjectSection = () => {
-  const [toggle , setToggle] =useState(false)
-const toggleProjects = () => {
+  const [toggle , setToggle] =useState(true)
+  const [design , setDesign] =useState(true)
+const toggleProjects = (toggleProject2 ) => {
+  toggle ? setToggle(false) : setToggle(true)
+  design ? setDesign(false) : setDesign(true)
+}
+const toggleProject2 = () => {
+  design ? setDesign(false) : setDesign(true)
   toggle ? setToggle(false) : setToggle(true)
 }
   // add text to display when desgin button is pressed
@@ -33,26 +39,29 @@ const toggleProjects = () => {
           Node, Expres. I am able to create a fully dynamic and enganging
           website viewable on mobile screens and desktops.
         </p>
-          {toggle === true ? (
-            <button className="button-toggle" onClick={toggleProjects}>
+          <button className="button-toggle" onClick={toggleProjects}>
               {" "}
               Development
             </button>
-          ) : (
-            <button className="button-toggle" onClick={toggleProjects}>
+
+            <button className="button-toggle" onClick={toggleProject2}>
               {" "}
               Design
             </button>
-          )}
+        <div className='project-toggle'>
+        
         </div>
+        </div>
+          
       <div className="project-broad">
-        {toggle === true
+      
+        {toggle === true || design  === true 
           ? projectJson.Project.map((project, i) => (
               <Project {...project} key={uuidv4()} />
             ))
           : null}
 
-        {toggle === false
+        { design  === false || toggle === false
           ? projectJson.designProjects.map((designProjects, i) => (
               <DesignProject {...designProjects} key={uuidv4()} />
             ))
