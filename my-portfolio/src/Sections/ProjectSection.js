@@ -1,5 +1,4 @@
 import React,{ useState } from "react";
-
 import projectJson from "../Projects.json";
 import Project from "../components/DevelopmentProject";
 import { v4 as uuidv4 } from "uuid";
@@ -12,8 +11,10 @@ import DesignProject from "../components/DesignProject";
 // button that is hidden will be an out line
 
 const ProjectSection = () => {
-  const [displayDevlomentProject, setDisplayDevlomentProject] = useState(true);
-  const [displayDesginProject, setDisplayDesginProject] = useState(true);
+  const [toggle , setToggle] =useState(false)
+const toggleProjects = () => {
+  toggle ? setToggle(false) : setToggle(true)
+}
   // add text to display when desgin button is pressed
   //  Below are the projects that I’ve gotten a chance to work on both
   //           design and development projects alike. With the design project, I keep
@@ -23,20 +24,7 @@ const ProjectSection = () => {
   return (
     <div className="Project-sec" id="project">
       <h1 className="heading4">Projects</h1>
-      <div className="resume-ctas">
-        <button
-          className="download-resume"
-          onClick={() => setDisplayDevlomentProject(!displayDevlomentProject)}
-        >
-          Development
-        </button>
-        <button
-          className="view-Resume"
-          onClick={() => setDisplayDesginProject(!displayDesginProject)}
-        >
-          Design
-        </button>
-      </div>
+
       <div className="project-des-heading">
         <p className="development-description">
           {" "}
@@ -45,20 +33,32 @@ const ProjectSection = () => {
           Node, Expres. I am able to create a fully dynamic and enganging
           website viewable on mobile screens and desktops.
         </p>
-      </div>
+          {toggle === true ? (
+            <button className="button-toggle" onClick={toggleProjects}>
+              {" "}
+              Development
+            </button>
+          ) : (
+            <button className="button-toggle" onClick={toggleProjects}>
+              {" "}
+              Design
+            </button>
+          )}
+        </div>
       <div className="project-broad">
-        {displayDevlomentProject === true
+        {toggle === true
           ? projectJson.Project.map((project, i) => (
               <Project {...project} key={uuidv4()} />
             ))
           : null}
 
-        {displayDesginProject === false
+        {toggle === false
           ? projectJson.designProjects.map((designProjects, i) => (
               <DesignProject {...designProjects} key={uuidv4()} />
             ))
           : null}
       </div>
+      <label></label>
     </div>
   );
 };

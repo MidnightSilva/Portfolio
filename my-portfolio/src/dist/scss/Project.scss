@@ -17,6 +17,7 @@
 }
 
 .development-description {
+      margin-top: -1rem;
   width: 329px;
   height: fit-content;
   font-family: "Inter", sans-serif;
@@ -37,9 +38,11 @@
     display: flex;
     flex-direction: column;
 }
-.modal-tag-section{      margin-top: -10px;  display: flex;
-    justify-content: space-between;
-    padding: 8px;
+.modal-tag-section{  
+margin-top: -10px;  
+display: flex;
+justify-content: space-between;
+padding: 8px;
 
 font-weight: 600;}
 .tag-container{
@@ -259,6 +262,11 @@ list-style-type: square;
   display: none;
   z-index: 5;
 }
+.project-des-heading{
+      display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 .Overlay.Show {
   display: block;
@@ -281,6 +289,7 @@ margin: 7.5px;
   height:597px ;
 margin-left: 2rem;
 }
+
 .project-des{
 width: 86%;
 margin-left: 4%;
@@ -307,10 +316,11 @@ align-self: center;
 .line {
 margin: 8px 231px;
 }
-}
 .Project-sec{
   width: 66%;
 }
+}
+
 
 @media only screen and (min-width: 1200px) {
 }

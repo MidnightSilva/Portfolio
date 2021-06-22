@@ -21,6 +21,18 @@
   display: flex;
   justify-content: center;
 }
+.button-toggle{ 
+margin-bottom: 1rem;
+    height: 26px;
+    width: 60%;
+    font-family: "Inter", sans-serif;
+    color: white;
+    border: 0.3px solid #2991ff;
+    border-radius: 13px;
+    align-items: center;
+    letter-spacing: 0.2rem;
+    font-weight: 400;}
+
 .download-resume {
   height: 26px;
   width: 119px;
