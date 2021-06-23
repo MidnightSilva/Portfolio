@@ -2,7 +2,7 @@
   "Project": [
     {
       "title": "Pies & Fries",
-      "image": "MindPassage.png",
+      "image": "MindPassage.jpg",
       "tag": "Team",
       "tag1": "React",
       "tag2": "React Router Dom",
@@ -24,7 +24,7 @@
     },
     {
       "title": "MindPassage",
-      "image": "MindPassage.png",
+      "image": "MindPassage.jpg",
       "tag": "Team",
       "tag1": "React",
       "tag2": "SweetAlert",
@@ -49,7 +49,7 @@
     },
     {
       "title": "Social doggy",
-      "image": "socialdoggy.png",
+      "image": "socialdoggy.jpg",
       "tag": "Team",
       "tag1": "React",
       "tag2": "React Router Dom",

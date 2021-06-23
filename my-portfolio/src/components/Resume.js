@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import resume from '../assets/Images/Jorge Resume .jpg'
+// import resume from '../assets/Images/Jorge Resume .jpg'
 
 const Resume = () => {
   const [displayModal, setDisplayModal] = useState(false);
@@ -21,7 +21,7 @@ const Resume = () => {
           >
             X
           </button>
-          <img src={resume} alt="resume" />
+          {/* <img src={resume} alt="resume" /> */}
         </div>
       </div>
     </div>
