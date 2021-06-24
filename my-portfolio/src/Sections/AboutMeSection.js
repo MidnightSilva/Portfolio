@@ -1,6 +1,6 @@
 
 import AboutMe from "../components/AboutMe";
-import Resume from "../components/Resume";
+// import Resume from "../components/Resume";
 
 const AboutMeSection = () => {
   return (
@@ -14,7 +14,7 @@ const AboutMeSection = () => {
           <p className="bullet-point">adaptable to any environment</p>
         </div>
       </div>
-      <Resume />
+      {/* <Resume /> */}
       <AboutMe />
     </div>
   );

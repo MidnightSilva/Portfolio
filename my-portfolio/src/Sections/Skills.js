@@ -1,4 +1,5 @@
 import React from "react";
+// import Resume from "../components/Resume";
 import development from '../assets/Svgs/Development.svg'
 import design from '../assets/Svgs/Design.svg'
 import acc from '../assets/Svgs/Creative_Cloud.svg'
@@ -17,8 +18,8 @@ import jest from '../assets/Svgs/jest-seeklogo.com.svg'
 const Skills = () => {
   return (
     <div className="skills-container">
-      <h2 className="subtitle">Skills</h2>
-      <div className='logo-container'>
+      <h2 className="subtitle">Current tech in use: </h2>
+      <div className="logo-container">
         <img className="skill-logo" src={acc} alt="adobecreative-cloud-logo" />
         <img className="skill-logo" src={figma} alt="figma-logo" />{" "}
         <img className="skill-logo" src={git} alt="git-logo" />{" "}
@@ -32,6 +33,7 @@ const Skills = () => {
         <img className="skill-logo" src={mongodb} alt="mongodb-logo" />{" "}
         <img className="skill-logo" src={jest} alt="jest-logo" />
       </div>
+      {/* <Resume /> */}
       <div className="skill-cards-top">
         {/* <div className="skill-card">
           <div className="skill-title-logo-container">
