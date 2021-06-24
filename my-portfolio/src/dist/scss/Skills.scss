@@ -17,22 +17,42 @@
   letter-spacing: 0.05em;
   margin-bottom: 8px;
 }
+.logo-container{    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;}
+.skill-title-logo-container{    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 101%;
+    margin-bottom: 16px;}
+    .skill-title-logo-container2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 75%;
+    margin-bottom: 16px;
+}
+.skill-logo{
+    margin: 11px 8px;
+    height: 5rem;
+}
 .skill-cards-top {
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-  margin: 8px 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 8px;
 }
 .skill-card {
-   width:47%;
-  display: flex;
-  flex-direction: column;
-  align-content: center;
-  align-items: center;
-  height: fit-content;
-
-  border-radius: 10px;
-  border: 0.3px solid #2991ff;
+    width: 47%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    height: -moz-fit-content;
+    height: fit-content;
+    margin-bottom: 2rem;
 }
 .skill-card2 {
   margin: 8px 8px;
@@ -43,7 +63,6 @@
   width: 100%;
   height: fit-content;
   border-radius: 10px;
-  border: 0.3px solid #2991ff;
 }
 
 .skills {
@@ -52,7 +71,7 @@
   font-size: 13px;
   line-height: 1.3rem;
   color: white;
-  margin: 2px 2px;
+margin: 7px 2px;
 }
 .skill {
   font-family: "Inter", sans-serif;
