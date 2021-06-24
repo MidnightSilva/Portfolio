@@ -1,5 +1,4 @@
 import React from "react";
-import tool from '../assets/Svgs/Tools.svg'
 import development from '../assets/Svgs/Development.svg'
 import design from '../assets/Svgs/Design.svg'
 import acc from '../assets/Svgs/Creative_Cloud.svg'
