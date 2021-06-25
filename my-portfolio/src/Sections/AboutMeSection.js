@@ -11,11 +11,11 @@ const AboutMeSection = () => {
   },[]);
    
   return (
-    <div  data-aos='fade-up' className="aboutMeSection" id="aboutme">
+    <div data-aos="fade-up" className="aboutMeSection" id="aboutme">
       <h1 className="Heading2">About Me</h1>
       <div className="aboutme-top-container">
-        <div className="img-place-holder"></div>
-        <div className="bullet-points">
+        <div className="img-place-holder" data-aos="fade-right"></div>
+        <div className="bullet-points" data-aos="fade-left">
           <p className="bullet-point">Commited to life long learning</p>
           <p className="bullet-point"> Commited to bettering the world</p>
           <p className="bullet-point">adaptable to any environment</p>

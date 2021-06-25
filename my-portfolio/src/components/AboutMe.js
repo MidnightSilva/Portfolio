@@ -1,4 +1,9 @@
-import React, { useState } from "react";
+
+
+import React, { useState, useEffect } from "react";
+import "aos/dist/aos.css";
+import Aos from "aos";
+
 const AboutMe = () => {
   const [show, setShow] = useState(true);
   const Toggle = () => {
@@ -6,11 +11,14 @@ const AboutMe = () => {
       setShow(false);
     } else setShow(true);
   };
+    useEffect(() => {
+      Aos.init({ duration: 2000 });
+    }, []);
 
   return (
     <>
       <div>
-        <p className="Passage1">
+        <p className="Passage1" data-aos="fade-down">
           I’m a problem solver, who can analyze and think outside the box.
           Designing solutions and bring them to life. Independent self starter
           who can work in any team dynamic. .

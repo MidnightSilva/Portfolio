@@ -17,42 +17,53 @@
   letter-spacing: 0.05em;
   margin-bottom: 8px;
 }
-.logo-container{    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;}
-.skill-title-logo-container{    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 101%;
-    margin-bottom: 16px;}
-    .skill-title-logo-container2 {
+
+.card-title2 {
+  font-size: 18px;
+  font-weight: 600;
+  font-family: "Inter", sans-serif;
+  color: whitesmoke;
+  line-height: 22px;
+  letter-spacing: 0.05em;
+  margin-bottom: 8px;
+}
+.logo-container{  
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+    .skill-title-logo-container {
+  display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 75%;
-    margin-bottom: 16px;
+    width: 79%;
+    margin-bottom: -13px;
+}
+    .skill-title-logo-container2 {
+display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 79%;
+    margin-bottom: -13px;
 }
 .skill-logo{
     margin: 11px 8px;
     height: 4rem;
 }
-.skill-cards-top {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    margin: 8px;
+
+.skill-logo2{
+    margin: 11px 8px;
+    height: 3.5rem;
 }
 .skill-card {
-    width: 47%;
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    align-items: center;
-    height: -moz-fit-content;
-    height: fit-content;
-    margin-bottom: 2rem;
+ margin: 8px 8px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  width: 80%;
+  height: fit-content;
+  border-radius: 10px;
 }
 .skill-card2 {
   margin: 8px 8px;
@@ -60,19 +71,31 @@
   flex-direction: column;
   align-content: center;
   align-items: center;
-  width: 100%;
+  width: 80%;
   height: fit-content;
   border-radius: 10px;
 }
 
 .skills {
-  font-family: "Inter", sans-serif;
-  font-style: normal;
-  font-size: 13px;
-  line-height: 1.3rem;
-  color: white;
-margin: 7px 2px;
-}
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-size: 13px;
+    line-height: 1.3rem;
+    color: white;
+    padding: 30px;
+    margin: 7px 2px;
+  }
+
+  .skills::after {
+      position: absolute;
+    content: "";
+    height: 1.2px;
+    background-color: white;
+    width: 151px;
+    margin-top: -9.5rem;
+    margin-left: -78px;
+    left: 188px;
+       } 
 .skill {
   font-family: "Inter", sans-serif;
   font-style: normal;
@@ -81,97 +104,15 @@ margin: 7px 2px;
   color: white;
   margin: 9px 2px;
 }
-.skill-last {
-  font-family: "Inter", sans-serif;
-  font-style: normal;
-  font-size: 13px;
-  line-height: 1.3rem;
-  color: white;
-  margin: 2px 2px;
-  margin-bottom: 8px;
-}
-.skill-card-top-row {
-  margin-top: -8px;
-  display: flex;
-  width: 100%;
- justify-content: space-evenly;
-  margin-bottom: -16px;
-}
-.skill-card-middle-row {
-  display: flex;
-  width: 100%;
-  justify-content: space-around;
-  padding: -1px;
-  margin-bottom: -16px;
-}
-.skill-card-bottom-row {
-  display: flex;
-width: 95%;
-    justify-content: space-evenly;
-  margin-bottom: 8px;
-}
+
 @media only screen and (min-device-width: 576px) {
-.skill-cards-top {
-    justify-content: space-evenly;
-}
-.skill-card{
-  width: 38%;
-}
-.skill-card-top-row {
-    width: 95%;
-    justify-content: space-evenly;
-}
-.skill-card-middle-row {  width: 95%;
-    justify-content: space-evenly;}
-.skill-card-bottom-row {  width: 95%;
-    justify-content: space-evenly;}
-    .skill-card2{
-      width: 82%;
-    }
 }
 @media only screen and (min-device-width: 992px) {
-  .skills-container{
-
-    margin-top: 1rem;
-  }
-  .skill-cards-top{
-    justify-content: space-between;
-  }
-  .skill-card-top-row{
-    justify-content: space-around;
-        margin-top: -9px;
-    margin-bottom: -13px;
-  }
-  .skill-card-middle-row{
-    justify-content: space-around;
-        margin-bottom: -14px;
-  }
-  .skill-card-bottom-row{
-    justify-content: space-around;
-    justify-content: space-evenly;
-    margin-bottom: 8px;
-  }
-  .skill-card{
-    margin-bottom: 1rem;
-  }
-  .skill-card2{
-    width: 97%;
-    margin-bottom: 3rem;
-  }
+ 
+  
 }
 @media only screen and (min-width: 1200px) {
-  .skill-card{
-    height: 17rem;
-  }
-  .skills{
-        margin: 13px 5px;
-  }
-  .skill-card2{
-    height: 11rem;
-  }
-  .skill{    margin: 16px -1px;
 
-  }
 }
 @media only screen and (min-width: 1400px) {
 }

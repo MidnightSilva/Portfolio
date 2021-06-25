@@ -1,25 +1,28 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
+import "aos/dist/aos.css";
+import Aos from "aos";
 
 const Project = (props) => {
   const [displayModal, setDisplayModal] = useState(false);
 
-  const image = require('../assets/Images/' + props.image).default
-  // const site = require('../assets/images/' + props.site).default
-  // const code = require('../assets/images/' + props.code).default
-  // const info = require('../assets/images/' + props.info).default
-  // const tech1 = require('../assets/images/' + props.tech1).default
-  // const tech2 = require('../assets/images/' + props.tech2).default
-  // const tech3 = require('../assets/images/' + props.tech3).default
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  }, []);
+  const image = require("../assets/Images/" + props.image).default;
   return (
     <>
-      <div className="project" onClick={() => setDisplayModal(!displayModal)}>
+      <div
+        data-aos="zoom-in"
+        className="project"
+        onClick={() => setDisplayModal(!displayModal)}
+      >
         <img className="mindPassge" src={image} alt="Project-img" />
-        <div className='project-tag-title-container'>
+        <div className="project-tag-title-container">
           <h3 className="project-title">{props.title} </h3>
           <span className="project-tag">{props.tag}</span>
         </div>
       </div>
-      <div className="line"></div>
+      <div data-aos="zoom-in" className="line"></div>
       <div className={`Modal ${displayModal ? "Show" : ""}`}>
         <div class="modal-dialog">
           <div class="modal-header">
