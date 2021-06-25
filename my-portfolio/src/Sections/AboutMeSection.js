@@ -1,10 +1,17 @@
 
+import React, {useEffect} from "react";
 import AboutMe from "../components/AboutMe";
+import "aos/dist/aos.css"
+import Aos from "aos";
 // import Resume from "../components/Resume";
 
 const AboutMeSection = () => {
+  useEffect(() => {
+    Aos.init({duration:2000});
+  },[]);
+   
   return (
-    <div className="aboutMeSection" id="aboutme">
+    <div  data-aos='fade-up' className="aboutMeSection" id="aboutme">
       <h1 className="Heading2">About Me</h1>
       <div className="aboutme-top-container">
         <div className="img-place-holder"></div>
