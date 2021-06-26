@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&display=swap");
 @import "./Variables";
 .skills-container {
+        width: 90%;
   margin-top: -3rem;
   display: flex;
   justify-content: center;
@@ -12,7 +13,7 @@
   font-size: 18px;
   font-weight: 600;
   font-family: "Inter", sans-serif;
-  color: whitesmoke;
+$subheading:#394867;
   line-height: 22px;
   letter-spacing: 0.05em;
   margin-bottom: 8px;
@@ -22,15 +23,18 @@
   font-size: 18px;
   font-weight: 600;
   font-family: "Inter", sans-serif;
-  color: whitesmoke;
+$subheading:#394867;
   line-height: 22px;
   letter-spacing: 0.05em;
   margin-bottom: 8px;
 }
 .logo-container{  
+    width: 90%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    margin-bottom: 3rem;
+    justify-content: space-evenly;
+    height: 17rem;
   }
     .skill-title-logo-container {
   display: flex;
@@ -48,10 +52,15 @@ display: flex;
 }
 .skill-logo{
     margin: 11px 8px;
+    height: 2.7rem;
+}
+.skill-logo1{
+      height: 3rem;
+    margin: 11px 8px;
     height: 4rem;
 }
-
 .skill-logo2{
+      height: 3rem;
     margin: 11px 8px;
     height: 3.5rem;
 }
@@ -81,21 +90,11 @@ display: flex;
     font-style: normal;
     font-size: 13px;
     line-height: 1.3rem;
-    color: white;
+color:$text;
     padding: 30px;
-    margin: 7px 2px;
+    margin: -12px 2px;
+    margin-left: 1rem;
   }
-
-  .skills::after {
-      position: absolute;
-    content: "";
-    height: 1.2px;
-    background-color: white;
-    width: 151px;
-    margin-top: -9.5rem;
-    margin-left: -78px;
-    left: 188px;
-       } 
 .skill {
   font-family: "Inter", sans-serif;
   font-style: normal;
@@ -106,6 +105,15 @@ display: flex;
 }
 
 @media only screen and (min-device-width: 576px) {
+  .skills-container{  
+      width: 90%;
+    }
+  .skill-logo{
+    height: 3rem;
+  }
+  .logo-container{
+    width: 80%;
+  }
 }
 @media only screen and (min-device-width: 992px) {
  

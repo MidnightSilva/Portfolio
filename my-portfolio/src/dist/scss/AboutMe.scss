@@ -27,41 +27,25 @@
 .bullet-point {
   margin: 8px;
   font-family: "Inter", sans-serif;
-  color: aliceblue;
+ color:$subtext;
   font-size: 13px;
 }
 .Heading2 {
   align-self: baseline;
   height: fit-content;
   font-family: "Inter", sans-serif;
-  color: white;
+color:$heading;
 }
 
 .Passage1 {
-  width: 325px;
-  font-family: "Inter", sans-serif;
-  font-style: normal;
-  font-size: 13px;
-  line-height: 1.3rem;
-  color: white;
-}
-
-.Passage2 {
-  width: 325px;
-  height: fit-content;
-  font-family: "Inter", sans-serif;
-  font-style: normal;
-  font-size: 13px;
-  line-height: 1.3rem;
-  color: white;
-}
-.Drop-down {
-  border: none;
-  background: none;
-  margin-top: -1rem;
-}
-.iconify {
-  color: white;
+    width: 325px;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-size: 13px;
+    line-height: 1.3rem;
+    padding: 22px;
+color:$text;
+    margin-bottom: 3rem;
 }
 
 @media only screen and (min-device-width: 576px) {

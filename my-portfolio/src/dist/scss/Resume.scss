@@ -12,7 +12,7 @@
     font-size: 24px;
     font-weight: 600;
     font-family: "Inter", sans-serif;
-    color: whitesmoke;
+color:$heading;
     line-height: 22px;
     letter-spacing: 0.2em;
 }
@@ -34,8 +34,20 @@
     height: 26px;
     width: 46%;
     font-family: "Inter", sans-serif;
-    color: white;
-    border: 0.3px solid #2991ff;
+    color: #394867;
+    border: 0.3px solid #394867;
+    border-radius: 13px;
+    align-items: center;
+    letter-spacing: 0.1rem;
+    margin-bottom: 1rem;
+    font-weight: 400;}
+
+    .button-toggle2{ 
+    height: 26px;
+    width: 46%;
+    font-family: "Inter", sans-serif;
+  color: #394867;
+    border: 0.3px solid #394867;
     border-radius: 13px;
     align-items: center;
     letter-spacing: 0.1rem;
@@ -43,9 +55,14 @@
     font-weight: 400;}
     
 .button-toggle.true {
-border: 0.3px solid #ffffff;}
- .button-toggle.false {
-border: 0.3px solid #ffffff;}
+border: 0.3px solid #ffffff;
+background-color: #394867;
+ color: white;
+}
+ .button-toggle2.false {
+border: 0.3px solid #ffffff;
+background-color: #394867;
+ color: white;}
 .download-resume {
   height: 26px;
   width: 119px;

@@ -13,7 +13,7 @@
   align-self: baseline;
   height: fit-content;
   font-family: "Inter", sans-serif;
-  color: white;
+color:$heading;
 }
 
 .development-description {
@@ -24,7 +24,8 @@
   font-style: normal;
   font-size: 13px;
   line-height: 1.3rem;
-  color: white;
+color:$text;
+
   line-height: 1.3rem;
 }
 /* for the projects base code  */
@@ -277,7 +278,7 @@ list-style-type: square;
 }
 @media only screen and (min-device-width: 576px) {
   .Project-sec {
-  width: 80%;
+  width: 85%;
 }
 .modal-header{height: 10rem;}
 .development-description{

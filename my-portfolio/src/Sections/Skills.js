@@ -23,7 +23,7 @@ const Skills = () => {
   return (
     <div className="skills-container">
       <h2 className="subtitle" data-aos="fade-up">
-        Current tech in use:{" "}
+        Current tech:{" "}
       </h2>
       <div data-aos="zoom-out" className="logo-container">
         <img className="skill-logo" src={acc} alt="adobecreative-cloud-logo" />
@@ -43,7 +43,7 @@ const Skills = () => {
       <div className="skill-card" data-aos="zoom-out">
         <div className="skill-title-logo-container">
           <h3 className="card-title">Design</h3>
-          <img className="skill-logo" src={design} alt="design-logo" />
+          <img className="skill-logo1" src={design} alt="design-logo" />
         </div>
         <p className="skills">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec est ut

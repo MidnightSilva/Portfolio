@@ -38,7 +38,7 @@ const ProjectSection = () => {
           </button>
 
           <button
-            className={`button-toggle ${design ? "" : "false"}`}
+            className={`button-toggle2 ${design ? "" : "false"}`}
             onClick={toggleProject2}
           >
             {" "}
