@@ -7,7 +7,7 @@ import Aos from "aos";
 
 const AboutMeSection = () => {
   useEffect(() => {
-    Aos.init({duration:2000});
+    Aos.init({ duration: 600, easing: "ease-in-sine" });
   },[]);
    
   return (
