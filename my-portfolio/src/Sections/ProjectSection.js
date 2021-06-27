@@ -31,7 +31,7 @@ const ProjectSection = () => {
             className={`button-toggle ${toggle ? "true" : ""}`}
             onClick={toggleProjects}
           >
-            Development
+            Team Projects
           </button>
 
           <button
@@ -39,7 +39,7 @@ const ProjectSection = () => {
             onClick={toggleProject2}
           >
             {" "}
-            Design
+            Solo Projects
           </button>
         </div>
         <p className="development-description" >
@@ -55,6 +55,7 @@ const ProjectSection = () => {
         {toggle === true && design === true
           ? projectJson.Project.map((project, i) => (
               <Project {...project} key={uuidv4()} />
+              
             ))
           : null}
 

@@ -3,7 +3,7 @@
     {
       "title": "Pies & Fries",
       "image": "MindPassage.jpg",
-      "tag": "Team",
+      "tag": "Development",
       "tag1": "React",
       "tag2": "React Router Dom",
       "tag3": "Node",
@@ -25,7 +25,7 @@
     {
       "title": "MindPassage",
       "image": "MindPassage.jpg",
-      "tag": "Team",
+      "tag": "Development",
       "tag1": "React",
       "tag2": "SweetAlert",
       "tag3": "Axios",
@@ -50,7 +50,7 @@
     {
       "title": "Social doggy",
       "image": "socialdoggy.jpg",
-      "tag": "Team",
+      "tag": "Development",
       "tag1": "React",
       "tag2": "React Router Dom",
       "tag3": "Node",
@@ -79,7 +79,7 @@
     {
       "title": "Outpost",
       "image": "Outpost.png",
-      "tag": "Team",
+      "tag": "Design",
       "link1": "https://jorgesilva1892.myportfolio.com/outpost",
       "site": "p1compassrose.svg",
       "link2": "https://www.figma.com/file/I9MyTuFeOSC4i6BWgsun6T/Outpost?node-id=0%3A1",
@@ -92,7 +92,7 @@
     {
       "title": "TeaRitual",
       "image": "TeaRitual.png",
-      "tag": "Team",
+      "tag": "Design",
       "site": "p1compassrose.svg",
       "code": "Figma.svg",
       "info": "pinfo.svg",
