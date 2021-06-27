@@ -84,9 +84,11 @@ font-weight: 600;}
     width: 75%;
 }
 /* tag */
-.tags{     font-family: "Inter", sans-serif;
+
+.tags{
+  font-family: "Inter", sans-serif;
     border-radius: 10px;
-    background-color: #363a48;
+    background-color: #515d74b0;
     color: #eee;
     margin: 3px 0px;
     width: -moz-fit-content;
@@ -94,8 +96,8 @@ font-weight: 600;}
     display: flex;
     align-self: flex-start;
     font-size: 13px;
-    font-weight: 600;
-    padding: 4px;}
+    font-weight: 300;
+      padding: 4px;}
 .project-tag {
   font-family: "Inter", sans-serif;
   font-weight: bold;
@@ -128,7 +130,7 @@ display: flex;
 }
 
 .p-link1 {
-    background-color: #363a48;
+    background-color:#394867;
     color: white;
     width: 40%;
     border-radius: 13px;
@@ -139,7 +141,7 @@ display: flex;
 }
 
 .p-link-2 {
-    background-color:#363a48;
+    background-color:#394867;
     font-family: $font;
     color: white;
     width: 40%;
@@ -173,13 +175,7 @@ width: 261px;
   height: 85vh;
   position: fixed;
   bottom: -150vh;
-  background:linear-gradient(
-    179.87deg,
-    rgba(20, 20, 20, 0.95) 8%,
-    #1f4168 70.16%,
-    #272727 110.07%,
-    #1f4168 124.58%
-  );
+   background:  #303643cc 38.54%;
   width: 78%;
   left: 32px;
   transition: bottom 0.3s ease-out;
@@ -255,13 +251,13 @@ list-style-type: square;
 
 
   .Modal.Show {
-width: 292.5px;
-    height: 444.55px;
+    width: 292.5px;
+    height: 565.55px;
     bottom: 16px;
     border-radius: 10px;
     overflow: scroll;
     top: 10%;
-    left: 14%;
+    left: 11%;
 }
 .Overlay {
   background-color: rgba(0, 0, 0, 0.55);
