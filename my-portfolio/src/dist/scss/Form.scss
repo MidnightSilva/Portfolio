@@ -118,8 +118,18 @@ background-color: #394867;
   .form{
     width:360px;
   }
+  .submit-button {
+    width: 35.5rem;
+}
+  .submit-button:focus {
+    background-color: slategray ;
+    width: 35.5rem;
+}
 }
 @media only screen and (min-width: 1200px) {
+  .formpage{
+    width: 63%;
+  }
   .form{
     width: 400px;
 

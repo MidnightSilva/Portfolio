@@ -13,5 +13,7 @@ background: radial-gradient(372.53% 26.77% at 14.4% 4.85%, #303643 38.54%, #F1F6
   flex-direction: column;
   align-items: center;
 }
-
+::-webkit-scrollbar{
+  display: none;
+}
 //yo

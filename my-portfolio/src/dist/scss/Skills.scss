@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&display=swap");
 @import "./Variables";
+
 .skills-container {
         width: 90%;
   margin-top: -3rem;
@@ -132,7 +133,12 @@ color:$text;
   
 }
 @media only screen and (min-width: 1200px) {
-
+.skill-card {
+    width: 38%;
+}
+.skill-card2 {
+    width: 38%;
+}
 }
 @media only screen and (min-width: 1400px) {
 }

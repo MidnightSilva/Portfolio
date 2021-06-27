@@ -253,10 +253,15 @@ width: 261px;
 list-style-type: square;
 }
 
-.Modal.Show {
+
+  .Modal.Show {
+width: 292.5px;
+    height: 444.55px;
     bottom: 16px;
     border-radius: 10px;
-    overflow: hidden;
+    overflow: scroll;
+    top: 10%;
+    left: 14%;
 }
 .Overlay {
   background-color: rgba(0, 0, 0, 0.55);
@@ -294,9 +299,7 @@ margin: 7.5px;
   width: 65%;
 }
 .Modal.Show{
-  width: 450px;
-  height:597px ;
-margin-left: 2rem;
+
 }
 
 .project-des{
@@ -307,11 +310,10 @@ margin-left: 4%;
 
 @media only screen and (min-width: 992px) {
 
-  
+  .project-broad {
+    width: 68%;
+}
 .mindPassge{
-
-border-radius: 20px;
-
 align-self: center;
 }
 .project-tag-title-container{
@@ -326,6 +328,9 @@ align-self: center;
 
 
 @media only screen and (min-width: 1200px) {
+  .Project-sec {
+    width: 63%;
+}
 }
 @media only screen and (min-width: 1400px) {
 }
