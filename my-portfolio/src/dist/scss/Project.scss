@@ -35,9 +35,9 @@ color:$heading;
   width: 100%;
 }
 .project {
-  background: #39486798;
+background: linear-gradient(360deg, #F1F6F9 -225.3%, #394867 2.34%, #F1F6F9 75.28%);
   border-radius: 7px;
-    height: 12rem;
+height: fit-content;
     display: flex;
     flex-direction: column;
 }
@@ -65,7 +65,7 @@ font-weight: 600;}
   align-self: flex-end;
   opacity: 0.9;
   margin-bottom: 4px;
-  color: #394867;
+    color: white;
   order: 2;
 }
 
@@ -80,8 +80,8 @@ font-weight: 600;}
     opacity: .9;
     border-radius: 7px;
     align-self: center;
-    height: 9rem;
-    width: 16rem;
+    height: auto;
+    width: 75%;
 }
 /* tag */
 .tags{     font-family: "Inter", sans-serif;
@@ -101,7 +101,7 @@ font-weight: 600;}
   font-weight: bold;
   font-size: 13px;
   opacity: 0.9;
-color: #394867;
+    color: white;
   align-self: flex-end;
   margin-bottom: 8px;
   order: 1;
@@ -290,6 +290,9 @@ list-style-type: square;
 .p1{  
 margin: 7.5px;
 }
+.mindPassge{
+  width: 65%;
+}
 .Modal.Show{
   width: 450px;
   height:597px ;
@@ -303,25 +306,19 @@ margin-left: 4%;
 }
 
 @media only screen and (min-width: 992px) {
-.project{
-width: 100%;
-margin-bottom: 4rem;
-margin-top: 1rem;
-}
+
   
 .mindPassge{
-  height: 15rem;
+
 border-radius: 20px;
-width: 80%;
+
 align-self: center;
 }
 .project-tag-title-container{
 width: 80%;
 align-self: center;
   }
-.line {
-margin: 8px 231px;
-}
+
 .Project-sec{
   width: 66%;
 }
