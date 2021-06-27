@@ -26,12 +26,14 @@ color:$text;
     align-items: center;
 }
 .form {
- width: 291px;
+
+    padding-bottom: 1rem;
+    width: 90%;
     display: flex;
     flex-direction: column;
-    background-repeat: no-repeat;
-      align-items: center;
-    background-position: center;
+    justify-content: center;
+    align-items: center;
+
 }
 .email {
       align-self: baseline;
@@ -82,14 +84,17 @@ color:$text;
   width: 20.5rem;
   align-self: center;
 
-  background: rgba(41, 145, 255, 1);
-  color: #f1f6f9;
+background-color: #394867;
+    color: white;
 }
 
 @media only screen and (min-device-width: 576px) {
   .form {
     width: 355px;
     align-items: center;
+}
+.subheading5 {
+    padding: 9px;
 }
 .input1{
   width: 22rem;
@@ -99,10 +104,10 @@ color:$text;
 }
 
 .formpage {
-    margin-top: 2rem;
     padding-bottom: 2rem;
 }
 .submit-button{
+      height: 35px;
   align-self: center;
 }
 }

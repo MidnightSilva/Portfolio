@@ -9,6 +9,7 @@
   margin-left: 0rem;
 }
 .aboutme-top-container {
+      margin-top: -1rem;
   align-items: center;
   display: flex;
   justify-content: space-evenly;
@@ -34,6 +35,7 @@
   align-self: baseline;
   height: fit-content;
   font-family: "Inter", sans-serif;
+      padding: 15px;
 color:$heading;
 }
 
@@ -43,9 +45,9 @@ color:$heading;
     font-style: normal;
     font-size: 13px;
     line-height: 1.3rem;
-    padding: 22px;
-color:$text;
-    margin-bottom: 3rem;
+    padding: 9px;
+    color: #15161a;
+    margin-bottom: 1rem;
 }
 
 @media only screen and (min-device-width: 576px) {

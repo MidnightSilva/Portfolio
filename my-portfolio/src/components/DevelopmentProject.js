@@ -1,18 +1,15 @@
-import React, { useState, useEffect } from "react";
-import "aos/dist/aos.css";
-import Aos from "aos";
+import React, { useState } from "react";
+
 
 const Project = (props) => {
   const [displayModal, setDisplayModal] = useState(false);
 
-  useEffect(() => {
-    Aos.init({ duration: 2000 });
-  }, []);
+
   const image = require("../assets/Images/" + props.image).default;
   return (
     <>
       <div
-        data-aos="zoom-in"
+     
         className="project"
         onClick={() => setDisplayModal(!displayModal)}
       >
@@ -22,7 +19,7 @@ const Project = (props) => {
           <span className="project-tag">{props.tag}</span>
         </div>
       </div>
-      <div data-aos="zoom-in" className="line"></div>
+      <div  className="line"></div>
       <div className={`Modal ${displayModal ? "Show" : ""}`}>
         <div class="modal-dialog">
           <div class="modal-header">

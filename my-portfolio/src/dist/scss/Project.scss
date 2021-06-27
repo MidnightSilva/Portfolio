@@ -3,6 +3,7 @@
 @import "./Variables.scss";
 
 .Project-sec {
+      width: 90%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -17,16 +18,16 @@ color:$heading;
 }
 
 .development-description {
-      margin-top: -1rem;
-  width: 329px;
-  height: fit-content;
-  font-family: "Inter", sans-serif;
-  font-style: normal;
-  font-size: 13px;
-  line-height: 1.3rem;
-color:$text;
-
-  line-height: 1.3rem;
+    margin-top: -1rem;
+    width: 90%;
+    padding: 9px;
+    height: -moz-fit-content;
+    height: fit-content;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-size: 13px;
+    line-height: 1.3rem;
+    color: #15161a;
 }
 /* for the projects base code  */
 
@@ -34,7 +35,7 @@ color:$text;
   width: 100%;
 }
 .project {
-  background: rgba(39, 39, 46, 0.445);
+  background: #39486798;
   border-radius: 7px;
     height: 12rem;
     display: flex;
@@ -55,7 +56,7 @@ font-weight: 600;}
     margin-bottom: 8px;
 }
 .line {
-  border-bottom: 0.3px solid white;
+  border-bottom: 0.3px solid #394867;
   margin: 8px 31px;
 }
 .project-title {
@@ -64,7 +65,7 @@ font-weight: 600;}
   align-self: flex-end;
   opacity: 0.9;
   margin-bottom: 4px;
-  color: white;
+  color: #394867;
   order: 2;
 }
 
@@ -100,7 +101,7 @@ font-weight: 600;}
   font-weight: bold;
   font-size: 13px;
   opacity: 0.9;
-color: white;
+color: #394867;
   align-self: flex-end;
   margin-bottom: 8px;
   order: 1;
@@ -282,8 +283,8 @@ list-style-type: square;
 }
 .modal-header{height: 10rem;}
 .development-description{
-      margin-top: 2rem;
-    margin-bottom: 2rem;
+   
+    margin-bottom: 1rem;
     width: 100%;
 }
 .p1{  

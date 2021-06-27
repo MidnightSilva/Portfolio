@@ -1,6 +1,4 @@
-import React, { useEffect } from "react";
-import "aos/dist/aos.css";
-import Aos from "aos";
+
 import development from "../assets/Svgs/Development.svg";
 import design from "../assets/Svgs/Design.svg";
 import acc from "../assets/Svgs/Creative_Cloud.svg";
@@ -17,15 +15,13 @@ import mongodb from "../assets/Svgs/mongodb.svg";
 import jest from "../assets/Svgs/jest-seeklogo.com.svg";
 
 const Skills = () => {
-  useEffect(() => {
-    Aos.init({ duration: 2000 });
-  }, []);
+
   return (
     <div className="skills-container">
-      <h2 className="subtitle" data-aos="fade-up">
+      <h2 className="subtitle">
         Current tech:{" "}
       </h2>
-      <div data-aos="zoom-out" className="logo-container">
+      <div  className="logo-container">
         <img className="skill-logo" src={acc} alt="adobecreative-cloud-logo" />
         <img className="skill-logo" src={figma} alt="figma-logo" />{" "}
         <img className="skill-logo" src={git} alt="git-logo" />{" "}
@@ -40,7 +36,7 @@ const Skills = () => {
         <img className="skill-logo" src={jest} alt="jest-logo" />
       </div>
 
-      <div className="skill-card" data-aos="zoom-out">
+      <div className="skill-card">
         <div className="skill-title-logo-container">
           <h3 className="card-title">Design</h3>
           <img className="skill-logo1" src={design} alt="design-logo" />
@@ -54,7 +50,7 @@ const Skills = () => {
         </p>
       </div>
 
-      <div className="skill-card2" data-aos="zoom-out">
+      <div className="skill-card2">
         <div className="skill-title-logo-container2">
           <h3 className="card-title2">Developemnt</h3>
           <img className="skill-logo2" src={development} alt="dev-logo" />
