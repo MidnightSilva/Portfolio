@@ -9,6 +9,8 @@ import DesignProject from "../components/DesignProject";
 const ProjectSection = () => {
   const [toggle, setToggle] = useState(true);
   const [design, setDesign] = useState(true);
+
+
   const toggleProjects = (toggleProject2) => {
     toggle ? setToggle(false) : setToggle(true);
     design ? setDesign(false) : setDesign(true);
@@ -59,7 +61,7 @@ const ProjectSection = () => {
             ))
           : null}
 
-        {design === false && toggle === false
+        {design === true && toggle === true
           ? projectJson.designProjects.map((designProjects, i) => (
               <DesignProject {...designProjects} key={uuidv4()} />
             ))
