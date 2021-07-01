@@ -8,18 +8,14 @@ const Project = (props) => {
   const image = require("../assets/Images/" + props.image).default;
   return (
     <>
-      <div
-     
-        className="project"
-        onClick={() => setDisplayModal(!displayModal)}
-      >
+      <div className="project" onClick={() => setDisplayModal(!displayModal)}>
         <img className="mindPassge" src={image} alt="Project-img" />
         <div className="project-tag-title-container">
           <h3 className="project-title">{props.title} </h3>
           <span className="project-tag">{props.tag}</span>
         </div>
       </div>
-      <div  className="line"></div>
+      <div className="line"></div>
       <div className={`Modal ${displayModal ? "Show" : ""}`}>
         <div class="modal-dialog">
           <div class="modal-header">
@@ -29,6 +25,7 @@ const Project = (props) => {
             >
               X
             </button>
+            <img className="mindPassge" src={image} alt="Project-img" />
             <span className="modal-project-tag">{props.tag}</span>
           </div>
           <div className="modal-tag-section">

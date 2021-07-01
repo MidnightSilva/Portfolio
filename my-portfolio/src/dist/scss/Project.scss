@@ -76,7 +76,6 @@ font-weight: 600;}
     height: 2rem;
 }
 .mindPassge {
-      margin-top: 20px;
     opacity: .9;
     border-radius: 7px;
     align-self: center;
@@ -173,15 +172,34 @@ width: 261px;
 }
 /* Modal */
 .Modal {
-  height: 85vh;
+    width: 292.5px;
+    height: 565.55px;
   position: fixed;
   bottom: -150vh;
    background:  #303643cc 38.54%;
-  width: 78%;
-  left: 32px;
+  left: 11%;
   transition: bottom 0.3s ease-out;
   z-index: 10;
  overflow-y: scroll;
+}
+  .Modal.Show {
+    width: 292.5px;
+    height: 565.55px;
+    bottom: 16px;
+    border-radius: 10px;
+    overflow: scroll;
+    top: 10%;
+    left: 11%;
+}
+.Overlay {
+  // background-color: rgba(0, 0, 0, 0.55);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: fixed;
+  display: none;
+  z-index: 5;
 }
 .modal-dialog {
   overflow-y: scroll;
@@ -199,19 +217,16 @@ width: 261px;
 .modal-header {
   @include flexCenter();
       flex-direction: column;
-  height: 8rem;
+    height: 14rem;
   width: 100%;
   background-color: $TEMP-BACKGROUNDCOLOR;
       border-radius: 10px 10px 0px 0px;
 }
 .modal-project-tag {
-  height: 100%;
-  color: white;
+  color: #394867;
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
-  margin: 8px;
-  color: $color-links;
+    margin: 14px 7px;
   font-family: $font;
 }
 .Close {
@@ -221,8 +236,8 @@ width: 261px;
     border: none;
     background: none;
     align-self: flex-end;
-    margin: 8px;
-  color: $color-links;
+     margin: 7px 16px;
+  color: #394867;
 }
 .modal-body {
 
@@ -251,25 +266,7 @@ list-style-type: square;
 }
 
 
-  .Modal.Show {
-    width: 292.5px;
-    height: 565.55px;
-    bottom: 16px;
-    border-radius: 10px;
-    overflow: scroll;
-    top: 10%;
-    left: 11%;
-}
-.Overlay {
-  background-color: rgba(0, 0, 0, 0.55);
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  position: fixed;
-  display: none;
-  z-index: 5;
-}
+
 .project-des-heading{
       display: flex;
     flex-direction: column;
@@ -283,7 +280,7 @@ list-style-type: square;
   .Project-sec {
   width: 85%;
 }
-.modal-header{height: 10rem;}
+
 .development-description{
    
     margin-bottom: 1rem;
@@ -291,6 +288,9 @@ list-style-type: square;
 }
 .p1{  
 margin: 7.5px;
+}
+  .modal-header {
+    height: 12.99rem;
 }
 .mindPassge{
   width: 65%;
@@ -307,6 +307,16 @@ margin-left: 4%;
 
 @media only screen and (min-width: 992px) {
 
+  .Modal{
+       left: 3%;
+  }
+
+.Modal.Show{
+    left: 3%;
+  
+    top: 15%;
+
+}
   .project-broad {
     width: 68%;
 }
@@ -330,6 +340,12 @@ align-self: center;
 }
 }
 @media only screen and (min-width: 1400px) {
+
+.modal-header{
+      height: 13rem;
 }
-@media only screen and (min-width: 1600px) {
+.mindPassge{
+  margin-top: 0;
 }
+}
+

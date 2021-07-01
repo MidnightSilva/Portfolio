@@ -3,7 +3,7 @@ import React, { useState, } from "react";
 import projectJson from "../Projects.json";
 import Project from "../components/DevelopmentProject";
 import { v4 as uuidv4 } from "uuid";
-import DesignProject from "../components/DesignProject";
+// import DesignProject from "../components/DesignProject";
 
 
 const ProjectSection = () => {
@@ -61,11 +61,11 @@ const ProjectSection = () => {
             ))
           : null}
 
-        {design === true && toggle === true
+        {/* {design === true && toggle === true
           ? projectJson.designProjects.map((designProjects, i) => (
               <DesignProject {...designProjects} key={uuidv4()} />
             ))
-          : null}
+          : null} */}
       </div>
       <label></label>
     </div>
