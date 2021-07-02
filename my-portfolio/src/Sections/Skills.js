@@ -18,10 +18,8 @@ const Skills = () => {
 
   return (
     <div className="skills-container">
-      <h2 className="subtitle">
-        Current tech:{" "}
-      </h2>
-      <div  className="logo-container">
+      <h2 className="subtitle">Current tech: </h2>
+      <div className="logo-container">
         <img className="skill-logo" src={acc} alt="adobecreative-cloud-logo" />
         <img className="skill-logo" src={figma} alt="figma-logo" />{" "}
         <img className="skill-logo" src={git} alt="git-logo" />{" "}
@@ -35,33 +33,33 @@ const Skills = () => {
         <img className="skill-logo" src={mongodb} alt="mongodb-logo" />{" "}
         <img className="skill-logo" src={jest} alt="jest-logo" />
       </div>
-
-      <div className="skill-card">
-        <div className="skill-title-logo-container">
-          <h3 className="card-title">Design</h3>
-          <img className="skill-logo1" src={design} alt="design-logo" />
+      <div className="skill-card-container">
+        <div className="skill-card">
+          <div className="skill-title-logo-container">
+            <h3 className="card-title">Design</h3>
+            <img className="skill-logo1" src={design} alt="design-logo" />
+          </div>
+          <p className="skills">
+            Integrating what I learned about User experience design from
+            BrainStation , I able to create wireframes & prototypes. Implement
+            best practices such as control & freedom, error prevention,
+            Navigation, Alignment, Buttons/CTAs, Consistency. Keeping this
+            things in mind allow me to create a good user experience.
+          </p>
         </div>
-        <p className="skills">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec est ut
-          arcu interdum id porttitor auctor at. Euismod mauris, auctor id
-          accumsan magna proin sit. Neque, massa sodales in nibh in urna,
-          lobortis vel id. Sit feugiat amet luctus vitae at sagittis pretium
-          vitae amet.
-        </p>
-      </div>
 
-      <div className="skill-card2">
-        <div className="skill-title-logo-container2">
-          <h3 className="card-title2">Developemnt</h3>
-          <img className="skill-logo2" src={development} alt="dev-logo" />
+        <div className="skill-card2">
+          <div className="skill-title-logo-container2">
+            <h3 className="card-title2">Developemnt</h3>
+            <img className="skill-logo2" src={development} alt="dev-logo" />
+          </div>
+          <p className="skills">
+            Integrating what I learned about Full Stack Development from
+            BrainStation,I am able to fully create responsive sites across
+            different browser types. Able to work with rest Api’s. Experienced
+            with MERN stack.
+          </p>
         </div>
-        <p className="skills">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec est ut
-          arcu interdum id porttitor auctor at. Euismod mauris, auctor id
-          accumsan magna proin sit. Neque, massa sodales in nibh in urna,
-          lobortis vel id. Sit feugiat amet luctus vitae at sagittis pretium
-          vitae amet.
-        </p>
       </div>
     </div>
   );

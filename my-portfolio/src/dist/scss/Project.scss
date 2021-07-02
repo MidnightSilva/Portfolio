@@ -32,25 +32,36 @@ color:$heading;
 /* for the projects base code  */
 
 .project-broad {
-  width: 100%;
-}
-.project {
-background: linear-gradient(360deg, #F1F6F9 -225.3%, #394867 2.34%, #F1F6F9 75.28%);
-  border-radius: 7px;
-height: fit-content;
+width: 100%;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.project {
+    background: #303643;
+    border-radius: 7px;
+    height: 199px;
+    display: flex;
+    width: 18rem;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
 }
 .modal-tag-section{  
-margin-top: -10px;  
-display: flex;
-justify-content: space-between;
-padding: 8px;
+    margin-top: -10px;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+    align-items: baseline;
+    font-weight: 600;
 
 font-weight: 600;}
 .tag-container{
+      width: 80%;
+    margin-left: 26px;
     justify-content: space-evenly;
-    margin-top: -7px;
+     margin-top: -14px;
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 8px;
@@ -73,31 +84,34 @@ font-weight: 600;}
       display: flex;
     width: 100%;
     justify-content: space-around;
-    height: 2rem;
+     height: fit-content;
+    margin-top: 7px;
 }
 .mindPassge {
     opacity: .9;
     border-radius: 7px;
     align-self: center;
     height: auto;
-    width: 75%;
-        filter: drop-shadow(4px -1px 3px gray);
+    filter: drop-shadow(4px -1px 3px gray);
+    margin-top: 15px;
+    width: 214px;
 }
 /* tag */
 
 .tags{
-  font-family: "Inter", sans-serif;
-    border-radius: 10px;
-    background-color: #515d74b0;
+font-family: "Inter", sans-serif;
+    border-radius: 15px;
+    background-color: #303643;
     color: #eee;
-    margin: 3px 0px;
+    margin: 1px 1px;
     width: -moz-fit-content;
     width: fit-content;
     display: flex;
     align-self: flex-start;
     font-size: 13px;
     font-weight: 300;
-      padding: 4px;}
+    padding: 2px 8px;
+    }
 .project-tag {
   font-family: "Inter", sans-serif;
   font-weight: bold;
@@ -153,13 +167,13 @@ display: flex;
 }
 /* project description */
 .project-des {
-      margin-top: -14px;
-
-width: 261px;
+      width: 80%;
+    margin-left: 26px;
+      margin-top: -25px;
     font-family: $font;
     line-height: 1.3rem;
     font-size: 13px;
-    color: $TEMP-BACKGROUNDCOLOR;
+ color: #15161a;
     padding: 8px;
 }
 .project-des2 {
@@ -175,8 +189,7 @@ width: 261px;
     width: 292.5px;
     height: 565.55px;
   position: fixed;
-  bottom: -150vh;
-   background:  #303643cc 38.54%;
+  background-color: #e6e6e6;
   left: 11%;
   transition: bottom 0.3s ease-out;
   z-index: 10;
@@ -207,23 +220,22 @@ width: 261px;
 .project-tech-used{
   font-family: $font;
   font-size: $font-size-project-mobile;
-  color: $TEMP-BACKGROUNDCOLOR;  
+  color: #303643;
 }
 .modal-title {
   font-family: $font;
-  font-size: $font-size-project-mobile;
-  color: $TEMP-BACKGROUNDCOLOR;
+ color: #303643;
 }
 .modal-header {
   @include flexCenter();
       flex-direction: column;
     height: 14rem;
   width: 100%;
-  background-color: $TEMP-BACKGROUNDCOLOR;
+      background: #303643;
       border-radius: 10px 10px 0px 0px;
 }
 .modal-project-tag {
-  color: #394867;
+  color: white;
   display: flex;
   flex-direction: column;
     margin: 14px 7px;
@@ -237,7 +249,7 @@ width: 261px;
     background: none;
     align-self: flex-end;
      margin: 7px 16px;
-  color: #394867;
+color: white;
 }
 .modal-body {
 
@@ -258,7 +270,7 @@ width: 261px;
   list-style-type: square;
 }
 .p1 {
-   color: $TEMP-BACKGROUNDCOLOR;
+ color: #15161a;
       margin: 3.5px;
      font-family: $font;
   font-size: $font-size-project-mobile;
@@ -280,7 +292,10 @@ list-style-type: square;
   .Project-sec {
   width: 85%;
 }
-
+.project {
+    width: 27rem;
+        height: 206px;
+}
 .development-description{
    
     margin-bottom: 1rem;
@@ -293,11 +308,9 @@ margin: 7.5px;
     height: 12.99rem;
 }
 .mindPassge{
-  width: 65%;
+     width: 15rem;
 }
-.Modal.Show{
 
-}
 
 .project-des{
 width: 86%;
@@ -344,8 +357,8 @@ align-self: center;
 .modal-header{
       height: 13rem;
 }
-.mindPassge{
-  margin-top: 0;
-}
+// .mindPassge{
+//   margin-top: 0;
+// }
 }
 

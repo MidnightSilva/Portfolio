@@ -66,13 +66,18 @@ display: flex;
     margin: 11px 8px;
     height: 3.5rem;
 }
+.skill-card-container{
+      display: flex;
+    flex-direction: column;
+    align-content: center;
+}
 .skill-card {
  margin: 8px 8px;
   display: flex;
   flex-direction: column;
   align-content: center;
   align-items: center;
-  width: 80%;
+
   height: fit-content;
   border-radius: 10px;
 }
@@ -82,7 +87,7 @@ display: flex;
   flex-direction: column;
   align-content: center;
   align-items: center;
-  width: 80%;
+
   height: fit-content;
   border-radius: 10px;
 }
@@ -98,12 +103,15 @@ color:$text;
     margin-left: 1rem;
   }
 .skill {
-  font-family: "Inter", sans-serif;
-  font-style: normal;
-  font-size: 13px;
-  line-height: 1.3rem;
-  color: white;
-  margin: 9px 2px;
+   font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-size: 13px;
+    line-height: 1.3rem;
+    color: #15161a;
+    padding: 17px;
+    margin: -15px 0px;
+    margin-left: 1rem;
+    margin-top: 5px;
 }
 
 @media only screen and (min-device-width: 576px) {
@@ -118,7 +126,17 @@ color:$text;
   }
 }
 @media only screen and (min-device-width: 992px) {
- .skill-card{
+ .skill-card-container{display: flex; 
+  flex-direction: row;
+    justify-content: center;
+    align-content: center;
+        width: 85%;
+ }
+ .card-title{    margin-left: 8px;}
+ .card-title2{
+       margin-left: 8px;
+ }
+  .skill-card{
    width: 50%;
  }
   .skill-card2{
@@ -133,6 +151,11 @@ color:$text;
   
 }
 @media only screen and (min-width: 1200px) {
+  .skill-card-container{
+    justify-content: space-between;
+        width: 79%;
+  
+ }
 .skill-card {
     width: 38%;
 }
