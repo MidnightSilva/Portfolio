@@ -1,17 +1,17 @@
-import StarIcon from "../components/StarIcon";
+// import StarIcon from "../components/StarIcon";
 import CompassIcon from "../components/CompassIcon";
 
 const LandingSection = () => {
   return (
     <div className="landing-tile">
       <div className="top-star-controller">
-        <StarIcon />
-        <StarIcon />
+        {/* <StarIcon />
+        <StarIcon /> */}
       </div>
       {/* <StarIcon /> */}
       <div className="top-star-controller-2">
-        <StarIcon />
-        <StarIcon />
+        {/* <StarIcon />
+        <StarIcon /> */}
       </div>
       <div className="greating-compass-container">
         <h2 className="landing-greeting">Welcome 👋🏼 I’m Jorge</h2>
