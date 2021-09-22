@@ -5,13 +5,28 @@ body {
   box-sizing: border-box;
 }
 
+.Main {
+    display: flex;
+  overflow: hidden;
+  flex-direction: column;
+  align-items: center;
+}
+
 .Main-Sec {
   display: flex;
-      overflow: hidden;
+  overflow: hidden;
   flex-direction: column;
   align-items: center;
   background: #303643 ;
+  background-image: url("../../assets/Svgs/stars.svg");
+  background-position: 0px 0px;
       height: 100vh;
+       animation: animatedBackground 60s ease-in-out both infinite;
+}
+
+@keyframes animatedBackground {
+	from { background-position: 0 0; }
+	to { background-position: 100% 0; }
 }
 ::-webkit-scrollbar{
   display: none;

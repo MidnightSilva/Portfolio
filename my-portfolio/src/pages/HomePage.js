@@ -5,10 +5,12 @@ import LandingSection from "../Sections/LandingSection";
 
 const HomePage = () => {
   return (
+       <div className="Main-Sec">
     <div className="Main-Sec">
       <LandingSection />
       {/* <AboutMeSection />
       <ProjectSection /> */}
+      </div>
     </div>
   );
 };
