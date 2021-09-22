@@ -7,26 +7,29 @@ body {
 
 .Main {
     display: flex;
-  overflow: hidden;
+  overflow: visible;
   flex-direction: column;
   align-items: center;
 }
 
 .Main-Sec {
   display: flex;
-  overflow: hidden;
+  overflow: visible;
   flex-direction: column;
   align-items: center;
   background: #303643 ;
   background-image: url("../../assets/Svgs/stars.svg");
+background-repeat: repeat;
+background-size: cover;
   background-position: 0px 0px;
-      height: 100vh;
-       animation: animatedBackground 60s ease-in-out both infinite;
+height: 100vh;
+animation: animatedBackground 10s ease-in-out both infinite;
 }
 
 @keyframes animatedBackground {
-	from { background-position: 0 0; }
-	to { background-position: 100% 0; }
+	from { background-position: 0 0; 
+  }
+	to { background-position: 0px 22rem; }
 }
 ::-webkit-scrollbar{
   display: none;
