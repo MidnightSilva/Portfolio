@@ -1,7 +1,8 @@
 @import "./Variables";
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&display=swap");
 .landing-tile {
-    margin-top: 10rem;
+     margin-top: 9rem;
+    margin-bottom: 3.9rem;
     display: flex;
     height: fit-content;
     flex-direction: column;
@@ -92,8 +93,8 @@
   display: block;
   width: 28px;
   height: 30px;
-  border-bottom: 5px solid #ffffff;
-  border-right: 5px solid #ffffff;
+  border-bottom: 5px solid rgba(197, 197, 197, 0.767);
+  border-right: 5px solid rgba(197, 197, 197, 0.767);
   transform: rotate(45deg);
   margin: -10px;
   animation: animate 2s infinite;

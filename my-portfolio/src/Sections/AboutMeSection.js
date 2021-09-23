@@ -15,7 +15,7 @@ const AboutMeSection = () => {
         <div className="bullet-points" >
           <p className="bullet-point">Commited to life long learning</p>
           <p className="bullet-point"> Commited to bettering the world</p>
-          <p className="bullet-point">adaptable to any environment</p>
+ ç         <p className="bullet-point">adaptable to any environment</p>
         </div>
       </div>
       {/* <Resume /> */}

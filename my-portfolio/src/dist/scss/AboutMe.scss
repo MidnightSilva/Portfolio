@@ -1,12 +1,13 @@
 @import "./Variables";
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&display=swap");
 .aboutMeSection {
+    background-image: url('./IMG_6878.jpg');
   display: flex;
   flex-direction: column;
   justify-content: left;
   align-items: center;
+      width: 100%;
   padding-top: 2rem;
-  margin-left: 0rem;
 }
 .aboutme-top-container {
       margin-top: -1rem;
@@ -16,7 +17,7 @@
   width: 100%;
 }
 .img-place-holder {
-  background-image: url('./IMG_6878.jpg');
+  // background-image: url('./IMG_6878.jpg');
     height: 7rem;
     background-position: center;
     width: 7rem;

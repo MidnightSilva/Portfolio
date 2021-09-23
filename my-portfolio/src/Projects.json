@@ -1,28 +1,6 @@
 {
   "Project": [
     {
-      "title": "Pies & Fries",
-      "image": "pies&fries.jpg",
-      "tag": "Development",
-      "tag1": "React",
-      "tag2": "React Router Dom",
-      "tag3": "Node",
-      "tag4": "Express",
-      "tag5": "MongoDB",
-      "tag6": "Stripe",
-      "link1": "https://piesandfries.herokuapp.com/",
-      "link2": "https://github.com/Jorge1772/c38_final_counseling",
-      "projectDescription": "Mind Passage provides users with a place to find theraphists and mental health tips.",
-      "modalTitle": "Pies & Fries",
-      "projectPoint1": "Styled 80% of the app with css from starch ",
-      "projectPoint2": "created condiontal renders for menu items on the hamburger menu for  user , driver , admin ",
-      "projectPoint3": "implented stripe checkout.",
-      "projectPoint4": "QA API end point for user / admin / driver",
-      "projectPoint5": "QA of the GUI",
-      "projectPoint6": "Used Axios to send user data to the backend",
-      "projectPoint7": "Used SendGrid to send an email to notify user of updates to there order."
-    },
-    {
       "title": "MindPassage",
       "image": "MindPassage.jpg",
       "tag": "Development",
