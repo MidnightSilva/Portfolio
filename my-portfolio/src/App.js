@@ -1,4 +1,5 @@
 import React from "react";
+import { BrowserRouter as Router, } from "react-router-dom";
 import HomePage from "./pages/HomePage";
 import Nav from "./components/Nav";
 import "./dist/scss/App.scss";
@@ -10,12 +11,14 @@ import "./dist/scss/AboutMe.scss";
 import "./dist/scss/Project.scss";
 import "./dist/scss/Form.scss";
 
+
 function App() {
   return (
     <>
-      
-        <Nav />
-       <HomePage />            
+      <Nav />
+      <Router>
+        <HomePage />
+      </Router>
     </>
   );
 }

@@ -1,12 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
 @import "./Variables.scss";
-
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100;200;300;400;600;700&display=swap');
 .Project-sec {
       width: 90%;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: center; 
+   height: 100vh;
+     background: #1212133b ;
 }
 
 /* heading  and describtion */
@@ -27,7 +29,7 @@ color:$heading;
     font-style: normal;
     font-size: 13px;
     line-height: 1.3rem;
-    color: #15161a;
+    color: $subtext;
 }
 /* for the projects base code  */
 

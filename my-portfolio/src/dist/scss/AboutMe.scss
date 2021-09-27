@@ -1,56 +1,125 @@
 @import "./Variables";
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100;200;300;400;600;700&display=swap');
 .aboutMeSection {
-    background-image: url('./IMG_6878.jpg');
+    // background-image: url('./IMG_6878.jpg');
   display: flex;
   flex-direction: column;
   justify-content: left;
   align-items: center;
       width: 100%;
   padding-top: 2rem;
+  height: 100vh;
+      background: #121213 ;
 }
-.aboutme-top-container {
-      margin-top: -1rem;
-  align-items: center;
+.aboutme-navigation{
   display: flex;
-  justify-content: space-evenly;
-  width: 100%;
-}
-.img-place-holder {
-  // background-image: url('./IMG_6878.jpg');
-    height: 7rem;
-    background-position: center;
-    width: 7rem;
-    border-radius: 4rem;
-    background-color: aliceblue;
-    background-size: 169px;
-    background-repeat: no-repeat;
-}
-.bullet-point {
-  margin: 8px;
-  font-family: "Inter", sans-serif;
- color:$subtext;
-  font-size: 13px;
+  flex-direction: row;
+  justify-content: space-between;
 }
 .Heading2 {
-  align-self: baseline;
-  height: fit-content;
-  font-family: "Inter", sans-serif;
-      padding: 15px;
-color:white;
-}
-
-.Passage1 {
-    width: 325px;
-    font-family: "Inter", sans-serif;
+    align-self: baseline;
+    font-family: Antonio;
     font-style: normal;
-    font-size: 13px;
-    line-height: 1.3rem;
-    padding: 9px;
+    font-weight: 300;
+    font-size: 2.5rem;
+    line-height: 19px;
+    padding: 15px;
     color: white;
-    margin-bottom: 1rem;
+}
+.aboutme-points{
+padding: 0;
+  align-self: baseline;
+  margin-left: 3rem;
+}
+.bullet-points {
+  margin: 8px;
+text-transform: capitalize;
+font-family: Antonio;
+font-style: normal;
+font-weight: 100;
+font-size: 13px;
+line-height: 19px;
+ color:$subtext;
 }
 
+
+//process
+.process{
+background: #121213 ;
+height: 100vh;
+width: 100%;
+display: flex;
+    justify-content: space-between;
+}
+.process-contianer{
+    display: flex;
+    flex-direction: column;
+    margin: 1px 31px;
+    align-self: center;
+}
+
+.process-step1{
+
+}
+.process-step2{
+
+}
+.process-step3{
+
+}
+.process-step4{
+
+}
+.process-step1-des-container{
+      align-self: center;
+}
+
+.process-heading{
+    justify-content: center;
+    display: flex;
+    padding: 1rem;
+    line-height: 1.5rem;
+    order: 2;
+     color:$subtext;
+}
+.procss-des{
+    align-self: center;
+    display: flex;
+    padding: 2rem;
+    line-height: 1.5rem;
+    order: 2;
+     color:$subtext;
+}
+//WhoIam 
+.whoiam{
+ background: #121213 ;
+   height: 100vh;
+       width: 100%;
+}
+.aboutme-whoiam{
+   padding: 3rem;
+    line-height: 1.5rem;
+    order: 2;
+    color: white; 
+}
+
+/// Tech 
+.tech{
+  display: flex;
+      flex-direction: column;
+ background: #121213 ;
+   height: 100vh;
+   color: white; 
+       width: 100%;
+}
+.aboutme-tech{
+ align-self: center;
+    display: flex;
+    padding: 3rem;
+    line-height: 1.5rem;
+    order: 2;
+}
 @media only screen and (min-device-width: 576px) {
   .aboutMeSection {
     width: 80%;

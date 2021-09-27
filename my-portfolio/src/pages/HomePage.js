@@ -5,12 +5,12 @@ import ProjectSection from "../Sections/ProjectSection";
 
 const HomePage = () => {
   return (
-       <div className="Main-Sec">
     <div className="Main-Sec">
-      <LandingSection />
+      <div className="Main-Sec">
+        <LandingSection />
+      </div>
       <AboutMeSection />
       <ProjectSection />
-      </div>
     </div>
   );
 };

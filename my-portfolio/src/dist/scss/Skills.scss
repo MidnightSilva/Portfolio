@@ -1,14 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&display=swap");
 @import "./Variables";
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100;200;300;400;600;700&display=swap');
 
 .skills-container {
-        width: 90%;
-  margin-top: -3rem;
-      flex-direction: column;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2rem;
+    justify-content: space-evenly;
+    height: 12rem;
+    align-self: center;
+    order: 1;
 }
 
 .card-title {
@@ -34,10 +36,12 @@ $subheading:#394867;
     width: 90%;
     display: flex;
     flex-wrap: wrap;
-    margin-bottom: 3rem;
+    margin: 1.5rem;
     justify-content: space-evenly;
-    height: 17rem;
-  }
+    height: 10rem;
+    align-self: center;
+}
+  
     .skill-title-logo-container {
   display: flex;
     align-items: center;
@@ -53,8 +57,8 @@ display: flex;
     margin-bottom: -13px;
 }
 .skill-logo{
-    margin: 11px 8px;
-    height: 2.7rem;
+    margin: 3px 9px;
+    height: 2.1rem;
 }
 .skill-logo1{
       height: 3rem;
