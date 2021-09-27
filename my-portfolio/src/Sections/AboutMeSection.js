@@ -1,12 +1,6 @@
 import AboutMeNavigation from "../components/AboutMeNavigation.jsx"
 // import Resume from "../components/Resume";
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Link,
-  BrowserRouter,
-} from "react-router-dom";
+import {Route,BrowserRouter } from "react-router-dom";
 import WhoIAm from "../components/WhoIAm.jsx";
 import Tech from "../components/Tech.jsx";
 import Process from "../components/Process.jsx";
