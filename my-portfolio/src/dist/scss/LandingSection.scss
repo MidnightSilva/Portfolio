@@ -25,20 +25,19 @@
 }
 .compass-icon-outer{
     opacity: 0;
-  animation: show2 1s ease-in-out forwards 6s;
-     align-self: center;
-    margin-top: 12rem;
-    height: 14rem;
+    animation: show2 1s ease-in-out forwards 6s;
+    align-self: center;
+    height: 12rem;
     width: auto;
-    margin-bottom: 1rem;
+
 }
 .compass-icon {
-      position: absolute;
-    top: 37%;
-    left: 40.5%;
+    position: absolute;
+    top: 35%;
+    left: 43.5%;
     animation: spin 5s ease-in-out both 1s;
     align-self: center;
-    height: 7rem;
+    height: 5rem;
     width: auto;
 }
 
@@ -48,7 +47,6 @@
   color: white;
   font-family: "Inter", sans-serif;
   font-weight: 600;
-  margin-bottom: -10rem;
   align-self: center;
 }
 .morphing {

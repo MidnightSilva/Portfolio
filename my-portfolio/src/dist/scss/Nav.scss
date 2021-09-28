@@ -1,24 +1,32 @@
 @import "./Variables";
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100;200;300;400;600;700&display=swap');
 .navbackground {
   position: fixed;
   display: flex;
   width: 100vw;
-  justify-content: center;
+     justify-content: space-between;
   top: 0rem;
-  background: rgba(28, 42, 58, 0.37);
+  background: rgba(14, 21, 29, 0.767);
   z-index: 6;
 }
-
+.nav-heading{
+      font-family: Antonio;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    line-height: 19px;
+    color: white;
+}
 .nav-right {
-  display: flex;
-  justify-content: space-evenly;
-  width: 70%;
-  color: white;
-  font-family: "Inter", sans-serif;
-  font-weight: 500;
-  font-size: 14px;
-  margin-top: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    font-family: "Inter", sans-serif;
+    padding: 8px;
+    font-weight: 500;
+    font-size: 14px;
 }
 
 .nav-center {
@@ -28,14 +36,49 @@
   margin-left: 1rem;
 }
 .nav-left {
-  margin-left: 1rem;
-  margin-right: 1rem;
-  margin-top: 1rem;
-  height: 2rem;
-  width: 8%;
-  margin-top: 12px;
+    width: 8%;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    font-family: "Inter", sans-serif;
+    padding: 8px 20px;
+    font-weight: 500;
+    font-size: 14px;
+
 }
 
+//hamburger menu mobile toggle
+.hamburger-menu-icon{
+
+}
+.hamburger-menu-icon.Show{
+  
+}
+.hamburgerMenu{
+ display: none
+}
+
+.hamburgerMenu.Show{
+    display: flex;
+    position: fixed;
+    flex-direction: column;
+     background: rgba(14, 21, 29, 0.767);
+      align-items: center;
+    width: 40%;
+    margin-left: 60%;
+    margin-top: 21.2%;
+    z-index: 100;
+}
+.link{
+    text-transform: capitalize;
+    font-family: Antonio;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 16px;
+    line-height: 15px;
+    margin: 16px 14px;
+ color:$subtext;
+}
 .linkedinlogo {
   height: 2rem;
 }

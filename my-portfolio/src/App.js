@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, } from "react-router-dom";
 import HomePage from "./pages/HomePage";
-import Nav from "./components/Nav";
+import NavMobile from "./components/NavMobile";
 import "./dist/scss/App.scss";
 import "./dist/scss/Nav.scss";
 import "./dist/scss/Resume.scss";
@@ -15,7 +15,7 @@ import "./dist/scss/Form.scss";
 function App() {
   return (
     <>
-      <Nav />
+      <NavMobile/>
       <Router>
         <HomePage />
       </Router>
