@@ -62,6 +62,7 @@
     display: flex;
     position: fixed;
     flex-direction: column;
+     border-top: 1px solid white;
      background: rgba(14, 21, 29, 0.767);
       align-items: center;
     width: 40%;
@@ -70,21 +71,60 @@
     z-index: 100;
 }
 .link{
+       margin: 1rem;
     text-transform: capitalize;
     font-family: Antonio;
     font-style: normal;
     font-weight: 100;
     font-size: 16px;
-    line-height: 15px;
-    margin: 16px 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    width: 100%;
  color:$subtext;
 }
+.link-a{
+      text-transform: capitalize;
+    text-decoration: none;
+    color: white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-right: 0rem;
+    margin-left: 0rem;
+       height: 2rem;
+    text-transform: capitalize;
+    font-family: Antonio;
+    font-style: normal;
+    padding:1rem;
+    border-bottom: 1px solid white;
+    align-items: center;
+}
 .linkedinlogo {
-  height: 2rem;
+    height: 2rem;
+    text-transform: capitalize;
+    font-family: Antonio;
+    font-style: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    margin: 1rem;
 }
 
 .githublogo {
-  height: 2rem;
+    height: 2rem;
+    text-transform: capitalize;
+    font-family: Antonio;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+      margin: 1rem 1rem 1rem 2rem;
 }
 @media only screen and (min-device-width: 992px) {
 }

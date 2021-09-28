@@ -5,7 +5,17 @@ body {
   box-sizing: border-box;
     background: #121213 
 }
-
+a{
+  width:100%;
+      text-transform: capitalize;
+    text-decoration: none;
+    color: white;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 0rem;
+    border-bottom: 1px solid white;
+}
 .Main {
     display: flex;
   overflow: visible;

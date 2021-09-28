@@ -40,10 +40,16 @@ const Nav = () => {
         <Link activeClass="active" to="form" spy={true} smooth={true}>
           <p className="link">Contact Me</p>
         </Link>
-        <a href="https://www.linkedin.com/in/jorgelsilvajr/">
-          <img src={linkedin} className="linkedinlogo" alt="linkedin-logo" />
+        <a href="https://www.linkedin.com/in/jorgelsilvajr/" className="link-a">
+          <p>linkedin</p>
+          <img
+            src={linkedin}
+            className="linkedinlogo"
+            alt="linkedin-logo"
+          ></img>
         </a>
-        <a href="https://github.com/MidnightSilva">
+        <a href="https://github.com/MidnightSilva" className="link-a">
+          Github
           <img src={github} className="githublogo" alt="github-logo" />
         </a>
       </div>
