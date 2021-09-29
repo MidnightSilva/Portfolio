@@ -18,6 +18,7 @@
     text-transform: capitalize;
     line-height: 19px;
     color: white;
+        padding-left: 16px;
 }
 .nav-right {
     display: flex;
@@ -41,7 +42,7 @@
     justify-content: space-evenly;
     color: white;
     font-family: "Inter", sans-serif;
-    padding: 8px 20px;
+    padding: 8px 30px;
     font-weight: 500;
     font-size: 14px;
 
@@ -63,6 +64,7 @@
     position: fixed;
     flex-direction: column;
      border-top: 1px solid white;
+        border-bottom: 1px solid white;
      background: rgba(14, 21, 29, 0.767);
       align-items: center;
     width: 40%;
@@ -71,7 +73,6 @@
     z-index: 100;
 }
 .link{
-       margin: 1rem;
     text-transform: capitalize;
     font-family: Antonio;
     font-style: normal;
@@ -85,20 +86,17 @@
  color:$subtext;
 }
 .link-a{
-      text-transform: capitalize;
+text-transform: capitalize;
     text-decoration: none;
     color: white;
     width: 100%;
     display: flex;
     justify-content: center;
-    margin-right: 0rem;
-    margin-left: 0rem;
-       height: 2rem;
+    height: 1rem;
     text-transform: capitalize;
     font-family: Antonio;
     font-style: normal;
-    padding:1rem;
-    border-bottom: 1px solid white;
+    padding: 1rem;
     align-items: center;
 }
 .linkedinlogo {

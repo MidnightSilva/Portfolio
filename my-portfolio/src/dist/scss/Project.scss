@@ -13,23 +13,32 @@
 
 /* heading  and describtion */
 .heading4 {
-  align-self: baseline;
-  height: fit-content;
-  font-family: "Inter", sans-serif;
-color:$heading;
+    align-self: baseline;
+    font-family: Antonio;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 2.5rem;
+    line-height: 19px;
+    padding: 15px;
+    color: white;
 }
 
 .development-description {
-    margin-top: -1rem;
-    width: 90%;
-    padding: 9px;
-    height: -moz-fit-content;
-    height: fit-content;
-    font-family: "Inter", sans-serif;
-    font-style: normal;
-    font-size: 13px;
-    line-height: 1.3rem;
-    color: $subtext;
+    // margin-top: -1rem;
+    // width: 90%;
+    // padding: 9px;
+    // height: -moz-fit-content;
+    // height: fit-content;
+    // font-family: "Inter", sans-serif;
+    // font-style: normal;
+    // font-size: 13px;
+    // line-height: 1.3rem;
+    // color: $subtext;
+        padding: 3rem;
+    line-height: 1.5rem;
+    order: 2;
+    color: white;
+
 }
 /* for the projects base code  */
 
@@ -41,7 +50,7 @@ width: 100%;
     align-items: center;
 }
 .project {
-    background: #303643;
+
     border-radius: 7px;
     height: 199px;
     display: flex;

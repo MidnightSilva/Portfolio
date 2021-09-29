@@ -4,13 +4,12 @@ import OuterCompass from "../components/OuterCompass"
 const LandingSection = () => {
   return (
     <div className="landing-tile">
-      <div className="greating-compass-container">
         <h2 className="landing-greeting">Welcome 👋🏼 I’m Jorge</h2>
         <div className="compass-container">
-          <OuterCompass>
+          <OuterCompass/>
             <CompassIcon />
-          </OuterCompass>
-          <CompassIcon />
+          
+          
         </div>
 
         <div class="morphing">
@@ -18,7 +17,6 @@ const LandingSection = () => {
           <div class="word">UX/UI Designer &</div>
           <div class="word">Fronted Developer</div>
         </div>
-      </div>
       {/* <div class="arrow">
         <span></span>
         <span></span>
