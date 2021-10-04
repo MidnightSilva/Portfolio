@@ -1,8 +1,10 @@
 import React from "react";
-
+import jorgeImg from '../assets/Images/FullSizeRender.jpg'
+// import jorgeImg from "../dist/scss/IMG_7779.jpg";
 const WhoIAm = () => {
   return (
     <div className="whoiam" id="whoiam">
+      <img src={jorgeImg} alt="Jorge Silva" className='jorge-img' />
       <p className='aboutme-whoiam'>
         I’m a Navy Veteran with a wide range of experience, including
         maintaining steam engines, fire sprinklers and other complex systems. I
