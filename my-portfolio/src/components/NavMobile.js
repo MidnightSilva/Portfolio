@@ -32,15 +32,23 @@ const Nav = () => {
       </div>
       <div className={`hamburgerMenu ${hamburgermenuToggle ? "Show" : ""}`}>
         <Link activeClass="active" to="aboutme" spy={true} smooth={true}>
-          <p className="link">About Me</p>
+          <p className="link" onClick={toggleHamburgerMenu}>
+            About Me
+          </p>
         </Link>
         <Link activeClass="active" to="project" spy={true} smooth={true}>
-          <p className="link">Projects</p>
+          <p className="link" onClick={toggleHamburgerMenu}>
+            Projects
+          </p>
         </Link>
         <Link activeClass="active" to="form" spy={true} smooth={true}>
           <p className="link">Contact Me</p>
         </Link>
-        <a href="https://www.linkedin.com/in/jorgelsilvajr/" className="link-a">
+        <a
+          href="https://www.linkedin.com/in/jorgelsilvajr/"
+          onClick={toggleHamburgerMenu}
+          className="link-a"
+        >
           <p>linkedin</p>
           <img
             src={linkedin}
@@ -48,7 +56,11 @@ const Nav = () => {
             alt="linkedin-logo"
           ></img>
         </a>
-        <a href="https://github.com/MidnightSilva" className="link-a">
+        <a
+          href="https://github.com/MidnightSilva"
+          className="link-a"
+          onClick={toggleHamburgerMenu}
+        >
           Github
           <img src={github} className="githublogo" alt="github-logo" />
         </a>

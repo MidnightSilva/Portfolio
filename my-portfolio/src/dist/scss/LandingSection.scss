@@ -1,12 +1,12 @@
 @import "./Variables";
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&display=swap");
 .landing-tile {
-     margin-top: 9rem;
+ margin-top: 9rem;
     margin-bottom: 3.9rem;
     display: flex;
-    height: fit-content;
+    height: 25rem;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 }
 .stars {
