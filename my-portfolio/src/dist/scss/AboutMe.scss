@@ -157,13 +157,17 @@ display: flex;
     width: 20rem;
     border-radius: 17px;
     margin-bottom: -39px;
+      -webkit-filter: invert(100%); /* Safari/Chrome */
+    filter: grayscale(.2);
 }
 .aboutme-whoiam{
-    padding: 0rem 3rem 0rem 3rem;
-    margin-top: 5rem;
+ padding: 1rem 1rem 0rem 0rem;
+    margin-top: 4rem;
     line-height: 1.5rem;
     order: 2;
+    border-top: 1px solid white;
     color: white;
+    width: 71%;
 }
 
 /// Tech 
