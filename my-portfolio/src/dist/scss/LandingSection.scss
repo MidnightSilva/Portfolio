@@ -70,10 +70,16 @@ display: flex;
     letter-spacing: 0.05em;
 }
 .hand{
-   animation: show2 3s ease-in-out forwards 6s;
+animation-name: wave-animation;  /* Refers to the name of your @keyframes element below */
+  animation-duration: 2.5s;        /* Change to speed up or slow down */
+  animation-iteration-count: infinite;  /* Never stop waving :) */
+  transform-origin: 70% 70%;       /* Pivot around the bottom-left palm */
+  display: inline-block;
 }
 .highlight{
- color: rgb(108, 126, 145);
+    color: #6c7e91;
+    padding: .2rem;
+
 }
 .arrow {
      margin-top: -4rem;
@@ -129,40 +135,18 @@ display: flex;
     opacity: 1;
   }
 }
-@keyframes animate {
-  0% {
-    opacity: 0;
-    transform: rotate(45deg) translate(-20px, -20px);
-  }
-  50% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-    transform: rotate(45deg) translate(20px, 20px);
-  }
+
+@keyframes wave-animation {
+    0% { transform: rotate( 0.0deg) }
+   10% { transform: rotate(14.0deg) }  /* The following five values can be played with to make the waving more or less extreme */
+   20% { transform: rotate(-8.0deg) }
+   30% { transform: rotate(14.0deg) }
+   40% { transform: rotate(-4.0deg) }
+   50% { transform: rotate(10.0deg) }
+   60% { transform: rotate( 0.0deg) }  /* Reset for the last half to pause */
+  100% { transform: rotate( 0.0deg) }
 }
 
-@keyframes spin2 {
-  0% {
-    transform: rotate(0);
-
-  }
-  100% {
-    transform: rotate(720deg);
-  }
-}
-
-@keyframes spin3 {
-  0% {
-    transform: rotate(0);
-    z-index: 2;
-  }
-  100% {
-    transform: rotate(-720deg);
-    z-index: 2;
-  }
-}
 @media only screen and (min-device-width: 992px) {
 }
 @media only screen and (min-width: 1200px) {

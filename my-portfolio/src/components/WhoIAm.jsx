@@ -8,14 +8,14 @@ const WhoIAm = () => {
   const item = {
     hidden: {
       opacity:[0,.2,.5],
-      scale: [.4,1],
+      scale: [.6,1],
       transition: { duration: 3 },
     },
   };
   const item2 = {
     hidden: {
       opacity: [0, 0.2, 0.9],
-      scale: [0.4, 1],
+      scale: [0.6, 1],
       transition: { duration: 3 },
       
     },
