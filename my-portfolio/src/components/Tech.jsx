@@ -11,22 +11,37 @@ import react from "../assets/Svgs/react-2.svg";
 import node from "../assets/Svgs/nodejs-icon.svg";
 import mongodb from "../assets/Svgs/mongodb.svg";
 import jest from "../assets/Svgs/jest-seeklogo.com.svg";
-
+import { motion } from "framer-motion";
 const Tech = () => {
+   const item = {
+     hidden: {
+       opacity: [0, 0.2, 0.8],
+       scale: [0.4, 1],
+       transition: { duration: 3 },
+     },
+   };
+   const item2 = {
+     hidden: {
+       opacity: [0, 0.2, 0.9],
+       scale: [0.4, 1],
+       transition: { duration: 3 },
+     },
+   };
+
   return (
     <div className="tech" id="tech">
-      <div className="aboutme-tech">
+      <motion.div className="aboutme-tech" variants={item2} animate="hidden">
         {" "}
         Integrating what I learned about Full Stack Development & User
-        experience design from BrainStation,I am able to fully create 
-        create wireframes & prototypes. Implement best practices such as control
-        & freedom, error prevention, Navigation, Alignment, Buttons/CTAs,
+        experience design from BrainStation,I am able to fully create create
+        wireframes & prototypes. Implement best practices such as control &
+        freedom, error prevention, Navigation, Alignment, Buttons/CTAs,
         Consistency responsive sites across different browser types. Able to
         work with rest Api’s.I am able to fully create responsive sites across
-            different browser types. Able to work with rest Api’s.
-      </div>
+        different browser types. Able to work with rest Api’s.
+      </motion.div>
 
-      <div className="logo-container">
+      <motion.div className="logo-container" variants={item} animate="hidden">
         <img className="skill-logo" src={acc} alt="adobecreative-cloud-logo" />
         <img className="skill-logo" src={figma} alt="figma-logo" />{" "}
         <img className="skill-logo" src={git} alt="git-logo" />{" "}
@@ -39,7 +54,7 @@ const Tech = () => {
         <img className="skill-logo" src={node} alt="node-logo" />{" "}
         <img className="skill-logo" src={mongodb} alt="mongodb-logo" />{" "}
         <img className="skill-logo" src={jest} alt="jest-logo" />
-      </div>
+      </motion.div>
     </div>
   );
 };
