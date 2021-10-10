@@ -39,7 +39,7 @@ const handleClickProces21Of4 = () => {
    process4 ? setProcess4(false) : setProcess4(false);
 //    setGame("playing");
 };
-const handleClickProces31Of4 = () => {
+const handleClickProces3Of4 = () => {
   process3 ? setProcess3(false) : setProcess3(true);
    process1 ? setProcess1(false) : setProcess1(false);
    process2 ? setProcess2(false) : setProcess2(false);
@@ -71,6 +71,7 @@ const handleClickProcess4Of4 = () => {
           onClick={handleClickProcess1Of4}
         />
       )}
+
       {process2 ? (
         <img
           className="process-step2"
@@ -86,19 +87,20 @@ const handleClickProcess4Of4 = () => {
           onClick={handleClickProces21Of4}
         />
       )}
+
       {process3 ? (
         <img
           className="process-step3"
           src={Process3of4Pressed}
           alt=""
-          onClick={handleClickProces31Of4}
+          onClick={handleClickProces3Of4}
         />
       ) : (
         <img
           className="process-step3"
           src={Process3of4}
           alt=""
-          onClick={handleClickProces31Of4}
+          onClick={handleClickProces3Of4}
         />
       )}
       {process4 ? (
