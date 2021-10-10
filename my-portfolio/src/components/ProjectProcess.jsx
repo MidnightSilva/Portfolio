@@ -1,19 +1,22 @@
-import Process1of4 from '../assets/Svgs/Process1of4.svg'
-import Process2of4 from "../assets/Svgs/Process2of4.svg";
-import Process3of4 from "../assets/Svgs/Process3of4.svg";
-import Process4of4 from "../assets/Svgs/Process4of4.svg";
+
+import { useState } from "react"
 import { motion } from "framer-motion"
+import ProcessCard from './ProcessCard';
+import Processbar from "./Processbar";
 const ProjectProcess = () => {
+
+// const [process, setProcess ] = useState(false)
+const [game, ] = useState("start");
+
+// const toggleProcess =() =>{
+//   process ? setProcess(false) : setProcess(true)
+// }
+//  const handleClick = (gameState) => {
+//    setGame(gameState);
+//  };
     const item = {
       hidden: {
         opacity: [0, 0.2, 0.5],
-        scale: [0.6, 1],
-        transition: { duration: 3 },
-      },
-    };
-    const item2 = {
-      hidden: {
-        opacity: [0, 0.2, 0.9],
         scale: [0.6, 1],
         transition: { duration: 3 },
       },
@@ -25,24 +28,54 @@ const ProjectProcess = () => {
           variants={item}
           animate="hidden"
         >
-          <img className="process-step1" src={Process1of4} alt="" />
-          <img className="process-step2" src={Process2of4} alt="" />
-          <img className="process-step3" src={Process3of4} alt="" />
-          <img className="process-step4" src={Process4of4} alt="" />
+          <Processbar/>
         </motion.div>
-        <motion.div
-          className="process-step1-des-container"
-          variants={item2}
-          animate="hidden"
-        >
-          <h3 className="process-heading">Research</h3>
-          <p className="procss-des">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+        {(() => {
+          switch (game) {
+            case "start":
+              return (
+                <ProcessCard
+                  processTitle="Research"
+                  processDes=" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
             morbi ultrices nulla tellus diam faucibus ut odio. At scelerisque
             nisi, semper habitant enim in in elementum. Sollicitudin diam,
-            interdum scelerisque convallis.
-          </p>
-        </motion.div>
+            interdum scelerisque convallis."
+                />
+              );
+            case "playing":
+              return (
+                <ProcessCard
+                  processTitle="Plan"
+                  processDes=" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+            morbi ultrices nulla tellus diam faucibus ut odio. At scelerisque
+            nisi, semper habitant enim in in elementum. Sollicitudin diam,
+            interdum scelerisque convallis."
+                />
+              );
+            case "won":
+              return (
+                <ProcessCard
+                  processTitle="Build"
+                  processDes=" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+            morbi ultrices nulla tellus diam faucibus ut odio. At scelerisque
+            nisi, semper habitant enim in in elementum. Sollicitudin diam,
+            interdum scelerisque convallis."
+                />
+              );
+            case "lost":
+              return (
+                <ProcessCard
+                  processTitle="Launch"
+                  processDes=" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+            morbi ultrices nulla tellus diam faucibus ut odio. At scelerisque
+            nisi, semper habitant enim in in elementum. Sollicitudin diam,
+            interdum scelerisque convallis."
+                />
+              );
+            default:
+              return null;
+          }
+        })()}
       </>
     );
 }
