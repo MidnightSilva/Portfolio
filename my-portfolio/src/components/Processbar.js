@@ -9,113 +9,108 @@ import Process3of4Pressed from "../assets/Svgs/Process3of4Pressed.svg";
 
 import Process4of4 from "../assets/Svgs/Process4of4.svg";
 import Process4of4Pressed from "../assets/Svgs/Process4of4Pressed.svg";
-
-import { useState } from "react";
-
+import { useContext } from "react";
+import { AppContext } from "../Context/AppContext";
+import { motion } from "framer-motion";
 
 const Processbar = () => {
-    // const [game, setGame] = useState("start");
 
-  const [process1, setProcess1] = useState(false);
-  const [process2, setProcess2] = useState(false);
-  const [process3, setProcess3] = useState(false);
-  const [process4, setProcess4] = useState(false);
-
-//    const handleClick = (gameState) => {
-//      setGame(gameState);
-//    };
-const handleClickProcess1Of4 = () => {
-  process1 ? setProcess1(false) : setProcess1(true);
-  process2 ? setProcess2(false) : setProcess2(false);
-  process3 ? setProcess3(false) : setProcess3(false);
-   process4 ? setProcess4(false) : setProcess4(false);
-//    setGame("start");
-};
-const handleClickProces21Of4 = () => {
-  process2 ? setProcess2(false) : setProcess2(true);
-
-  process1 ? setProcess1(false) : setProcess1(false);
-   process3 ? setProcess3(false) : setProcess3(false);
-   process4 ? setProcess4(false) : setProcess4(false);
-//    setGame("playing");
-};
-const handleClickProces3Of4 = () => {
-  process3 ? setProcess3(false) : setProcess3(true);
-   process1 ? setProcess1(false) : setProcess1(false);
-   process2 ? setProcess2(false) : setProcess2(false);
-   process4 ? setProcess4(false) : setProcess4(false);
-//  setGame("lost");
-};
-const handleClickProcess4Of4 = () => {
-  process4 ? setProcess4(false) : setProcess4(true);
-  process1 ? setProcess1(false) : setProcess1(false);
-  process2 ? setProcess2(false) : setProcess2(false);
-     process3 ? setProcess3(false) : setProcess3(false);
-    //   setGame("won");
- 
+      const {
+        process1,
+        process2,
+        process3,
+        process4,
+        handleClickProcess1Of4,
+        handleClickProces21Of4,
+        handleClickProces3Of4,
+        handleClickProcess4Of4,
+      } = useContext(AppContext);
+const item = {
+  hidden: {
+    opacity: [0, 0.2, 1],
+    scale: [0.6, 1],
+    transition: { duration: 3 },
+  },
 };
   return (
+      
     <div>
       {process1 ? (
-        <img
+        <motion.img
           className="process-step1"
           src={Process1of4Pressed}
           alt=""
           onClick={handleClickProcess1Of4}
+          variants={item}
+          animate="hidden"
         />
       ) : (
-        <img
+        <motion.img
           className="process-step1"
           src={Process1of4}
           alt=""
           onClick={handleClickProcess1Of4}
+          variants={item}
+          animate="hidden"
         />
       )}
 
       {process2 ? (
-        <img
+        <motion.img
           className="process-step2"
           src={Process2of4Pressed}
           alt=""
           onClick={handleClickProces21Of4}
+          variants={item}
+          animate="hidden"
         />
       ) : (
-        <img
+        <motion.img
           className="process-step2"
           src={Process2of4}
           alt=""
           onClick={handleClickProces21Of4}
+          variants={item}
+          animate="hidden"
         />
       )}
 
       {process3 ? (
-        <img
+        <motion.img
           className="process-step3"
           src={Process3of4Pressed}
           alt=""
           onClick={handleClickProces3Of4}
+          variants={item}
+          animate="hidden"
         />
       ) : (
-        <img
+        <motion.img
           className="process-step3"
           src={Process3of4}
           alt=""
           onClick={handleClickProces3Of4}
+          variants={item}
+          animate="hidden"
         />
       )}
       {process4 ? (
-        <img
+        <motion.img
           className="process-step4"
           src={Process4of4Pressed}
           alt=""
           onClick={handleClickProcess4Of4}
+          variants={item}
+          animate="hidden"
         />
       ) : (
-        <img
+        <motion.img
           className="process-step4"
           src={Process4of4}
           alt=""
           onClick={handleClickProcess4Of4}
+          variants={item}
+          animate="hidden"
         />
       )}
     </div>

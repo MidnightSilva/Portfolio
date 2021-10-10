@@ -2,6 +2,7 @@ import React from 'react'
 import { motion } from "framer-motion";
 
 const ProcessCard = (props) => {
+    
       const item2 = {
         hidden: {
           opacity: [0, 0.2, 0.9],

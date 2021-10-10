@@ -10,15 +10,17 @@ import "./dist/scss/LandingSection.scss";
 import "./dist/scss/AboutMe.scss";
 import "./dist/scss/Project.scss";
 import "./dist/scss/Form.scss";
-
+import AppContextProvider from "./Context/AppContext";
 
 function App() {
   return (
     <>
-      <NavMobile/>
-      <Router>
-        <HomePage />
-      </Router>
+      <AppContextProvider>
+        <NavMobile/>
+        <Router>
+            <HomePage />
+        </Router>
+      </AppContextProvider>
     </>
   );
 }

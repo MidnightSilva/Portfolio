@@ -1,19 +1,15 @@
-
-import { useState } from "react"
 import { motion } from "framer-motion"
+import { useContext } from "react";
+import { AppContext } from "../Context/AppContext";
 import ProcessCard from './ProcessCard';
 import Processbar from "./Processbar";
+
 const ProjectProcess = () => {
 
-// const [process, setProcess ] = useState(false)
-const [game, ] = useState("start");
+ const {
+   game,
+ } = useContext(AppContext);
 
-// const toggleProcess =() =>{
-//   process ? setProcess(false) : setProcess(true)
-// }
-//  const handleClick = (gameState) => {
-//    setGame(gameState);
-//  };
     const item = {
       hidden: {
         opacity: [0, 0.2, 0.5],
@@ -36,10 +32,7 @@ const [game, ] = useState("start");
               return (
                 <ProcessCard
                   processTitle="Research"
-                  processDes=" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
-            morbi ultrices nulla tellus diam faucibus ut odio. At scelerisque
-            nisi, semper habitant enim in in elementum. Sollicitudin diam,
-            interdum scelerisque convallis."
+                  processDes=" Lorem ipsum dolor sit amet, consectetur adipiscing elit."
                 />
               );
             case "playing":
@@ -48,8 +41,7 @@ const [game, ] = useState("start");
                   processTitle="Plan"
                   processDes=" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
             morbi ultrices nulla tellus diam faucibus ut odio. At scelerisque
-            nisi, semper habitant enim in in elementum. Sollicitudin diam,
-            interdum scelerisque convallis."
+            nisi, semper habitant enim in in elementum. "
                 />
               );
             case "won":
@@ -67,13 +59,16 @@ const [game, ] = useState("start");
                 <ProcessCard
                   processTitle="Launch"
                   processDes=" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
-            morbi ultrices nulla tellus diam faucibus ut odio. At scelerisque
-            nisi, semper habitant enim in in elementum. Sollicitudin diam,
-            interdum scelerisque convallis."
+            morbi ultrices nulla tellus diam faucibus ut odio. "
                 />
               );
             default:
-              return null;
+              return (
+                <ProcessCard
+                  processTitle="Welcome"
+                  processDes=" Check out my Process for building a system."
+                />
+              );
           }
         })()}
       </>
