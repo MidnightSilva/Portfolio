@@ -111,6 +111,7 @@ display: flex;
     flex-direction: column;
     margin: 1px 31px;
     align-self: center;
+        width: 12%;
 }
 
 .process-step1{
@@ -187,26 +188,21 @@ display: flex;
     order: 2;
 }
 @media only screen and (min-device-width: 576px) {
-  .aboutMeSection {
-    width: 80%;
+.aboutme-navigation{
+    padding: 1rem 2rem 1rem 1rem;
+    width: 95%;
 }
-.Passage1{
-  width: 100%;
+.process-contianer {  
+width: 12%;
 }
+
 }
 
 
 
 @media only screen and (min-device-width: 992px) {
-  .aboutMeSection{
-    width: 66%;
-  }
-  .aboutme-top-container{
-    justify-content: space-evenly;
-  }
-  .Passage1{
-    margin-top: 3rem;
-  }
+  
+
 }
 
 @media only screen and (min-width: 1200px) {

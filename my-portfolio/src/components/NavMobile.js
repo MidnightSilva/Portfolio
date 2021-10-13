@@ -14,7 +14,7 @@ const Nav = () => {
 
   return (
     <>
-      <div className="navbackground">
+      <div className="navbackground-mobile">
         <div className="nav-right">
           <p className="nav-heading">Silva's Portfoilo</p>
         </div>

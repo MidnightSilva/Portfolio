@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, } from "react-router-dom";
 import HomePage from "./pages/HomePage";
-import NavMobile from "./components/NavMobile";
+import Nav from "./components/Nav"
 import "./dist/scss/App.scss";
 import "./dist/scss/Nav.scss";
 import "./dist/scss/Resume.scss";
@@ -16,7 +16,7 @@ function App() {
   return (
     <>
       <AppContextProvider>
-        <NavMobile/>
+        <Nav/>
         <Router>
             <HomePage />
         </Router>

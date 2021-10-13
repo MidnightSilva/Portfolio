@@ -292,7 +292,7 @@ list-style-type: square;
 }
 @media only screen and (min-device-width: 576px) {
   .Project-sec {
-  width: 85%;
+
 }
 .project {
     width: 27rem;
@@ -301,7 +301,6 @@ list-style-type: square;
 .development-description{
    
     margin-bottom: 1rem;
-    width: 100%;
 }
 .p1{  
 margin: 7.5px;
@@ -315,8 +314,7 @@ margin: 7.5px;
 
 
 .project-des{
-width: 86%;
-margin-left: 4%;
+
 }
 }
 
@@ -338,26 +336,23 @@ margin-left: 4%;
 .mindPassge{
 align-self: center;
 }
-.project-tag-title-container{
-width: 80%;
-align-self: center;
-  }
 
 .Project-sec{
-  width: 66%;
+
 }
 }
 
 
 @media only screen and (min-width: 1200px) {
-  .Project-sec {
-    width: 63%;
-}
+  .process-contianer {
+    width: 9%;
+   padding-left: 0rem;}
+
 }
 @media only screen and (min-width: 1400px) {
 
 .modal-header{
-      height: 13rem;
+    
 }
 // .mindPassge{
 //   margin-top: 0;
