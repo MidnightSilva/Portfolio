@@ -32,16 +32,20 @@ const ProjectProcess = () => {
               return (
                 <ProcessCard
                   processTitle="Research"
-                  processDes=" Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                  processDes="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+            morbi ultrices nulla tellus diam faucibus ut odio. At scelerisque
+            nisi, semper habitant enim in in elementum. Sollicitudin diam,
+            interdum scelerisque convallis."
                 />
               );
             case "playing":
               return (
                 <ProcessCard
                   processTitle="Plan"
-                  processDes=" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+                  processDes="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
             morbi ultrices nulla tellus diam faucibus ut odio. At scelerisque
-            nisi, semper habitant enim in in elementum. "
+            nisi, semper habitant enim in in elementum. Sollicitudin diam,
+            interdum scelerisque convallis. "
                 />
               );
             case "won":
@@ -58,8 +62,10 @@ const ProjectProcess = () => {
               return (
                 <ProcessCard
                   processTitle="Launch"
-                  processDes=" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
-            morbi ultrices nulla tellus diam faucibus ut odio. "
+                  processDes="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+            morbi ultrices nulla tellus diam faucibus ut odio. At scelerisque
+            nisi, semper habitant enim in in elementum. Sollicitudin diam,
+            interdum scelerisque convallis. "
                 />
               );
             default:

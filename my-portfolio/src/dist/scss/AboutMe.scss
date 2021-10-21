@@ -15,7 +15,8 @@
       margin-bottom: 1rem;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+    width: 91%;
+    justify-content: space-between;
 }
 .Heading2 {
     align-self: baseline;
@@ -24,7 +25,7 @@
     font-weight: 300;
     font-size: 2.3rem;
     line-height: 19px;
-    padding: 15px;
+      padding: 15px 0px 0px 0px;
     color: white;
 }
 .aboutme-points{
@@ -104,7 +105,7 @@
 background: #121213 ;
 width: 100%;
 display: flex;
-    justify-content: space-between;
+justify-content: space-evenly;
 }
 .process-contianer{
     display: flex;
@@ -127,7 +128,8 @@ display: flex;
 
 }
 .process-step1-des-container{
-      align-self: center;
+      width: 54%;
+    margin-left: 3rem;
 }
 
 .process-heading{
@@ -189,13 +191,30 @@ display: flex;
 }
 @media only screen and (min-device-width: 576px) {
 .aboutme-navigation{
-    padding: 1rem 2rem 1rem 1rem;
+
     width: 95%;
 }
 .process-contianer {  
 width: 12%;
 }
-
+.process{
+        justify-content: space-around;
+}
+.process-step1-des-container{    
+    width: 15rem;
+}
+.aboutme-whoiam{
+    padding: 3rem 3rem 7rem 2rem;
+    margin-top: 4rem;
+    margin: 36px 2px 9px 25px;
+    line-height: 1.5rem;
+    order: 2;
+    color: white;
+    width: 58%;
+}
+.aboutme-tech{
+        width: 73%;
+}
 }
 
 
