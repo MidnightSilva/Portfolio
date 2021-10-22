@@ -3,11 +3,12 @@ import NavMobile from "./NavMobile"
 
 const Nav = () => {
     return (
-        <>
-            <NavDesktop/>
-            <NavMobile/>
-        </>
-    )
+      <>
+        <NavDesktop />
+        <NavMobile />
+        
+      </>
+    );
 }
 
 export default Nav

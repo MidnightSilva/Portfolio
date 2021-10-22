@@ -3,6 +3,7 @@ import linkedin from "../assets/Svgs/linkedin.svg";
 import { Link } from "react-scroll";
 import hamburgermenu from "../assets/Svgs/hamburgerMenu.svg"
 import { useState } from "react";
+import ContactSection from "../Sections/ContactSection";
 
 const Nav = () => {
     const [hamburgermenuToggle, setHamburgerMenuToggle] = useState(false);
@@ -10,6 +11,14 @@ const Nav = () => {
     const toggleHamburgerMenu = () => {
       hamburgermenuToggle ? setHamburgerMenuToggle(false) : setHamburgerMenuToggle(true);
     };
+     const [message, setMessage] = useState(false);
+
+     const handleMessageModal = (toggleHamburgerMenu) => {
+       message ? setMessage(false) : setMessage(true);
+        hamburgermenuToggle
+          ? setHamburgerMenuToggle(false)
+          : setHamburgerMenuToggle(true);
+     };
 
 
   return (
@@ -42,7 +51,9 @@ const Nav = () => {
           </p>
         </Link>
         <Link activeClass="active" to="form" spy={true} smooth={true}>
-          <p className="link">Contact Me</p>
+          <p className="link" onClick={handleMessageModal}>
+            Contact Me
+          </p>
         </Link>
         <a
           href="https://www.linkedin.com/in/jorgelsilvajr/"
@@ -65,6 +76,8 @@ const Nav = () => {
           <img src={github} className="githublogo" alt="github-logo" />
         </a>
       </div>
+      {message ?  <ContactSection /> : null }
+      
     </>
   );
 };

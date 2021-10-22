@@ -1,29 +1,24 @@
 @import "./Variables";
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100;200;300;400;600;700&display=swap');
 .heading5 {
-  align-self: baseline;
-  height: fit-content;
-  font-family: "Inter", sans-serif;
-color:$heading;
+    align-self: baseline;
+    font-family: Antonio;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 2.3rem;
+    line-height: 19px;
+    padding: 15px 0px 0px 14px;
+    color: white;
 }
 .subheading5 {
-margin-top: -14px;
-    font-family: "Inter", sans-serif;
-    font-style: normal;
-    font-size: 13px;
-    line-height: 1.3rem;
-color:$text;
-
-    margin-bottom: 20px;
+ padding: 0rem 3rem 0rem 3rem;
+    line-height: 1.5rem;
+    color: white;
 }
 
 .formpage {
-  padding-bottom: 1rem;
-    width: 80%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+position: absolute;
 }
 .form {
 

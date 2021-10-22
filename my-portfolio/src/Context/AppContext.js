@@ -3,16 +3,29 @@ import { useState, createContext } from "react";
 export const AppContext = createContext();
 
 const AppContextProvider = (props) => {
+
+
+
+  //about me
   const [game, setGame] = useState("");
   const [process1, setProcess1] = useState(false);
   const [process2, setProcess2] = useState(false);
   const [process3, setProcess3] = useState(false);
   const [process4, setProcess4] = useState(false);
+
+
+//message
+ const [message, setMessage] = useState(false);
+
+ const handleMessageModal =() =>{
+
+  message? setMessage(true) : setMessage(false)
+ }
+  
   const handleClick = (gameState) => {
     setGame(gameState);
   };
   const handleClickProcess1Of4 = () => {
-
     process1 ? setProcess1(false) : setProcess1(true);
     process2 ? setProcess2(false) : setProcess2(false);
     process3 ? setProcess3(false) : setProcess3(false);
@@ -56,7 +69,14 @@ const AppContextProvider = (props) => {
      } else setGame("won"); 
     
   };
+
+
+  // contact me messager 
+
   const value = {
+    handleMessageModal,
+    message, 
+    setMessage,
     game,
     setGame,
     process1,
