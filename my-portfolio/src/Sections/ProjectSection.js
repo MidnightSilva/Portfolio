@@ -3,6 +3,8 @@ import React, { useState, } from "react";
 import projectJson from "../Projects.json";
 import Project from "../components/DevelopmentProject";
 import { v4 as uuidv4 } from "uuid";
+import DevelopmentProjects from '../assets/Svgs/DevelopmentProject.svg'
+import DesignProjects from "../assets/Svgs/DesginProject.svg";
 // import DesignProject from "../components/DesignProject";
 
 
@@ -28,23 +30,29 @@ const ProjectSection = () => {
       </h1>
 
       <div className="project-des-heading">
-        <div className="project-toggle" >
-          <button
-            className={`button-toggle ${toggle ? "true" : ""}`}
-            onClick={toggleProjects}
-          >
-            Team Projects
-          </button>
-
-          <button
-            className={`button-toggle2 ${design ? "" : "false"}`}
-            onClick={toggleProject2}
-          >
+        <div className="project-toggle">
+          <div className="project-svg-container">
             {" "}
-            Solo Projects
-          </button>
+            <img
+              className="project-svg"
+              src={DevelopmentProjects}
+              alt="development"
+              onClick={toggleProjects}
+            />
+            <p className="project-svg-name">Development</p>
+          </div>
+          <div className="project-svg-container">
+            {" "}
+            <img
+              className="project-svg"
+              src={DesignProjects}
+              alt="desgin"
+              onClick={toggleProject2}
+            />
+            <p className="project-svg-name">Desgin</p>
+          </div>
         </div>
-        <p className="development-description" >
+        <p className="development-description">
           {" "}
           Below are the projects that I’ve gotten a chance to work on. Current
           development tech stack includes p HTML5, CSS3, Javascript, React,
@@ -57,7 +65,6 @@ const ProjectSection = () => {
         {toggle === true && design === true
           ? projectJson.Project.map((project, i) => (
               <Project {...project} key={uuidv4()} />
-              
             ))
           : null}
 

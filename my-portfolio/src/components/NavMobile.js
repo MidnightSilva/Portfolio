@@ -3,7 +3,6 @@ import linkedin from "../assets/Svgs/linkedin.svg";
 import { Link } from "react-scroll";
 import hamburgermenu from "../assets/Svgs/hamburgerMenu.svg"
 import { useState } from "react";
-import ContactSection from "../Sections/ContactSection";
 
 const Nav = () => {
     const [hamburgermenuToggle, setHamburgerMenuToggle] = useState(false);
@@ -22,7 +21,7 @@ const Nav = () => {
 
 
   return (
-    <>
+    <div>
       <div className="navbackground-mobile">
         <div className="nav-right">
           <p className="nav-heading">Silva's Portfoilo</p>
@@ -76,9 +75,7 @@ const Nav = () => {
           <img src={github} className="githublogo" alt="github-logo" />
         </a>
       </div>
-      {message ?  <ContactSection /> : null }
-      
-    </>
+    </div>
   );
 };
 export default Nav;

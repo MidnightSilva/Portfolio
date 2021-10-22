@@ -2,6 +2,7 @@
 import LandingSection from "../Sections/LandingSection";
 import AboutMeSection from "../Sections/AboutMeSection";
 import ProjectSection from "../Sections/ProjectSection";
+import ContactSection from "../Sections/ContactSection";
 
 const HomePage = () => {
   return (
@@ -11,7 +12,7 @@ const HomePage = () => {
       </div>
       <AboutMeSection />
       <ProjectSection />
-  
+    <ContactSection /> 
     </>
   );
 };
