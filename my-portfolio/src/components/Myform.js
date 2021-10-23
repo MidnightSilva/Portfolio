@@ -22,7 +22,7 @@ export default class MyForm extends React.Component {
         <label className='email'>Email:</label>
         <input className='input1' type="email" name="email" />
         <label className='message'>Message:</label>
-        <input className='input2' type="text" name="message" />
+        <textarea className='input2' type="text" name="message" />
         {status === "SUCCESS" ? <p>Thanks!</p> : <button className='submit-button'>Submit</button>}
         {status === "ERROR" && <p>Ooops! There was an error.</p>}
       </form>

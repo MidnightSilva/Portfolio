@@ -25,7 +25,10 @@
   flex-direction: column;
 }
 .project-svg{
-
+opacity: .2;
+}
+.project-svgShow{
+opacity: 1;
 }
 .project-svg-name{
       margin: 8px;
@@ -81,10 +84,6 @@ font-weight: 600;}
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 8px;
-}
-.line {
-  border-bottom: 0.3px solid #394867;
-  margin: 8px 31px;
 }
 .project-title {
   font-family: "Satisfy", cursive;
@@ -202,23 +201,12 @@ display: flex;
 }
 /* Modal */
 .Modal {
-    width: 292.5px;
-    height: 565.55px;
-  position: fixed;
+display: none;
   background-color: #e6e6e6;
-  left: 11%;
-  transition: bottom 0.3s ease-out;
-  z-index: 10;
- overflow-y: scroll;
 }
   .Modal.Show {
-    width: 292.5px;
-    height: 565.55px;
-    bottom: 16px;
-    border-radius: 10px;
-    overflow: scroll;
-    top: 10%;
-    left: 11%;
+    display: flex;
+      background-color: #e6e6e6;
 }
 .Overlay {
   // background-color: rgba(0, 0, 0, 0.55);

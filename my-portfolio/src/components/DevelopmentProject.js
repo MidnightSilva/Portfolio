@@ -18,16 +18,6 @@ const Project = (props) => {
       <div className="line"></div>
       <div className={`Modal ${displayModal ? "Show" : ""}`}>
         <div class="modal-dialog">
-          <div class="modal-header">
-            <button
-              className="Close"
-              onClick={() => setDisplayModal(!displayModal)}
-            >
-              X
-            </button>
-            <img className="mindPassge" src={image} alt="Project-img" />
-            <span className="modal-project-tag">{props.tag}</span>
-          </div>
           <div className="modal-tag-section">
             <p className="project-tech-used">Tech used for:</p>
             <p className="modal-title">{props.modalTitle}</p>

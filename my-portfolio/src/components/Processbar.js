@@ -27,17 +27,15 @@ const Processbar = () => {
       } = useContext(AppContext);
 const item = {
   hidden: {
-    opacity: [0, 0.2, 1],
     scale: [0.6, 1],
     transition: { duration: 3 },
   },
 };
   return (
-      
     <div>
       {process1 ? (
         <motion.img
-          className="process-step1"
+          className={`process-step1${process1 ? "Show" : ""}`}
           src={Process1of4Pressed}
           alt=""
           onClick={handleClickProcess1Of4}
@@ -57,7 +55,7 @@ const item = {
 
       {process2 ? (
         <motion.img
-          className="process-step2"
+          className={`process-step2${process2 ? "Show" : ""}`}
           src={Process2of4Pressed}
           alt=""
           onClick={handleClickProces21Of4}
@@ -77,7 +75,7 @@ const item = {
 
       {process3 ? (
         <motion.img
-          className="process-step3"
+          className={`process-step3${process3 ? "Show" : ""}`}
           src={Process3of4Pressed}
           alt=""
           onClick={handleClickProces3Of4}
@@ -96,7 +94,7 @@ const item = {
       )}
       {process4 ? (
         <motion.img
-          className="process-step4"
+          className={`process-step4${process4 ? "Show" : ""}`}
           src={Process4of4Pressed}
           alt=""
           onClick={handleClickProcess4Of4}

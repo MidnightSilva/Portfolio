@@ -34,7 +34,7 @@ const ProjectSection = () => {
           <div className="project-svg-container">
             {" "}
             <img
-              className="project-svg"
+              className={`project-svg${design ? "Show" : ""}`}
               src={DevelopmentProjects}
               alt="development"
               onClick={toggleProjects}
@@ -44,7 +44,7 @@ const ProjectSection = () => {
           <div className="project-svg-container">
             {" "}
             <img
-              className="project-svg"
+              className={`project-svg${design ? "" : "Show"}`}
               src={DesignProjects}
               alt="desgin"
               onClick={toggleProject2}
@@ -54,10 +54,7 @@ const ProjectSection = () => {
         </div>
         <p className="development-description">
           {" "}
-          Below are the projects that I’ve gotten a chance to work on. Current
-          development tech stack includes p HTML5, CSS3, Javascript, React,
-          Node, Expres. I am able to create a fully dynamic and enganging
-          website viewable on mobile screens and desktops.
+          Below are the projects that I’ve gotten a chance to work on. Feel free to move between development or desgin Projects.
         </p>
       </div>
 
