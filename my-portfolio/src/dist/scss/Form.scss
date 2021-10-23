@@ -8,7 +8,7 @@
     font-weight: 300;
     font-size: 2.3rem;
     line-height: 19px;
-    padding: 15px 0px 0px 14px;
+    padding: 0px 0px 0px 14px;
     color: white;
 }
 .subheading5 {
@@ -19,12 +19,13 @@
 
 .formpage {
 
-    align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
 }
 .form {
 
     padding-bottom: 1rem;
-
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -32,25 +33,22 @@
 
 }
 .email {
-      align-self: baseline;
-  font-family: "Inter", sans-serif;
-  font-style: normal;
-  font-size: 13px;
-  line-height: 1.3rem;
- color:$text;
-
-  font-weight: 500;
-  margin-bottom: 8px;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-size: 13px;
+    line-height: 1.3rem;
+    color: white;
+    padding-right: 15.2rem;
+    margin-bottom: 8px;
 }
 .message {
-      align-self: baseline;
-  font-family: "Inter", sans-serif;
-  font-style: normal;
-  font-size: 13px;
-  line-height: 1.3rem;
-  color:$text;
-
-  margin-bottom: 8px;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-size: 13px;
+    line-height: 1.3rem;
+    color: white;
+    padding-right: 14.2rem;
+    margin-bottom: 8px;
 }
 .input1 {
   height: 2rem;
@@ -86,7 +84,6 @@ background-color: #394867;
 
 @media only screen and (min-device-width: 576px) {
   .form {
-    width: 355px;
     align-items: center;
 }
 .subheading5 {
@@ -109,13 +106,13 @@ background-color: #394867;
 }
 @media only screen and (min-device-width: 992px) {
   .formpage{
-    width: 66%;
+
   }
   .form{
-    width:360px;
+
   }
   .submit-button {
-    width: 35.5rem;
+
 }
   .submit-button:focus {
     background-color: slategray ;
@@ -124,10 +121,10 @@ background-color: #394867;
 }
 @media only screen and (min-width: 1200px) {
   .formpage{
-    width: 63%;
+   
   }
   .form{
-    width: 400px;
+
 
   }
   .input1{

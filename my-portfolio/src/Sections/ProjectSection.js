@@ -5,7 +5,7 @@ import Project from "../components/DevelopmentProject";
 import { v4 as uuidv4 } from "uuid";
 import DevelopmentProjects from '../assets/Svgs/DevelopmentProject.svg'
 import DesignProjects from "../assets/Svgs/DesginProject.svg";
-// import DesignProject from "../components/DesignProject";
+import DesignProject from "../components/DesignProject";
 
 
 const ProjectSection = () => {
@@ -65,11 +65,11 @@ const ProjectSection = () => {
             ))
           : null}
 
-        {/* {design === true && toggle === true
+        {design === false && toggle === false
           ? projectJson.designProjects.map((designProjects, i) => (
               <DesignProject {...designProjects} key={uuidv4()} />
             ))
-          : null} */}
+          : null}
       </div>
       <label></label>
     </div>
