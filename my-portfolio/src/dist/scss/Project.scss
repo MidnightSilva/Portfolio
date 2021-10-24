@@ -58,11 +58,8 @@ width: 100%;
     align-items: center;
 }
 .project {
-
     border-radius: 7px;
-    height: 199px;
     display: flex;
-    width: 18rem;
     flex-direction: column;
     align-content: center;
     justify-content: center;
@@ -96,20 +93,19 @@ font-weight: 600;}
 }
 
 .project-tag-title-container{
-      display: flex;
+     display: flex;
     width: 100%;
     justify-content: space-around;
-     height: fit-content;
-    margin-top: 7px;
+    height: fit-content;
+    margin-top: -3rem;
 }
 .mindPassge {
-    opacity: .9;
+  opacity: .9;
     border-radius: 7px;
     align-self: center;
-    height: auto;
-    // filter: drop-shadow(4px -1px 3px gray);
+    height: 16rem;
     margin-top: 15px;
-    width: 214px;
+    width: auto;
 }
 /* tag */
 

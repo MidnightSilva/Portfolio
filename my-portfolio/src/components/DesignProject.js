@@ -18,7 +18,7 @@ const DesignProject = (props) => {
       <div className="line"></div>
       <div className={`Modal ${displayModal ? "Show" : ""}`}>
         <div class="modal-dialog">
-          <div class="modal-header">
+          {/* <div class="modal-header">
             <button
               className="Close"
               onClick={() => setDisplayModal(!displayModal)}
@@ -26,7 +26,7 @@ const DesignProject = (props) => {
               X
             </button>
             <img className="mindPassge" src={image} alt="Project-img" />
-          </div>
+          </div> */}
 
           <div className="modal-body">{props.modalBody}</div>
         </div>
