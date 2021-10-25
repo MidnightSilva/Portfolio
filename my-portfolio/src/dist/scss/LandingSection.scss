@@ -66,6 +66,7 @@ display: flex;
     font-family: Antonio;
     font-style: normal;
     flex-flow: wrap;
+        width: 80%;
     font-weight: 300;
     letter-spacing: 0.05em;
 }
@@ -77,7 +78,7 @@ animation-name: wave-animation;  /* Refers to the name of your @keyframes elemen
   display: inline-block;
 }
 .highlight{
-    color: #6c7e91;
+    color: #F05454;
     padding: .2rem;
 
 }

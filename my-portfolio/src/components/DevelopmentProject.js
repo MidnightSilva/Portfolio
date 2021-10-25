@@ -51,10 +51,6 @@ const Project = (props) => {
           </div>
         </div>
       </div>
-      <div
-        className={`Overlay ${displayModal ? "Show" : ""}`}
-        onClick={() => setDisplayModal(!displayModal)}
-      />
     </>
   );
 };
