@@ -74,13 +74,10 @@ width: 100%;
 
 font-weight: 600;}
 .tag-container{
-      width: 80%;
-    margin-left: 26px;
     justify-content: space-evenly;
-     margin-top: -14px;
     display: flex;
     flex-wrap: wrap;
-    margin-bottom: 8px;
+    margin-bottom: 14px;
 }
 .project-title {
   font-family: "Satisfy", cursive;
@@ -107,21 +104,30 @@ font-weight: 600;}
     margin-top: 15px;
     width: auto;
 }
+.mindPassge-desgin {
+  opacity: .9;
+    border-radius: 7px;
+    align-self: center;
+    height: 16rem;
+    margin-top: 15px;
+    width: auto;
+    margin-left: -3rem;
+}
 /* tag */
 
 .tags{
-font-family: "Inter", sans-serif;
+    font-family: "Inter", sans-serif;
     border-radius: 15px;
-    background-color: #303643;
+    background-color: #F05454;
     color: #eee;
-    margin: 1px 1px;
+    margin: 4px 2px;
     width: -moz-fit-content;
     width: fit-content;
     display: flex;
     align-self: flex-start;
     font-size: 13px;
     font-weight: 300;
-    padding: 2px 8px;
+    padding: 1px 8px;
     }
 .project-tag {
   font-family: "Inter", sans-serif;
@@ -155,7 +161,7 @@ display: flex;
 }
 
 .p-link1 {
-    background-color:#394867;
+    background-color:#F05454;;
     color: white;
     width: 40%;
     border-radius: 13px;
@@ -166,7 +172,7 @@ display: flex;
 }
 
 .p-link-2 {
-    background-color:#394867;
+    background-color:#F05454;;
     font-family: $font;
     color: white;
     width: 40%;
@@ -178,32 +184,25 @@ display: flex;
 }
 /* project description */
 .project-des {
-      width: 80%;
-    margin-left: 26px;
-      margin-top: -25px;
-    font-family: $font;
+    font-family: "Inter", sans-serif;
     line-height: 1.3rem;
     font-size: 13px;
- color: #15161a;
-    padding: 8px;
-}
+    color: white;}
 .project-des2 {
-  width: 261px;
-  font-family: "Lato", sans-serif;
-  line-height: 1.3rem;
-  font-size: 13px;
-  color: #003844;
-  margin-top: 0.5rem;
+    font-family: "Inter", sans-serif;
+    line-height: 1.3rem;
+    font-size: 13px;
+    color: white;
 }
 /* Modal */
 .Modal {
 display: none;
   background-color: #e6e6e6;
 }
-  .Modal.Show {
-    display: flex;
-      background-color: #e6e6e6;
-          width: 77%;
+.Modal.Show {
+display: flex;
+background-color: #121213;
+    width: 80%;
 }
 .Overlay {
   // background-color: rgba(0, 0, 0, 0.55);
@@ -253,7 +252,7 @@ display: none;
 color: white;
 }
 .modal-body {
-
+color: #F05454;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -271,8 +270,8 @@ color: white;
   list-style-type: square;
 }
 .p1 {
- color: #15161a;
-      margin: 3.5px;
+    line-height: 1.5rem;
+    color: white;
      font-family: $font;
   font-size: $font-size-project-mobile;
 list-style-type: square;

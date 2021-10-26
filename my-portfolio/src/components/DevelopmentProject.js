@@ -18,10 +18,6 @@ const Project = (props) => {
       <div className="line"></div>
       <div className={`Modal ${displayModal ? "Show" : ""}`}>
         <div class="modal-dialog">
-          <div className="modal-tag-section">
-            <p className="project-tech-used">Tech used for:</p>
-            <p className="modal-title">{props.modalTitle}</p>
-          </div>
           <p className="project-des">{props.projectDescription}</p>
           <div className="tag-container">
             <p className="tags">{props.tag1}</p>

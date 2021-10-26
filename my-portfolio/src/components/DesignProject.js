@@ -8,7 +8,7 @@ const DesignProject = (props) => {
   return (
     <>
       <div className="project" onClick={() => setDisplayModal(!displayModal)}>
-        <img className="mindPassge" src={image} alt="Project-img" />
+        <img className="mindPassge-desgin" src={image} alt="Project-img" />
         <div className="project-tag-title-container">
           <h3 className="project-title">{props.title} </h3>
           <button className="project-tag2">{props.tag}</button>
@@ -31,7 +31,6 @@ const DesignProject = (props) => {
           <div className="modal-body">{props.modalBody}</div>
         </div>
       </div>
-      
     </>
   );
 };
