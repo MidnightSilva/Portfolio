@@ -25,7 +25,7 @@
     font-size: 2.3rem;
     line-height: 19px;
       padding: 15px 0px 0px 0px;
-    color: #F05454;
+    color: #356394;
 }
 .aboutme-points{
       padding: 7px 1px;
@@ -52,7 +52,7 @@
     line-height: 15px;
     color: #E8E8E8;
     padding-bottom: 7px;
-    border-bottom: solid 1.5px #F05454;
+    border-bottom: solid 1.5px #356394;
 }
 
 .aboutme-nav-2 {
@@ -65,7 +65,7 @@
     line-height: 15px;
     color: #E8E8E8;
     padding-bottom: 7px;
-    border-bottom: solid 1.5px #F05454;
+    border-bottom: solid 1.5px #356394;
 }
 .aboutme-nav-2Show {
    margin: 8px;
@@ -97,13 +97,14 @@
     line-height: 15px;
     color: #E8E8E8;
     padding-bottom: 7px;
-    border-bottom: solid 1.5px #F05454;
+    border-bottom: solid 1.5px #356394;
 }
 //process
 .process{
 width: 100%;
 display: flex;
 justify-content: space-evenly;
+height: 24rem;
 }
 .process-contianer{
     display: flex;
@@ -115,31 +116,41 @@ justify-content: space-evenly;
 
 .process-step1{
 opacity: .2;
+    height: 4.5rem;
 }
+
 .process-step1Show{
 opacity: 1;
+height: 4.5rem;
 }
 .process-step2{
 opacity: .2;
+height: 4.5rem;
 }
 .process-step2Show{
 opacity: 1;
+height: 4.5rem;
 }
 .process-step3{
 opacity: .2;
+height: 4.5rem;
 }
 .process-step3Show{
 opacity: 1;
+height: 4.5rem;
 }
 .process-step4{
 opacity: .2;
+height: 4.5rem;
 }
 .process-step4Show{
 opacity: 1;
+height: 4.5rem;
 }
 .process-step1-des-container{
       width: 54%;
     margin-left: 3rem;
+    height: 4.5rem;
 }
 
 .process-heading{
@@ -153,7 +164,6 @@ opacity: 1;
 .procss-des{
     align-self: center;
     display: flex;
-    padding: 2rem;
     line-height: 1.5rem;
     order: 2;
      color:$subtext;

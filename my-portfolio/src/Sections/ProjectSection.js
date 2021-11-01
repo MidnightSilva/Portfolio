@@ -31,7 +31,7 @@ const ProjectSection = () => {
 
       <div className="project-des-heading">
         <div className="project-toggle">
-          <div className="project-svg-container">
+          <div className="project-svg-container-development">
             {" "}
             <img
               className={`project-svg${design ? "Show" : ""}`}
@@ -39,9 +39,9 @@ const ProjectSection = () => {
               alt="development"
               onClick={toggleProjects}
             />
-            <p className="project-svg-name">Development</p>
+            <p className={`project-svg-development${design ? "Show" : ""}`}>Development</p>
           </div>
-          <div className="project-svg-container">
+          <div className="project-svg-container-desgin">
             {" "}
             <img
               className={`project-svg${design ? "" : "Show"}`}
@@ -49,12 +49,16 @@ const ProjectSection = () => {
               alt="desgin"
               onClick={toggleProject2}
             />
-            <p className="project-svg-name">Desgin</p>
+            <p
+              className={`project-svg-desgin${design ? "Show" : ""}`}>
+              Desgin
+            </p>
           </div>
         </div>
         <p className="development-description">
           {" "}
-          Below are the projects that I’ve gotten a chance to work on. Feel free to move between development or desgin Projects.
+          Below are the projects that I’ve gotten a chance to work on. Feel free
+          to move between development or desgin Projects.
         </p>
       </div>
 

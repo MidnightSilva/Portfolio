@@ -32,20 +32,15 @@ const ProjectProcess = () => {
               return (
                 <ProcessCard
                   processTitle="Research"
-                  processDes="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
-            morbi ultrices nulla tellus diam faucibus ut odio. At scelerisque
-            nisi, semper habitant enim in in elementum. Sollicitudin diam,
-            interdum scelerisque convallis."
+                  processDes="What is being built? why / Has it been done before? if so how?"
                 />
               );
             case "playing":
               return (
                 <ProcessCard
                   processTitle="Plan"
-                  processDes="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
-            morbi ultrices nulla tellus diam faucibus ut odio. At scelerisque
-            nisi, semper habitant enim in in elementum. Sollicitudin diam,
-            interdum scelerisque convallis. "
+                  processDes="what parts of the project will take the longest?
+                  build a attack plan,  "
                 />
               );
             case "won":
