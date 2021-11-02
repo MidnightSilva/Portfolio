@@ -12,9 +12,17 @@
     color: #356394;
 }
 .subheading5 {
- padding: 0rem 3rem 0rem 3rem;
+    padding: 1rem;
     line-height: 1.5rem;
     color: white;
+    display: flex;
+    background-color: #121213;
+    width: 80%;
+    color: white;
+    width: 73%;
+    background: #ee2b483d;
+    border-radius: 9px;
+    align-self: center;
 }
 
 .formpage {
@@ -93,7 +101,7 @@
     align-items: center;
 }
 .subheading5 {
-    padding: 9px;
+    padding: 0rem 3rem 0rem 3rem;
 }
 .input1{
   width: 22rem;

@@ -91,10 +91,13 @@ opacity: 1;
 
 
 .development-description {
-    padding: 0rem 3rem 0rem 3rem;
-    line-height: 1.5rem;
     order: 2;
     color: white;
+    width: 72%;
+    background: #ee2b483d;
+    border-radius: 9px;
+    padding: 1rem;
+    line-height: 1.5rem;
 
 }
 /* for the projects base code  */
@@ -165,12 +168,18 @@ font-weight: 600;}
 /* tag */
 
 .tags{
+margin: 4px 8px;
     font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 1.5px;
     border-radius: 15px;
-    background-color: #356394;
+    background-color: #3563948c;
     color: #eee;
     margin: 4px 2px;
-    width: -moz-fit-content;
+  
     width: fit-content;
     display: flex;
     align-self: flex-start;
@@ -201,8 +210,7 @@ color: white ;
 /* Project links */
 .project-links {
 display: flex;
-    justify-content: space-evenly;
-    justify-content: center;
+justify-content: space-between;
     margin-top: 1rem;
     height: -moz-fit-content;
     height: fit-content;
@@ -217,11 +225,10 @@ display: flex;
     border-radius: 14px;
     display: flex;
     justify-content: center;
-    margin-left: 24px;
     text-decoration: none;
-    font-family: Antonio;
+   font-family: "Inter", sans-serif;
     font-style: normal;
-    font-weight: 100;
+    font-weight: 300;
     font-size: 16px;
     line-height: 20px;
     letter-spacing: 1px;
@@ -235,11 +242,10 @@ display: flex;
     border-radius: 14px;
     display: flex;
     justify-content: center;
-    margin-left: 24px;
     text-decoration: none;
-    font-family: Antonio;
+    font-family: "Inter", sans-serif;
     font-style: normal;
-    font-weight: 100;
+    font-weight: 300;
     font-size: 16px;
     line-height: 20px;
     letter-spacing: 1px;
@@ -259,12 +265,16 @@ display: flex;
 /* Modal */
 .Modal {
 display: none;
-  background-color: #e6e6e6;
+
 }
 .Modal.Show {
-display: flex;
-background-color: #121213;
+    display: flex;
+    background-color: #121213;
     width: 80%;
+    color: white;
+    width: 73%;
+    background: #ee2b483d;
+    border-radius: 9px;
 }
 .Overlay {
   // background-color: rgba(0, 0, 0, 0.55);
@@ -332,11 +342,12 @@ color: #356394;
   list-style-type: square;
 }
 .p1 {
-    line-height: 1.5rem;
+line-height: 1.2rem;
     color: white;
-     font-family: $font;
-  font-size: $font-size-project-mobile;
-list-style-type: square;
+    font-family: "Inter", sans-serif;
+    font-size: 13px;
+    list-style-type: circle;
+    margin-bottom: .5rem;
 }
 
 
@@ -354,25 +365,49 @@ list-style-type: square;
   .Project-sec {
 
 }
-.project {
-    width: 27rem;
-        height: 206px;
+
+.project-svg {
+    height: 7rem;
+  }
+.project-svgShow {
+    height: 9rem;
+  }
+.project-svg-container-desgin {
+    margin-left: 6rem;
+  }
+
+
+.project {width: 27rem;
+height: 206px;
 }
 .development-description{
    
     margin-bottom: 1rem;
 }
 .p1{  
-margin: 7.5px;
 }
   .modal-header {
     height: 12.99rem;
 }
 .mindPassge{
-     width: 15rem;
+     width: 22rem;
 }
 
-
+.modal-dialog {
+    margin: 15px 0px 0px 0px;
+}
+.Modal.Show {
+    width: 54%;
+}
+.tags {
+margin: 4px 8px;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 1.5px;
+}
 .project-des{
 
 }
