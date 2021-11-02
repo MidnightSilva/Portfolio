@@ -1,6 +1,14 @@
 @import "./Variables";
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100;200;300;400;600;700&display=swap');
+
+
+.form-img{
+  background-image: url('../../assets/Svgs/Bottomforest.svg');
+      background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .heading5 {
     align-self: baseline;
     font-family: Antonio;
@@ -26,7 +34,6 @@
 }
 
 .formpage {
-
     display: flex;
     flex-direction: column;
     align-content: center;
