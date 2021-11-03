@@ -2,8 +2,7 @@
 body {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-    background: #121213 
+background: linear-gradient(179.4deg, rgba(35, 43, 53, 0.909313) -14.37%, #222831 1.43%, rgba(41, 61, 91, 0.97) 54.29%, rgba(46, 66, 95, 0.69) 83.34%, rgba(181, 92, 80, 0.54) 116.98%, rgba(46, 66, 86, 0.172672) 176.16%);
 }
 a{
     text-decoration: none;
@@ -22,7 +21,6 @@ a{
   overflow: visible;
   flex-direction: column;
   align-items: center;
-  background: #121213 ;
   background-image: url("../../assets/Svgs/stars.svg");
 background-repeat: repeat;
 background-size: 350px;

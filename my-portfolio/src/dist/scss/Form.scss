@@ -4,11 +4,12 @@
 
 
 .form-img{
-  background-image: url('../../assets/Svgs/Bottomforest.svg');
+  background-image: url('../../assets/Images/Forest.png');
       background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 .heading5 {
     align-self: baseline;
     font-family: Antonio;
@@ -17,7 +18,7 @@
     font-size: 2rem;
     line-height: 19px;
     padding: 8px 0px 0px 16px;
-    color: #356394;
+    color: $heading;
 }
 .subheading5 {
     padding: 1rem;
@@ -28,7 +29,7 @@
     width: 80%;
     color: white;
     width: 73%;
-    background: #ee2b483d;
+    background: #f0545413;
     border-radius: 9px;
     align-self: center;
 }
