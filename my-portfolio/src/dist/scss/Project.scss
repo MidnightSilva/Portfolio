@@ -37,18 +37,19 @@ opacity: .1;
 .project-svgShow{
 opacity: 1;
     height: 8rem;
-    filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5));
+    filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(233, 232, 232, 0.041));
 }
 .project-svg-development{
       margin: 8px;
     text-transform: capitalize;
     font-family: Antonio;
     font-style: normal;
-    font-weight: 100;
+    font-weight: 600;
     font-size: 16px;
+    letter-spacing: 4px;
     line-height: 15px;
-   color: #ee2b48a6;
-       opacity: .1;
+    color: #DDDDDD;
+       opacity: 0;
         align-self: center;
 }
 .project-svg-developmentShow{
@@ -56,10 +57,11 @@ opacity: 1;
     text-transform: capitalize;
     font-family: Antonio;
     font-style: normal;
-    font-weight: 100;
+     font-weight: 600;
     font-size: 16px;
+    letter-spacing: 4px;
     line-height: 15px;
-    color: #ee2b48a6;
+    color: #DDDDDD;
       
 }
 .project-svg-desgin{
@@ -67,10 +69,10 @@ opacity: 1;
     text-transform: capitalize;
     font-family: Antonio;
     font-style: normal;
-    font-weight: 100;
-    font-size: 16px;
+     font-size: 16px;
+    letter-spacing: 4px;
     line-height: 15px;
-       color: #ee2b48a6;
+    color: #DDDDDD;
         align-self: center;
 }
 .project-svg-desginShow{
@@ -78,11 +80,11 @@ opacity: 1;
     text-transform: capitalize;
     font-family: Antonio;
     font-style: normal;
-    font-weight: 100;
     font-size: 16px;
+    letter-spacing: 4px;
     line-height: 15px;
-     color:#ee2b48a6;
-     opacity: .1;
+    color: #DDDDDD;
+     opacity: 0;
       
 }
 
@@ -94,13 +96,14 @@ opacity: 1;
 
 .development-description {
     order: 2;
-    color: white;
     width: 72%;
-    background: #ee2b483d;
     border-radius: 9px;
     padding: 1rem;
     line-height: 1.5rem;
-        filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5));
+    filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5));
+    order: 2;
+    color: white;
+;
 
 }
 /* for the projects base code  */
@@ -156,7 +159,7 @@ font-weight: 600;}
     border-radius: 7px;
     align-self: center;
     height: 16rem;
-    margin-top: 15px;
+    margin-top: -2rem;
     width: auto;
         filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5));
 }
@@ -165,7 +168,7 @@ font-weight: 600;}
     border-radius: 7px;
     align-self: center;
     height: 16rem;
-    margin-top: 15px;
+ margin-top: -2rem;
     width: auto;
     margin-left: -3rem;
         filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5));
@@ -261,7 +264,7 @@ justify-content: space-between;
     font-size: 16px;
     width: 91%;
     padding: 0rem 1rem 0rem 1rem;
-    color: white;
+    color: #1b0004;
     margin: 8px 0px 9px 0px;
 }
   
@@ -284,10 +287,10 @@ display: none;
     width: 80%;
     color: white;
     width: 73%;
-    background: #ee2b483d;
+      background: #dddddd6c;
     border-radius: 9px;
         padding: .5rem .2rem .5rem .2rem;
-        filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5));
+       filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(110, 110, 110, 0.5));
 }
 .Overlay {
   // background-color: rgba(0, 0, 0, 0.55);

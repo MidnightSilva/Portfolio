@@ -22,14 +22,14 @@
 }
 .subheading5 {
     display: flex;
-    color: white;
     width: 73%;
-    background: #ee2b483d;
     border-radius: 9px;
     padding: 1rem;
     line-height: 1.5rem;
-    filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5));
     align-self: center;
+    filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5));
+    color: white;
+
 }
 
 .formpage {
