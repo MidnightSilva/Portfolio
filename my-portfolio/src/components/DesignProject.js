@@ -8,7 +8,7 @@ const DesignProject = (props) => {
   return (
     <>
       <div className="project" onClick={() => setDisplayModal(!displayModal)}>
-        <img className="mindPassge" src={image} alt="Project-img" />
+        <img className="mindPassge-desgin" src={image} alt="Project-img" />
         <div className="project-tag-title-container">
           <h3 className="project-title">{props.title} </h3>
           <button className="project-tag2">{props.tag}</button>
@@ -18,7 +18,7 @@ const DesignProject = (props) => {
       <div className="line"></div>
       <div className={`Modal ${displayModal ? "Show" : ""}`}>
         <div class="modal-dialog">
-          <div class="modal-header">
+          {/* <div class="modal-header">
             <button
               className="Close"
               onClick={() => setDisplayModal(!displayModal)}
@@ -26,15 +26,11 @@ const DesignProject = (props) => {
               X
             </button>
             <img className="mindPassge" src={image} alt="Project-img" />
-          </div>
+          </div> */}
 
           <div className="modal-body">{props.modalBody}</div>
         </div>
       </div>
-      <div
-        className={`Overlay ${displayModal ? "Show" : ""}`}
-        onClick={() => setDisplayModal(!displayModal)}
-      />
     </>
   );
 };

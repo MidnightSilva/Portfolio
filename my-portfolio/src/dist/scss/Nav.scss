@@ -1,24 +1,40 @@
 @import "./Variables";
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&display=swap");
-.navbackground {
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100;200;300;400;600;700&display=swap');
+.navbackground-desktop {
+display: none;
+}
+
+.navbackground-mobile {
   position: fixed;
   display: flex;
   width: 100vw;
-  justify-content: center;
+     justify-content: space-between;
   top: 0rem;
-  background: rgba(28, 42, 58, 0.37);
+  background: rgba(14, 21, 29, 0.767);
   z-index: 6;
 }
 
+
+.nav-heading{
+      font-family: Antonio;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    line-height: 19px;
+ color: $heading;
+        padding-left: 16px;
+}
 .nav-right {
-  display: flex;
-  justify-content: space-evenly;
-  width: 70%;
-  color: white;
-  font-family: "Inter", sans-serif;
-  font-weight: 500;
-  font-size: 14px;
-  margin-top: 5px;
+    text-transform: capitalize;
+    font-family: Antonio;
+    font-style: normal;
+    letter-spacing: .5px;
+    display: flex;
+    justify-content: space-evenly;
+    font-weight: 500;
+    font-size: 14px;
 }
 
 .nav-center {
@@ -28,22 +44,135 @@
   margin-left: 1rem;
 }
 .nav-left {
-  margin-left: 1rem;
-  margin-right: 1rem;
-  margin-top: 1rem;
-  height: 2rem;
-  width: 8%;
-  margin-top: 12px;
+    width: 8%;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    font-family: "Inter", sans-serif;
+    padding: 8px 30px;
+    font-weight: 500;
+    font-size: 14px;
+
 }
 
+//hamburger menu mobile toggle
+.hamburger-menu-icon{
+
+}
+.hamburger-menu-icon.Show{
+  
+}
+.hamburgerMenu{
+ display: none
+}
+
+.hamburgerMenu.Show{
+    display: flex;
+    position: fixed;
+    flex-direction: column;
+     border-top: 1px solid #356394;
+        border-bottom: 1px solid #356394;
+     background: rgba(14, 21, 29, 0.767);
+      align-items: center;
+    width: 40%;
+    margin-left: 60%;
+       margin-top: 17.2%;
+    z-index: 100;
+}
+.link{
+    text-transform: capitalize;
+    font-family: Antonio;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    width: 100%;
+ color:$subtext;
+}
+.link-a{
+text-transform: capitalize;
+    text-decoration: none;
+    color: white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 1rem;
+    text-transform: capitalize;
+    font-family: Antonio;
+    font-style: normal;
+    padding: 1rem;
+    align-items: center;
+}
 .linkedinlogo {
-  height: 2rem;
+    height: 2rem;
+    text-transform: capitalize;
+    font-family: Antonio;
+    font-style: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    margin: 1rem;
 }
 
 .githublogo {
-  height: 2rem;
+    height: 2rem;
+    text-transform: capitalize;
+    font-family: Antonio;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+      margin: 1rem 1rem 1rem 2rem;
 }
+@media only screen and (min-device-width: 576px) {
+  .navbackground-mobile {
+display: none;
+
+}
+.nav-right{
+      text-transform: capitalize;
+    font-family: Antonio;
+    font-style: normal;
+    font-weight: 100;
+    padding: 8px 16px 8px 0px;
+    width: 19rem;
+    color: white;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+.navbackground-desktop {
+    align-items: center;
+  position: fixed;
+  display: flex;
+  width: 100vw;
+justify-content: space-between;
+  top: 0rem;
+  background: rgba(14, 21, 29, 0.767);
+  z-index: 6;
+}
+.linkedinlogo{margin: 0;
+    height: 1.8rem;}
+.githublogo{margin: 0;
+    height: 1.8rem;}
+
+}
+
 @media only screen and (min-device-width: 992px) {
+  .nav-right{
+        padding: 8px 2rem 8px 0px;
+  }
+  .nav-heading{
+        padding-left: 3rem;
+  }
+  
 }
 @media only screen and (min-width: 1200px) {
 }

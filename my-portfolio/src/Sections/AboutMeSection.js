@@ -1,26 +1,22 @@
-
-import React  from "react";
-import AboutMe from "../components/AboutMe";
-
+import AboutMeNavigation from "../components/AboutMeNavigation.jsx"
 // import Resume from "../components/Resume";
+import {Route,BrowserRouter } from "react-router-dom";
+import WhoIAm from "../components/WhoIAm.jsx";
+import Tech from "../components/Tech.jsx";
+import Process from "../components/Process.jsx";
 
 const AboutMeSection = () => {
  
    
   return (
-    <div  className="aboutMeSection" id="aboutme">
-      <h1 className="Heading2">About Me</h1>
-      <div className="aboutme-top-container">
-        <div className="img-place-holder"></div>
-        <div className="bullet-points" >
-          <p className="bullet-point">Commited to life long learning</p>
-          <p className="bullet-point"> Commited to bettering the world</p>
-          <p className="bullet-point">adaptable to any environment</p>
-        </div>
+    <BrowserRouter>
+      <div className="aboutMeSection" id="aboutme">
+        <AboutMeNavigation />
+        <Route exact path="/"  component={WhoIAm} />
+        <Route path="/tech" component={Tech} />
+        <Route path="/process" component={Process} />
       </div>
-      {/* <Resume /> */}
-      <AboutMe />
-    </div>
+    </BrowserRouter>
   );
 };
 

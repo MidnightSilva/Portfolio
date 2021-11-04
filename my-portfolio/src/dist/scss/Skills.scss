@@ -1,14 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&display=swap");
 @import "./Variables";
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100;200;300;400;600;700&display=swap');
 
 .skills-container {
-        width: 90%;
-  margin-top: -3rem;
-      flex-direction: column;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2rem;
+    justify-content: space-evenly;
+    height: 12rem;
+    align-self: center;
+    order: 1;
 }
 
 .card-title {
@@ -34,10 +36,10 @@ $subheading:#394867;
     width: 90%;
     display: flex;
     flex-wrap: wrap;
-    margin-bottom: 3rem;
-    justify-content: space-evenly;
-    height: 17rem;
-  }
+    justify-content: space-between;
+    align-self: center;
+}
+  
     .skill-title-logo-container {
   display: flex;
     align-items: center;
@@ -53,8 +55,11 @@ display: flex;
     margin-bottom: -13px;
 }
 .skill-logo{
-    margin: 11px 8px;
-    height: 2.7rem;
+
+    margin: 3px 9px;
+    height: 2.1rem;
+    padding: 0rem 1rem 1rem 1rem;
+
 }
 .skill-logo1{
       height: 3rem;
@@ -119,10 +124,12 @@ color:$text;
       width: 90%;
     }
   .skill-logo{
-    height: 3rem;
+     height: 2.2rem;
   }
   .logo-container{
-    width: 80%;
+   
+    width: 75%;
+
   }
 }
 @media only screen and (min-device-width: 992px) {
@@ -143,10 +150,12 @@ color:$text;
    width: 50%;
  }
  .skill-logo {
-    height: 4rem;
+       height: 2.5rem;
 }
 .logo-container {
-    width: 56%;
+       width: 49%;
+    margin-bottom: 2rem;
+    margin-top: 3rem;
 }
   
 }

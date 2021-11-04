@@ -2,16 +2,36 @@
 body {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-
-background: radial-gradient(372.53% 37.24% at 14.4% 4.85%, #303643 38.54%, #F1F6F9 88.41%);
+background: linear-gradient(179.4deg, rgba(35, 43, 53, 0.909313) -14.37%, #222831 1.43%, rgba(41, 61, 91, 0.97) 54.29%, rgba(46, 66, 95, 0.69) 83.34%, rgba(181, 92, 80, 0.54) 116.98%, rgba(46, 66, 86, 0.172672) 176.16%);
+}
+a{
+    text-decoration: none;
+    // border-bottom: 1px solid white;
+}
+.Main {
+    display: flex;
+  overflow: visible;
+  flex-direction: column;
+  align-items: center;
 }
 
 .Main-Sec {
+  height: 100vh;
   display: flex;
-      overflow: hidden;
+  overflow: visible;
   flex-direction: column;
   align-items: center;
+  background-image: url("../../assets/Svgs/stars.svg");
+background-repeat: repeat;
+background-size: 350px;
+  background-position: 0px 0px;
+animation: animatedBackground  10s linear infinite;
+}
+
+@keyframes animatedBackground {
+	from { background-position:0rem 53rem; 
+  }
+	to { background-position: 22rem 53rem }
 }
 ::-webkit-scrollbar{
   display: none;

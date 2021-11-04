@@ -1,33 +1,110 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
 @import "./Variables.scss";
-
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100;200;300;400;600;700&display=swap');
 .Project-sec {
-      width: 90%;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: center; ;
 }
 
 /* heading  and describtion */
 .heading4 {
-  align-self: baseline;
-  height: fit-content;
-  font-family: "Inter", sans-serif;
-color:$heading;
+    align-self: baseline;
+    font-family: Antonio;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 2rem;
+    line-height: 19px;
+    padding: 8px 0px 0px 16px;
+    color: $heading
+}
+.project-svg-container-development{
+  display: flex;
+  flex-direction: column;
+      align-items: center;
+}
+.project-svg-container-desgin{
+    display: flex;
+    flex-direction: column;
+    margin-left: 4rem;
+        align-items: center;
+}
+.project-svg{
+opacity: .1;
+    height: 4rem;
+}
+.project-svgShow{
+opacity: 1;
+    height: 8rem;
+    filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(233, 232, 232, 0.041));
+}
+.project-svg-development{
+      margin: 8px;
+    text-transform: capitalize;
+    font-family: Antonio;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 4px;
+    line-height: 15px;
+    color: #DDDDDD;
+       opacity: 0;
+        align-self: center;
+}
+.project-svg-developmentShow{
+      margin: 8px;
+    text-transform: capitalize;
+    font-family: Antonio;
+    font-style: normal;
+     font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 4px;
+    line-height: 15px;
+    color: #DDDDDD;
+      
+}
+.project-svg-desgin{
+      margin: 8px;
+    text-transform: capitalize;
+    font-family: Antonio;
+    font-style: normal;
+     font-size: 16px;
+    letter-spacing: 4px;
+    line-height: 15px;
+    color: #DDDDDD;
+        align-self: center;
+}
+.project-svg-desginShow{
+      margin: 8px;
+    text-transform: capitalize;
+    font-family: Antonio;
+    font-style: normal;
+    font-size: 16px;
+    letter-spacing: 4px;
+    line-height: 15px;
+    color: #DDDDDD;
+     opacity: 0;
+      
 }
 
+
+
+
+
+
+
 .development-description {
-    margin-top: -1rem;
-    width: 90%;
-    padding: 9px;
-    height: -moz-fit-content;
-    height: fit-content;
-    font-family: "Inter", sans-serif;
-    font-style: normal;
-    font-size: 13px;
-    line-height: 1.3rem;
-    color: #15161a;
+    order: 2;
+    width: 72%;
+    border-radius: 9px;
+    padding: 1rem;
+    line-height: 1.5rem;
+    filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5));
+    order: 2;
+    color: white;
+;
+
 }
 /* for the projects base code  */
 
@@ -38,12 +115,14 @@ width: 100%;
     justify-content: center;
     align-items: center;
 }
+.project-container{
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .project {
-    background: #303643;
     border-radius: 7px;
-    height: 199px;
     display: flex;
-    width: 18rem;
     flex-direction: column;
     align-content: center;
     justify-content: center;
@@ -58,17 +137,10 @@ width: 100%;
 
 font-weight: 600;}
 .tag-container{
-      width: 80%;
-    margin-left: 26px;
     justify-content: space-evenly;
-     margin-top: -14px;
     display: flex;
     flex-wrap: wrap;
-    margin-bottom: 8px;
-}
-.line {
-  border-bottom: 0.3px solid #394867;
-  margin: 8px 31px;
+    margin-bottom: 14px;
 }
 .project-title {
   font-family: "Satisfy", cursive;
@@ -81,36 +153,52 @@ font-weight: 600;}
 }
 
 .project-tag-title-container{
-      display: flex;
+     display: flex;
     width: 100%;
     justify-content: space-around;
-     height: fit-content;
-    margin-top: 7px;
+    height: fit-content;
+    margin-top: -3rem;
 }
 .mindPassge {
-    opacity: .9;
+  opacity: .9;
     border-radius: 7px;
     align-self: center;
-    height: auto;
-    filter: drop-shadow(4px -1px 3px gray);
-    margin-top: 15px;
-    width: 214px;
+    height: 16rem;
+    margin-top: -2rem;
+    width: auto;
+        filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5));
+}
+.mindPassge-desgin {
+  opacity: .9;
+    border-radius: 7px;
+    align-self: center;
+    height: 16rem;
+ margin-top: -2rem;
+    width: auto;
+    margin-left: -3rem;
+        filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5));
 }
 /* tag */
 
 .tags{
-font-family: "Inter", sans-serif;
+margin: 4px 8px;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 1.5px;
     border-radius: 15px;
-    background-color: #303643;
+    background-color: #3563948c;
     color: #eee;
-    margin: 1px 1px;
-    width: -moz-fit-content;
+    margin: 4px 2px;
+  
     width: fit-content;
     display: flex;
     align-self: flex-start;
     font-size: 13px;
     font-weight: 300;
-    padding: 2px 8px;
+    padding: 1px 8px;
     }
 .project-tag {
   font-family: "Inter", sans-serif;
@@ -135,8 +223,7 @@ color: white ;
 /* Project links */
 .project-links {
 display: flex;
-    justify-content: space-evenly;
-    justify-content: center;
+justify-content: space-between;
     margin-top: 1rem;
     height: -moz-fit-content;
     height: fit-content;
@@ -144,65 +231,71 @@ display: flex;
 }
 
 .p-link1 {
-    background-color:#394867;
+    background-color: #356394;
     color: white;
     width: 40%;
-    border-radius: 13px;
-       font-family: $font;
+    height: 1.4rem;
+    border-radius: 14px;
     display: flex;
     justify-content: center;
-        text-decoration: none;
+    text-decoration: none;
+   font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 1px;
 }
 
 .p-link-2 {
-    background-color:#394867;
-    font-family: $font;
+      background-color: #356394;
     color: white;
     width: 40%;
-    border-radius: 13px;
+    height: 1.4rem;
+    border-radius: 14px;
     display: flex;
     justify-content: center;
-        margin-left: 24px;
-            text-decoration: none;
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 1px;
 }
 /* project description */
 .project-des {
-      width: 80%;
-    margin-left: 26px;
-      margin-top: -25px;
-    font-family: $font;
-    line-height: 1.3rem;
-    font-size: 13px;
- color: #15161a;
-    padding: 8px;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    width: 91%;
+    padding: 0rem 1rem 0rem 1rem;
+    color: #1b0004;
+    margin: 8px 0px 9px 0px;
 }
+  
 .project-des2 {
-  width: 261px;
-  font-family: "Lato", sans-serif;
-  line-height: 1.3rem;
-  font-size: 13px;
-  color: #003844;
-  margin-top: 0.5rem;
+     font-family: "Inter", sans-serif;
+    font-size: 16px;
+    width: 91%;
+    padding: 0rem 1rem 0rem 1rem;
+    color: white;
+    margin: 8px 0px 9px 0px;
 }
 /* Modal */
 .Modal {
-    width: 292.5px;
-    height: 565.55px;
-  position: fixed;
-  background-color: #e6e6e6;
-  left: 11%;
-  transition: bottom 0.3s ease-out;
-  z-index: 10;
- overflow-y: scroll;
+display: none;
+
 }
-  .Modal.Show {
-    width: 292.5px;
-    height: 565.55px;
-    bottom: 16px;
-    border-radius: 10px;
-    overflow: scroll;
-    top: 10%;
-    left: 11%;
+.Modal.Show {
+    display: flex;
+    background-color: #121213;
+    width: 80%;
+    color: white;
+    width: 73%;
+      background: #dddddd6c;
+    border-radius: 9px;
+        padding: .5rem .2rem .5rem .2rem;
+       filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(110, 110, 110, 0.5));
 }
 .Overlay {
   // background-color: rgba(0, 0, 0, 0.55);
@@ -252,7 +345,7 @@ display: flex;
 color: white;
 }
 .modal-body {
-
+color: #356394;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -270,11 +363,12 @@ color: white;
   list-style-type: square;
 }
 .p1 {
- color: #15161a;
-      margin: 3.5px;
-     font-family: $font;
-  font-size: $font-size-project-mobile;
-list-style-type: square;
+line-height: 1.2rem;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 13px;
+    list-style-type: circle;
+    margin-bottom: .5rem;
 }
 
 
@@ -290,72 +384,98 @@ list-style-type: square;
 }
 @media only screen and (min-device-width: 576px) {
   .Project-sec {
-  width: 85%;
+
 }
+
+.project-svg {
+    height: 7rem;
+  }
+.project-svgShow {
+    height: 9rem;
+  }
+.project-svg-container-desgin {
+    margin-left: 6rem;
+  }
+
+
 .project {
-    width: 27rem;
-        height: 206px;
+
 }
 .development-description{
    
     margin-bottom: 1rem;
-    width: 100%;
 }
 .p1{  
-margin: 7.5px;
 }
   .modal-header {
     height: 12.99rem;
 }
 .mindPassge{
-     width: 15rem;
+     width: 22rem;
 }
 
-
+.modal-dialog {
+    margin: 15px 0px 0px 0px;
+}
+.Modal.Show {
+    width: 40%;
+}
+.tags {
+margin: 4px 8px;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 1.5px;
+}
 .project-des{
-width: 86%;
-margin-left: 4%;
+
 }
 }
 
 @media only screen and (min-width: 992px) {
-
+.heading4{
+      padding: 8px 0px 0px 3rem;
+}
   .Modal{
        left: 3%;
   }
 
 .Modal.Show{
     left: 3%;
-  
     top: 15%;
-
 }
   .project-broad {
-    width: 68%;
+    width: 68%; 
+    align-items: baseline;
+     flex-direction: row;
 }
 .mindPassge{
 align-self: center;
+height: 13rem;
+width: 19rem;
 }
-.project-tag-title-container{
-width: 80%;
-align-self: center;
-  }
-
+.Modal.Show {
+    width: 90%;
+}
 .Project-sec{
-  width: 66%;
+
 }
 }
 
 
 @media only screen and (min-width: 1200px) {
-  .Project-sec {
-    width: 63%;
-}
+  .process-contianer {
+    width: 9%;
+   padding-left: 0rem;
+    }
+
 }
 @media only screen and (min-width: 1400px) {
 
 .modal-header{
-      height: 13rem;
+    
 }
 // .mindPassge{
 //   margin-top: 0;

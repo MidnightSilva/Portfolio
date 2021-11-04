@@ -1,76 +1,258 @@
 @import "./Variables";
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100;200;300;400;600;700&display=swap');
 .aboutMeSection {
   display: flex;
   flex-direction: column;
   justify-content: left;
   align-items: center;
-  padding-top: 2rem;
-  margin-left: 0rem;
+    width: 100%;;
+
 }
-.aboutme-top-container {
-      margin-top: -1rem;
-  align-items: center;
+.aboutme-navigation{
+      margin-bottom: 1rem;
   display: flex;
-  justify-content: space-evenly;
-  width: 100%;
-}
-.img-place-holder {
-  background-image: url('./IMG_6878.jpg');
-    height: 7rem;
-    background-position: center;
-    width: 7rem;
-    border-radius: 4rem;
-    background-color: aliceblue;
-    background-size: 169px;
-    background-repeat: no-repeat;
-}
-.bullet-point {
-  margin: 8px;
-  font-family: "Inter", sans-serif;
- color:$subtext;
-  font-size: 13px;
+  flex-direction: row;
+    width: 91%;
+    justify-content: space-between;
 }
 .Heading2 {
-  align-self: baseline;
-  height: fit-content;
-  font-family: "Inter", sans-serif;
-      padding: 15px;
-color:white;
-}
-
-.Passage1 {
-    width: 325px;
-    font-family: "Inter", sans-serif;
+    align-self: baseline;
+    font-family: Antonio;
     font-style: normal;
-    font-size: 13px;
-    line-height: 1.3rem;
-    padding: 9px;
-    color: white;
-    margin-bottom: 1rem;
+    font-weight: 300;
+    font-size: 2.3rem;
+    line-height: 19px;
+      padding: 15px 0px 0px 0px;
+    color: $heading;
+}
+.aboutme-points{
+      padding: 7px 1px;
+    align-self: baseline;
+    margin-left: 1rem;
+}
+.aboutme-nav-1 {
+    margin: 8px;
+    text-transform: capitalize;
+    font-family: Antonio;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 16px;
+    line-height: 15px;
+ color:$subtext;
+}
+.aboutme-nav-1Show {
+ margin: 9px;
+    text-transform: capitalize;
+    font-family: Antonio;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 16px;
+    line-height: 15px;
+    color: #E8E8E8;
+    padding-bottom: 7px;
+    border-bottom: solid 1.5px #356394;
 }
 
-@media only screen and (min-device-width: 576px) {
-  .aboutMeSection {
-    width: 80%;
+.aboutme-nav-2 {
+  margin: 9px;
+    text-transform: capitalize;
+    font-family: Antonio;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 16px;
+    line-height: 15px;
+    color: #E8E8E8;
+    padding-bottom: 7px;
+    border-bottom: solid 1.5px #356394;
 }
-.Passage1{
-  width: 100%;
+.aboutme-nav-2Show {
+   margin: 8px;
+    text-transform: capitalize;
+    font-family: Antonio;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 16px;
+    line-height: 15px;
+ color:$subtext;
+}
+.aboutme-nav-3 {
+    margin: 8px;
+    text-transform: capitalize;
+    font-family: Antonio;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 16px;
+    line-height: 15px;
+ color:$subtext;
+}
+.aboutme-nav-3Show {
+ margin: 9px;
+    text-transform: capitalize;
+    font-family: Antonio;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 16px;
+    line-height: 15px;
+    color: #E8E8E8;
+    padding-bottom: 7px;
+    border-bottom: solid 1.5px #356394;
+}
+//process
+.process{
+width: 100%;
+display: flex;
+justify-content: space-evenly;
+height: 24rem;
+}
+.process-contianer{
+    display: flex;
+    flex-direction: column;
+    margin: 1px 31px;
+    align-self: center;
+        width: 12%;
+}
+
+.process-step1{
+opacity: .2;
+    height: 4.5rem;
+}
+
+.process-step1Show{
+opacity: 1;
+height: 4.5rem;
+}
+.process-step2{
+opacity: .2;
+height: 4.5rem;
+}
+.process-step2Show{
+opacity: 1;
+height: 4.5rem;
+}
+.process-step3{
+opacity: .2;
+height: 4.5rem;
+}
+.process-step3Show{
+opacity: 1;
+height: 4.5rem;
+}
+.process-step4{
+opacity: .2;
+height: 4.5rem;
+}
+.process-step4Show{
+opacity: 1;
+height: 4.5rem;
+}
+.process-step1-des-container{
+      width: 54%;
+    margin-left: 3rem;
+    height: 4.5rem;
+}
+
+.process-heading{
+    justify-content: center;
+    display: flex;
+    padding: 1rem;
+    line-height: 1.5rem;
+    order: 2;
+     color:$subtext;
+}
+.procss-des{
+    align-self: center;
+    display: flex;
+    line-height: 1.5rem;
+    order: 2;
+     color:$subtext;
+}
+//WhoIam 
+.whoiam{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.jorge-img{
+    width: 20rem;
+    border-radius: 17px;
+    margin-bottom: -39px;
+      -webkit-filter: invert(100%); /* Safari/Chrome */
+    filter: grayscale(.2);
+}
+.aboutme-whoiam{
+    margin-top: 4rem;
+    line-height: 1.5rem;
+    order: 2;
+    color: white;
+    width: 71%;
+    filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5));
+    border-radius: 9px;
+    padding: 1rem;;
+}
+
+/// Tech 
+.tech{
+display: flex;
+flex-direction: column;
+color: white; 
+width: 100%;
+}
+.aboutme-tech{
+ align-self: center;
+    display: flex;
+width: 72%;
+    border-radius: 9px;
+    padding: 1rem;
+    line-height: 1.5rem;
+    order: 2;
+    filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5));
+}
+@media only screen and (min-device-width: 576px) {
+.aboutme-navigation{
+
+    width: 95%;
+}
+.process-contianer {  
+width: 12%;
+}
+.process{
+        justify-content: space-around;
+}
+.process-step1-des-container{    
+    width: 15rem;
+}
+.aboutme-whoiam{
+    padding: 3rem 3rem 7rem 2rem;
+    margin-top: 4rem;
+    margin: 36px 2px 9px 25px;
+    line-height: 1.5rem;
+    order: 2;
+    color: white;
+    width: 58%;
+}
+.aboutme-tech{
+        width: 73%;
 }
 }
 
 
 
 @media only screen and (min-device-width: 992px) {
-  .aboutMeSection{
-    width: 66%;
-  }
-  .aboutme-top-container{
-    justify-content: space-evenly;
-  }
-  .Passage1{
-    margin-top: 3rem;
-  }
+  .Heading2{  
+        padding: 15px 0px 0px 1.5rem;
+    }
+.aboutme-whoiam{
+    width: 32%;
+    padding: 1rem 0rem 0rem 0rem;
+    line-height: 2rem;
+}
+.aboutme-tech{
+    width: 45%;
+    line-height: 2rem;
+    margin-bottom: 2rem;
+}
 }
 
 @media only screen and (min-width: 1200px) {

@@ -1,26 +1,28 @@
 {
-  "Project": [
-    {
-      "title": "Pies & Fries",
-      "image": "pies&fries.jpg",
+  "Project": [{
+      "title": "Plante Fact Site",
+      "image": "planetfactsitelaptop.png",
       "tag": "Development",
       "tag1": "React",
-      "tag2": "React Router Dom",
-      "tag3": "Node",
-      "tag4": "Express",
+      "tag2": "SweetAlert",
+      "tag3": "Axios",
+      "tag4": "SendGrid",
       "tag5": "MongoDB",
-      "tag6": "Stripe",
-      "link1": "https://piesandfries.herokuapp.com/",
+      "tag6": "Node",
+      "link1": "https://zen-wescoff-191a77.netlify.app/",
+      "site": "p1compassrose.svg",
       "link2": "https://github.com/Jorge1772/c38_final_counseling",
+      "code": "pgithub.svg",
+      "info": "pinfo.svg",
       "projectDescription": "Mind Passage provides users with a place to find theraphists and mental health tips.",
-      "modalTitle": "Pies & Fries",
-      "projectPoint1": "Styled 80% of the app with css from starch ",
-      "projectPoint2": "created condiontal renders for menu items on the hamburger menu for  user , driver , admin ",
-      "projectPoint3": "implented stripe checkout.",
-      "projectPoint4": "QA API end point for user / admin / driver",
-      "projectPoint5": "QA of the GUI",
+      "modalTitle": "MindPassage",
+      "projectPoint1": "Created a custom journal",
+      "projectPoint2": "Brought in react calender and connected to the custom built journal allowing users to save their entery and mood.",
+      "projectPoint3": "Implented Sweet Alert to notify the user when a post was saved or if somthing went wrong.",
+      "projectPoint4": "Assited with CSS throughtout the project",
+      "projectPoint5": "Implented Bootstrap for frontend compinents",
       "projectPoint6": "Used Axios to send user data to the backend",
-      "projectPoint7": "Used SendGrid to send an email to notify user of updates to there order."
+      "projectPoint7": "Used SendGrid to send an email to the user once account was created and to reset password"
     },
     {
       "title": "MindPassage",
@@ -49,7 +51,7 @@
     },
     {
       "title": "Social doggy",
-      "image": "socialdoggy.jpg",
+      "image": "socialdoggy.png",
       "tag": "Development",
       "tag1": "React",
       "tag2": "React Router Dom",
@@ -87,17 +89,6 @@
       "info": "pinfo.svg",
       "projectDescription": "Outpost is to address suicide among veterans.",
       "modalTitle": "Outpost",
-      "modalBody": "Coming soon"
-    },
-    {
-      "title": "TeaRitual",
-      "image": "TeaRitual.png",
-      "tag": "Design",
-      "site": "p1compassrose.svg",
-      "code": "Figma.svg",
-      "info": "pinfo.svg",
-      "projectDescription": "Tea Ritual Is a mobile E-commerce website that offers natural Tea blends.",
-      "modalTitle": "TeaRitual",
       "modalBody": "Coming soon"
     }
   ]

@@ -3,7 +3,9 @@ import React, { useState, } from "react";
 import projectJson from "../Projects.json";
 import Project from "../components/DevelopmentProject";
 import { v4 as uuidv4 } from "uuid";
-// import DesignProject from "../components/DesignProject";
+import DevelopmentProjects from '../assets/Svgs/DevelopmentProject.svg'
+import DesignProjects from "../assets/Svgs/DesginProject.svg";
+import DesignProject from "../components/DesignProject";
 
 
 const ProjectSection = () => {
@@ -28,28 +30,35 @@ const ProjectSection = () => {
       </h1>
 
       <div className="project-des-heading">
-        <div className="project-toggle" >
-          <button
-            className={`button-toggle ${toggle ? "true" : ""}`}
-            onClick={toggleProjects}
-          >
-            Team Projects
-          </button>
-
-          <button
-            className={`button-toggle2 ${design ? "" : "false"}`}
-            onClick={toggleProject2}
-          >
+        <div className="project-toggle">
+          <div className="project-svg-container-development">
             {" "}
-            Solo Projects
-          </button>
+            <img
+              className={`project-svg${design ? "Show" : ""}`}
+              src={DevelopmentProjects}
+              alt="development"
+              onClick={toggleProjects}
+            />
+            <p className={`project-svg-development${design ? "Show" : ""}`}>Development</p>
+          </div>
+          <div className="project-svg-container-desgin">
+            {" "}
+            <img
+              className={`project-svg${design ? "" : "Show"}`}
+              src={DesignProjects}
+              alt="desgin"
+              onClick={toggleProject2}
+            />
+            <p
+              className={`project-svg-desgin${design ? "Show" : ""}`}>
+              Desgin
+            </p>
+          </div>
         </div>
-        <p className="development-description" >
+        <p className="development-description">
           {" "}
-          Below are the projects that I’ve gotten a chance to work on. Current
-          development tech stack includes p HTML5, CSS3, Javascript, React,
-          Node, Expres. I am able to create a fully dynamic and enganging
-          website viewable on mobile screens and desktops.
+          Below are the projects that I’ve gotten a chance to work on. Feel free
+          to move between development or desgin Projects.
         </p>
       </div>
 
@@ -57,15 +66,14 @@ const ProjectSection = () => {
         {toggle === true && design === true
           ? projectJson.Project.map((project, i) => (
               <Project {...project} key={uuidv4()} />
-              
             ))
           : null}
 
-        {/* {design === true && toggle === true
+        {design === false && toggle === false
           ? projectJson.designProjects.map((designProjects, i) => (
               <DesignProject {...designProjects} key={uuidv4()} />
             ))
-          : null} */}
+          : null}
       </div>
       <label></label>
     </div>
