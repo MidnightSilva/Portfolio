@@ -21,16 +21,14 @@
     color: $heading;
 }
 .subheading5 {
-    padding: 1rem;
-    line-height: 1.5rem;
-    color: white;
     display: flex;
-    background-color: #121213;
-    width: 80%;
     color: white;
     width: 73%;
-    background: #f0545413;
+    background: #ee2b483d;
     border-radius: 9px;
+    padding: 1rem;
+    line-height: 1.5rem;
+    filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5));
     align-self: center;
 }
 
