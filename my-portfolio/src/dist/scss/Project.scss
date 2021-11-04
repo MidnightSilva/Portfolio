@@ -115,6 +115,11 @@ width: 100%;
     justify-content: center;
     align-items: center;
 }
+.project-container{
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .project {
     border-radius: 7px;
     display: flex;
@@ -393,8 +398,8 @@ line-height: 1.2rem;
   }
 
 
-.project {width: 27rem;
-height: 206px;
+.project {
+
 }
 .development-description{
    
@@ -413,7 +418,7 @@ height: 206px;
     margin: 15px 0px 0px 0px;
 }
 .Modal.Show {
-    width: 54%;
+    width: 40%;
 }
 .tags {
 margin: 4px 8px;
@@ -430,24 +435,30 @@ margin: 4px 8px;
 }
 
 @media only screen and (min-width: 992px) {
-
+.heading4{
+      padding: 8px 0px 0px 3rem;
+}
   .Modal{
        left: 3%;
   }
 
 .Modal.Show{
     left: 3%;
-  
     top: 15%;
-
 }
   .project-broad {
-    width: 68%;
+    width: 68%; 
+    align-items: baseline;
+     flex-direction: row;
 }
 .mindPassge{
 align-self: center;
+height: 13rem;
+width: 19rem;
 }
-
+.Modal.Show {
+    width: 90%;
+}
 .Project-sec{
 
 }
@@ -457,7 +468,8 @@ align-self: center;
 @media only screen and (min-width: 1200px) {
   .process-contianer {
     width: 9%;
-   padding-left: 0rem;}
+   padding-left: 0rem;
+    }
 
 }
 @media only screen and (min-width: 1400px) {

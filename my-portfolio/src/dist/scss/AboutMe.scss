@@ -240,8 +240,19 @@ width: 12%;
 
 
 @media only screen and (min-device-width: 992px) {
-  
-
+  .Heading2{  
+        padding: 15px 0px 0px 1.5rem;
+    }
+.aboutme-whoiam{
+    width: 32%;
+    padding: 1rem 0rem 0rem 0rem;
+    line-height: 2rem;
+}
+.aboutme-tech{
+    width: 45%;
+    line-height: 2rem;
+    margin-bottom: 2rem;
+}
 }
 
 @media only screen and (min-width: 1200px) {

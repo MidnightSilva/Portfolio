@@ -78,6 +78,7 @@ animation-name: wave-animation;  /* Refers to the name of your @keyframes elemen
   display: inline-block;
 }
 .highlight{
+      filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(241, 241, 241, 0.123));
     color: #356394;
     padding: .2rem;
 
