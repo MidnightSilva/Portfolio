@@ -147,7 +147,11 @@
 .form-img {
     background-position: bottom;
 }
-
+.message {
+    padding-right: 18.2rem;}
+    .email{
+      padding-right: 19.2rem;
+    }
 }
 @media only screen and (min-width: 1200px) {
   .formpage{
@@ -163,6 +167,11 @@
   .input2{
     width: 25rem;
   }
+    .message {
+    padding-right: 21.2rem;}
+    .email{
+      padding-right: 22.2rem;
+    }
 }
 @media only screen and (min-width: 1400px) {
 }

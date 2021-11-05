@@ -253,9 +253,52 @@ width: 12%;
     line-height: 2rem;
     margin-bottom: 2rem;
 }
+.process-step1{
+     height: 6.5rem; 
 }
-
+.process-step1Show{
+      height: 6.5rem; 
+}
+.process-step2{
+    height: 6.5rem;
+}
+.process-step2Show {
+ 
+    height: 6.5rem;
+}
+.process-step3{
+    height: 6.5rem;
+}
+.process-step3Show{
+    height: 6.5rem;
+}
+.process-step4{
+    height: 6.5rem;
+}
+.process-step4Show{
+    height: 6.5rem;
+}
+}
 @media only screen and (min-width: 1200px) {
+}
+@media only screen and (min-width: 1400px) {
+   .aboutme-whoiam {
+    width: 39%;
+}
+    .aboutme-tech {
+    width: 31%;
+    line-height: 2rem;
+    margin-bottom: 4rem;
+}
+.logo-container {
+    width: 33%;
+    margin-bottom: 2rem;
+    margin-top: 3rem;
+
+}
+.jorge-img {
+    margin-top: 3rem;
+}
 }
 
 @media only screen and (min-width: 1600px) {
