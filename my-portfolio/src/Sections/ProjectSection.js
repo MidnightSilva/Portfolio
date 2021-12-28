@@ -44,7 +44,7 @@ const ProjectSection = () => {
           <div className="project-svg-container-desgin">
             {" "}
             <img
-              className={`project-svg${design ? "" : "Show"}`}
+              className={`project-svg-deign${design ? "" : "Show"}`}
               src={DesignProjects}
               alt="desgin"
               onClick={toggleProject2}

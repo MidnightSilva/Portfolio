@@ -1,5 +1,5 @@
 import React from "react";
-import jorgeImg from '../assets/Images/FullSizeRender.jpg'
+import jorgeImg from '../assets/Svgs/avatar.svg'
 import { motion } from "framer-motion"
 // import jorgeImg from "../dist/scss/IMG_7779.jpg";
 const WhoIAm = () => {
@@ -7,7 +7,7 @@ const WhoIAm = () => {
 
   const item = {
     hidden: {
-      opacity:[0,.2,.5],
+      opacity:[0,.2,.7],
       scale: [.6,1],
       transition: { duration: 3 },
     },

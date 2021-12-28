@@ -21,11 +21,17 @@ a{
   overflow: visible;
   flex-direction: column;
   align-items: center;
-  background-image: url("../../assets/Svgs/stars.svg");
-background-repeat: repeat;
-background-size: 350px;
-  background-position: 0px 0px;
-animation: animatedBackground  10s linear infinite;
+  // background-image: url("../../assets/Svgs/sphere.svg");
+    background-repeat: no-repeat;
+    background-size: 10rem;
+    background-position: bottom;
+// animation: animatedBackground  10s linear infinite;
+}
+.sphere{
+  height: 10rem;
+  position: fixed;
+  top:16rem
+
 }
 
 @keyframes animatedBackground {

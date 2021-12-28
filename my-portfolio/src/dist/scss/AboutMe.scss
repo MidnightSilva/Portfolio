@@ -165,6 +165,7 @@ height: 4.5rem;
     display: flex;
     line-height: 1.5rem;
     order: 2;
+     filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5));
      color:$subtext;
 }
 //WhoIam 
@@ -175,21 +176,22 @@ height: 4.5rem;
     flex-direction: column;
 }
 .jorge-img{
-    width: 20rem;
+    width: 17rem;
     border-radius: 17px;
     margin-bottom: -39px;
       -webkit-filter: invert(100%); /* Safari/Chrome */
     filter: grayscale(.2);
 }
 .aboutme-whoiam{
-    margin-top: 4rem;
+      margin-top: 3.7rem;
+    margin-left: 0.2rem;
     line-height: 1.5rem;
     order: 2;
     color: white;
-    width: 71%;
+    width: 65%;
     filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5));
     border-radius: 9px;
-    padding: 1rem;;
+
 }
 
 /// Tech 
@@ -283,7 +285,8 @@ width: 12%;
 }
 @media only screen and (min-width: 1400px) {
    .aboutme-whoiam {
-    width: 39%;
+       width: 35%;
+           padding: 2rem 0rem 7rem 0rem;
 }
     .aboutme-tech {
     width: 31%;
@@ -297,6 +300,7 @@ width: 12%;
 
 }
 .jorge-img {
+    width: 35rem;
     margin-top: 3rem;
 }
 }

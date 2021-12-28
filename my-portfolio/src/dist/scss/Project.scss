@@ -36,20 +36,33 @@ opacity: .1;
 }
 .project-svgShow{
 opacity: 1;
-    height: 8rem;
+    height: 6rem;
     filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(233, 232, 232, 0.041));
 }
+.project-svg-deign{
+  opacity: .1;
+    height: 4rem;
+}
+
+.project-svg-deignShow{
+opacity: 1;
+    height: 6rem;
+    filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(233, 232, 232, 0.041));
+}
+
+
+
 .project-svg-development{
       margin: 8px;
     text-transform: capitalize;
     font-family: Antonio;
     font-style: normal;
     font-weight: 600;
-    font-size: 16px;
+    font-size: 10px;
     letter-spacing: 4px;
     line-height: 15px;
     color: #DDDDDD;
-       opacity: 0;
+       opacity: 0.2;
         align-self: center;
 }
 .project-svg-developmentShow{
@@ -58,10 +71,11 @@ opacity: 1;
     font-family: Antonio;
     font-style: normal;
      font-weight: 600;
-    font-size: 16px;
+    font-size: 14px;
     letter-spacing: 4px;
     line-height: 15px;
     color: #DDDDDD;
+        filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5));
       
 }
 .project-svg-desgin{
@@ -69,45 +83,36 @@ opacity: 1;
     text-transform: capitalize;
     font-family: Antonio;
     font-style: normal;
-     font-size: 16px;
+     font-size: 14px;
     letter-spacing: 4px;
     line-height: 15px;
     color: #DDDDDD;
         align-self: center;
+            filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5));
 }
 .project-svg-desginShow{
       margin: 8px;
     text-transform: capitalize;
     font-family: Antonio;
     font-style: normal;
-    font-size: 16px;
+    font-size: 10px;
     letter-spacing: 4px;
     line-height: 15px;
     color: #DDDDDD;
-     opacity: 0;
+     opacity: 0.2;
       
 }
-
-
-
-
-
-
-
 .development-description {
     order: 2;
     width: 72%;
     border-radius: 9px;
-    padding: 1rem;
+      padding: 0rem 0.7rem 0.7rem 0.7rem;
     line-height: 1.5rem;
     filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5));
     order: 2;
     color: white;
-;
-
 }
 /* for the projects base code  */
-
 .project-broad {
 width: 100%;
     display: flex;
@@ -164,7 +169,7 @@ font-weight: 600;}
     border-radius: 7px;
     align-self: center;
     height: 16rem;
-    margin-top: -2rem;
+    margin-top: -3rem;
     width: auto;
         filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5));
 }
@@ -173,7 +178,7 @@ font-weight: 600;}
     border-radius: 7px;
     align-self: center;
     height: 16rem;
- margin-top: -2rem;
+ margin-top: -3rem;
     width: auto;
     margin-left: -3rem;
         filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5));

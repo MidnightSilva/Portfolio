@@ -4,10 +4,10 @@
 
 
 .form-img{
-  background-image: url('../../assets/Images/Forest.png');
       background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+
 }
 
 .heading5 {
@@ -24,19 +24,19 @@
     display: flex;
     width: 73%;
     border-radius: 9px;
-    padding: 1rem;
+  padding: 0rem 0.7rem 0.7rem 0rem;
     line-height: 1.5rem;
     align-self: center;
-    filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5));
+  filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5));
     color: white;
 
 }
 
 .formpage {
+
     display: flex;
     flex-direction: column;
-    align-content: center;
-}
+    align-content: center;}
 .form {
 
     padding-bottom: 1rem;
