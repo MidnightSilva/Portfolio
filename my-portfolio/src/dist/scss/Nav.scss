@@ -9,22 +9,13 @@ display: none;
   position: fixed;
   display: flex;
   width: 100vw;
-     justify-content: space-between;
-  top: 0rem;
-  background: rgba(14, 21, 29, 0.767);
-  z-index: 6;
-}
-
-
-.nav-heading{
-      font-family: Antonio;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 1.5rem;
-    text-transform: capitalize;
-    line-height: 19px;
+justify-content: space-between;
+top: 0rem;
+font-weight: 300;
+font-size: 1.5rem;
+text-transform: capitalize;
+line-height: 19px;
  color: $heading;
-        padding-left: 16px;
 }
 .nav-right {
     text-transform: capitalize;
@@ -34,7 +25,7 @@ display: none;
     display: flex;
     justify-content: space-evenly;
     font-weight: 500;
-    font-size: 14px;
+    font-size: 15px;
 }
 
 .nav-center {
@@ -54,7 +45,17 @@ display: none;
     font-size: 14px;
 
 }
-
+.nav-heading{
+  padding-left: 16px;
+text-transform: capitalize;
+    font-family: Antonio;
+    font-style: normal;
+    letter-spacing: .5px;
+    display: flex;
+      color: white;
+    justify-content: space-evenly;
+    font-weight: 500;
+    font-size: 22px;}
 //hamburger menu mobile toggle
 .hamburger-menu-icon{
 
@@ -72,7 +73,6 @@ display: none;
     flex-direction: column;
      border-top: 1px solid #356394;
         border-bottom: 1px solid #356394;
-     background: rgba(14, 21, 29, 0.767);
       align-items: center;
     width: 40%;
     margin-left: 60%;
@@ -155,7 +155,6 @@ display: none;
   width: 100vw;
 justify-content: space-between;
   top: 0rem;
-  background: rgba(14, 21, 29, 0.767);
   z-index: 6;
 }
 .linkedinlogo{margin: 0;

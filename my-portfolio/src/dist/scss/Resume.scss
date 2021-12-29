@@ -22,12 +22,13 @@ color:$heading;
   justify-content: center;
 }
 .project-toggle{
-    display: flex;
-    justify-content: center;
-    width: 87%;
-    margin-top: 0.5rem;
-    padding: 0.9rem 0.9rem 0rem 0.9rem;
-    order: 1;
+    // display: flex;
+    // justify-content: center;
+    // width: 87%;
+    // margin-top: 0.5rem;
+    // padding: 0.9rem 0.9rem 0rem 0.9rem;
+    // order: 1;
+    display: none;
 }
  
 .button-toggle{ 

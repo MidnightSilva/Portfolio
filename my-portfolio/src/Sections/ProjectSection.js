@@ -3,7 +3,7 @@ import React, { useState, } from "react";
 import projectJson from "../Projects.json";
 import Project from "../components/DevelopmentProject";
 import { v4 as uuidv4 } from "uuid";
-import DevelopmentProjects from '../assets/Svgs/DevelopmentProject.svg'
+// import DevelopmentProjects from '../assets/Svgs/DevelopmentProject.svg'
 import DesignProjects from "../assets/Svgs/DesginProject.svg";
 import DesignProject from "../components/DesignProject";
 
@@ -13,10 +13,10 @@ const ProjectSection = () => {
   const [design, setDesign] = useState(true);
 
 
-  const toggleProjects = (toggleProject2) => {
-    toggle ? setToggle(false) : setToggle(true);
-    design ? setDesign(false) : setDesign(true);
-  };
+  // const toggleProjects = (toggleProject2) => {
+  //   toggle ? setToggle(false) : setToggle(true);
+  //   design ? setDesign(false) : setDesign(true);
+  // };
   const toggleProject2 = () => {
     design ? setDesign(false) : setDesign(true);
     toggle ? setToggle(false) : setToggle(true);
@@ -31,7 +31,7 @@ const ProjectSection = () => {
 
       <div className="project-des-heading">
         <div className="project-toggle">
-          <div className="project-svg-container-development">
+          {/* <div className="project-svg-container-development">
             {" "}
             <img
               className={`project-svg${design ? "Show" : ""}`}
@@ -40,7 +40,7 @@ const ProjectSection = () => {
               onClick={toggleProjects}
             />
             <p className={`project-svg-development${design ? "Show" : ""}`}>Development</p>
-          </div>
+          </div> */}
           <div className="project-svg-container-desgin">
             {" "}
             <img

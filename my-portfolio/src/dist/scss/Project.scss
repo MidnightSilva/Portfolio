@@ -6,6 +6,7 @@
   display: flex;
   flex-direction: column;
   align-items: center; ;
+      padding-bottom: 1rem;
 }
 
 /* heading  and describtion */
@@ -162,14 +163,14 @@ font-weight: 600;}
     width: 100%;
     justify-content: space-around;
     height: fit-content;
-    margin-top: -3rem;
+    margin-top: -2.7rem;
 }
 .mindPassge {
   opacity: .9;
     border-radius: 7px;
     align-self: center;
     height: 16rem;
-    margin-top: -3rem;
+     margin-top: -3rem;
     width: auto;
         filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5));
 }
@@ -178,7 +179,7 @@ font-weight: 600;}
     border-radius: 7px;
     align-self: center;
     height: 16rem;
- margin-top: -3rem;
+    margin-top: -3rem;
     width: auto;
     margin-left: -3rem;
         filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5));
@@ -299,6 +300,7 @@ display: none;
     width: 73%;
       background: #dddddd6c;
     border-radius: 9px;
+        margin-top: 0.9rem;
         padding: .5rem .2rem .5rem .2rem;
        filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(110, 110, 110, 0.5));
 }
@@ -387,6 +389,12 @@ line-height: 1.2rem;
 .Overlay.Show {
   display: block;
 }
+
+@media only screen and (min-device-width: 440px) {
+.Modal.Show {
+    width: 52%;
+}}
+
 @media only screen and (min-device-width: 576px) {
   .Project-sec {
 
@@ -401,6 +409,15 @@ line-height: 1.2rem;
 .project-svg-container-desgin {
     margin-left: 6rem;
   }
+
+  .project-svg-deign{
+ height: 7rem;
+}
+
+.project-svg-deignShow{
+
+   height: 9rem;
+}
 
 
 .project {
@@ -470,6 +487,11 @@ width: 19rem;
 }
 }
 
+
+.project-svg-deignShow{
+
+   height: 13rem;
+}
 
 @media only screen and (min-width: 1200px) {
   .process-contianer {
