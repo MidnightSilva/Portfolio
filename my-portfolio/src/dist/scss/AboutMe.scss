@@ -188,7 +188,7 @@ height: 4.5rem;
     line-height: 1.5rem;
     order: 2;
     color: white;
-    width: 65%;
+    width: 200px;
     filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5));
     border-radius: 9px;
 
@@ -226,13 +226,13 @@ width: 12%;
     width: 15rem;
 }
 .aboutme-whoiam{
-    padding: 3rem 3rem 7rem 2rem;
+    padding: 1rem 0 0;
     margin-top: 4rem;
     margin: 36px 2px 9px 25px;
     line-height: 1.5rem;
     order: 2;
     color: white;
-    width: 58%;
+   
 }
 .aboutme-tech{
         width: 73%;
@@ -246,9 +246,8 @@ width: 12%;
         padding: 15px 0px 0px 1.5rem;
     }
 .aboutme-whoiam{
-    width: 32%;
-    padding: 1rem 0rem 0rem 0rem;
-    line-height: 2rem;
+   
+    padding: 1rem 0 0;
 }
 .aboutme-tech{
     width: 45%;
@@ -282,11 +281,15 @@ width: 12%;
 }
 }
 @media only screen and (min-width: 1200px) {
+    .aboutme-whoiam {
+    width: 240px;
+}
 }
 @media only screen and (min-width: 1400px) {
    .aboutme-whoiam {
-       width: 35%;
-           padding: 2rem 0rem 7rem 0rem;
+           margin-left: -1rem;
+           padding: 2rem 0rem 2rem 0rem;
+               width: 262px;
 }
     .aboutme-tech {
     width: 31%;
@@ -300,7 +303,7 @@ width: 12%;
 
 }
 .jorge-img {
-    width: 35rem;
+      width: 25rem;
     margin-top: 3rem;
 }
 }

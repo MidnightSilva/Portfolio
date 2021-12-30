@@ -1,23 +1,51 @@
 import { motion } from "framer-motion";
 
 const LandingSection = () => {
+
    const item = {
      hidden: {
-       opacity: [0, 0.5, 1],
-       transition: { duration: 3 },
+      scale:[4,-2,1],
+       opacity: [0, 0, 0, 0.5, 1],
+       transition: { duration: 5 },
      },
    };
+ const item2 = {
+   hidden: {
+  y:[0,-100],
+     opacity: [0, 0,0,0.5, 1],
+     transition: { duration: 7 },
+   },
+ };
+
+  const item3 = {
+    hidden: {
+      rotateX: 360,
+      opacity: [0, 0, 0, 0.5, 1],
+      transition: { duration: 9 },
+    },
+  };
+
+
   return (
     <div className="landing-tile">
       <motion.h2 className="landing-greeting" variants={item} animate="hidden">
         Welcome to my portfoilo <motion.span className="hand">👋🏼</motion.span>
       </motion.h2>
 
-      <motion.p className="word" variants={item} animate="hidden">
+      <motion.p className="word" variants={item2} animate="hidden">
         My name is Jorge. I am a
-        <motion.span className="highlight"> USN Veteran,</motion.span>
-        <motion.span className="highlight">Full Stack dev,</motion.span> with
-        some <motion.span className="highlight">UXUI</motion.span> Experience.
+        <motion.span className="highlight" variants={item3}>
+          {" "}
+          USN Veteran,
+        </motion.span>
+        <motion.span className="highlight" variants={item3}>
+          Full Stack dev,
+        </motion.span>{" "}
+        with some{" "}
+        <motion.span className="highlight" variants={item3}>
+          UXUI
+        </motion.span>{" "}
+        Experience.
       </motion.p>
       {/* <div class="morphing">
           <div class="word">a USN Veteran</div>
