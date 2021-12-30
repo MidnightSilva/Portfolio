@@ -1,29 +1,85 @@
 import github from "../assets/Svgs/Github.svg";
 import linkedin from "../assets/Svgs/linkedin.svg";
 import { Link } from "react-scroll";
+import { motion } from "framer-motion";
 
 const NavDesktop = () => {
+  const item2 = {
+    hidden: {
+      y: [120, 20],
+      opacity: [0, 0, 0, 0.5, 1],
+      transition: { duration: 5 },
+    },
+  };
+   const item3 = {
+     hidden: {
+       rotateX: 360,
+       opacity: [0, 0, 0, 0.5, 1],
+       transition: { duration: 9 },
+       
+     },
+   };
   return (
     <div className="navbackground-desktop">
       <div className="nav-heading">Silva's Portfoilo</div>
-      <div className="nav-right">
+      <motion.div className="nav-right" variants={item2} animate="hidden">
         <Link activeClass="active" to="aboutme" spy={true} smooth={true}>
-          <p className="link1">About Me</p>
+          <motion.p
+            className="link1"
+            variants={item3}
+            animate="hidden"
+            whileHover={{ scale: 1.5, color: "#356394" }}
+            whileTap={{ scale: 0.7, rotateX: 360, color: "#356394" }}
+          >
+            About Me
+          </motion.p>
         </Link>
         <Link activeClass="active" to="project" spy={true} smooth={true}>
-          <p className="link2">Projects</p>
+          <motion.p
+            className="link2"
+            variants={item3}
+            animate="hidden"
+            whileHover={{ scale: 1.5, color: "#356394" }}
+            whileTap={{ scale: 0.7, rotateX: 360, color: "#356394" }}
+          >
+            Projects
+          </motion.p>
         </Link>
 
         <Link activeClass="active" to="form" spy={true} smooth={true}>
-          <p className="link3">Contact Me</p>
+          <motion.p
+            className="link3"
+            variants={item3}
+            animate="hidden"
+            whileHover={{ scale: 1.5, color: "#356394" }}
+            whileTap={{ scale: 0.7, rotateX: 360, color: "#356394" }}
+          >
+            Contact Me
+          </motion.p>
         </Link>
         <a href="https://www.linkedin.com/in/jorgelsilvajr/">
-          <img src={linkedin} className="linkedinlogo" alt="linkedin-logo" />
+          <motion.img
+            src={linkedin}
+            className="linkedinlogo"
+            alt="linkedin-logo"
+            variants={item3}
+            animate="hidden"
+            whileHover={{ scale: 1.5, color: "#356394" }}
+            whileTap={{ scale: 0.7, rotateX: 360, color: "#356394" }}
+          />
         </a>
         <a href="https://github.com/MidnightSilva">
-          <img src={github} className="githublogo" alt="github-logo" />
+          <motion.img
+            src={github}
+            className="githublogo"
+            variants={item3}
+            animate="hidden"
+            whileHover={{ scale: 1.5, color: "#356394" }}
+            whileTap={{ scale: 0.7, rotateX: 360, color: "#356394" }}
+            alt="github-logo"
+          />
         </a>
-      </div>
+      </motion.div>
     </div>
   );
 };

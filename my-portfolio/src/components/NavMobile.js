@@ -3,6 +3,7 @@ import linkedin from "../assets/Svgs/linkedin.svg";
 import { Link } from "react-scroll";
 import hamburgermenu from "../assets/Svgs/hamburgerMenu.svg"
 import { useState } from "react";
+import { motion } from "framer-motion";
 
 const Nav = () => {
     const [hamburgermenuToggle, setHamburgerMenuToggle] = useState(false);
@@ -19,35 +20,58 @@ const Nav = () => {
           : setHamburgerMenuToggle(true);
      };
 
+ 
+  const item3 = {
+    hidden: {
+    scale:[-3,.5,1],
+      opacity: [0, 0, 0, 0.5, 1],
+      transition: { duration: 3 },
+    },
+  };
 
   return (
-    <div>
+    <motion.div variants={item3} animate="hidden">
       <div className="navbackground-mobile">
         <div className="nav-right">
           <p className="nav-heading">Silva's Portfoilo</p>
         </div>
 
-        <div className="nav-left">
-          <img
+        <motion.div className="nav-left">
+          <motion.img
             alt="hamburger menu"
             src={hamburgermenu}
+            variants={item3}
+            whileHover={{ scale: 1.5, color: "#356394" }}
+            whileTap={{ scale: [0.9, 1] }}
             className={`hamburger-menu-icon ${
               hamburgermenuToggle ? "Show" : ""
             }`}
             onClick={toggleHamburgerMenu}
           />
-        </div>
+        </motion.div>
       </div>
-      <div className={`hamburgerMenu ${hamburgermenuToggle ? "Show" : ""}`}>
+
+      <motion.div
+        className={`hamburgerMenu ${hamburgermenuToggle ? "Show" : ""}`}
+      >
         <Link activeClass="active" to="aboutme" spy={true} smooth={true}>
-          <p className="link" onClick={toggleHamburgerMenu}>
+          <motion.p
+            variants={item3}
+            className="link"
+            onClick={toggleHamburgerMenu}
+          >
             About Me
-          </p>
+          </motion.p>
         </Link>
         <Link activeClass="active" to="project" spy={true} smooth={true}>
-          <p className="link" onClick={toggleHamburgerMenu}>
+          <motion.p
+            variants={item3}
+            whileTap={{ scale: [0.7, 1] }}
+            className="link"
+            onClick={toggleHamburgerMenu}
+          >
             Projects
-          </p>
+          </motion.p>
         </Link>
         <Link activeClass="active" to="form" spy={true} smooth={true}>
           <p className="link" onClick={handleMessageModal}>
@@ -59,7 +83,9 @@ const Nav = () => {
           onClick={toggleHamburgerMenu}
           className="link-a"
         >
-          <p>linkedin</p>
+          <motion.p variants={item3} whileTap={{ scale: [0.7, 1] }}>
+            linkedin
+          </motion.p>
           <img
             src={linkedin}
             className="linkedinlogo"
@@ -74,8 +100,8 @@ const Nav = () => {
           Github
           <img src={github} className="githublogo" alt="github-logo" />
         </a>
-      </div>
-    </div>
+      </motion.div>
+    </motion.div>
   );
 };
 export default Nav;
