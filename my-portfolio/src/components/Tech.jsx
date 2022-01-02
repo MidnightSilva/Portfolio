@@ -11,37 +11,58 @@ import react from "../assets/Svgs/react-2.svg";
 import node from "../assets/Svgs/nodejs-icon.svg";
 import mongodb from "../assets/Svgs/mongodb.svg";
 import jest from "../assets/Svgs/jest-seeklogo.com.svg";
-import { motion } from "framer-motion";
-const Tech = () => {
-   const item = {
-     hidden: {
-       opacity: [0, 0.2, 0.8],
-       scale: [0.6, 1],
-       transition: { duration: 3 },
-     },
-   };
-   const item2 = {
-     hidden: {
-       opacity: [0, 0.2, 0.9],
-       scale: [0.6, 1],
-       transition: { duration: 3 },
-     },
-   };
+import React, { useEffect } from "react";
+import { useAnimation, motion } from "framer-motion";
+import { useInView } from "react-intersection-observer";
 
+
+const Tech = () => {
+
+  const controls = useAnimation();
+  const [ref, inView] = useInView({
+    threshold: 1,
+  });
+
+  useEffect(() => {
+    if (inView) {
+      controls.start("visible");
+    } else {
+      controls.start("hidden");
+    }
+  }, [controls, inView]);
+
+
+  const item = {
+    visible: {
+      scale: [0.0, 1],
+      opacity: [0, 0.5, 0.7],
+      transition: { duration: 5 },
+    },
+    hidden: { opacity: 0, scale: 0 },
+    transition: { duration: 5 },
+  };
   return (
     <div className="tech" id="tech">
-      <motion.div className="aboutme-tech" variants={item2} animate="hidden">
+      <motion.div
+        variants={item}
+        ref={ref}
+        animate={controls}
+        initial="visible"
+        className="aboutme-tech"
+      >
         {" "}
         Integrating what I learned about Full Stack Development & User
         experience design from BrainStation,I am able to fully create create
-        wireframes & prototypes. Implement best practices such as control &
-        freedom, error prevention, Navigation, Alignment, Buttons/CTAs,
-        Consistency responsive sites across different browser types. Able to
-        work with rest Api’s.I am able to fully create responsive sites across
-        different browser types. Able to work with rest Api’s.
+        Wireframes, Prototypes, fully reponsive sites.
       </motion.div>
 
-      <motion.div className="logo-container" variants={item} animate="hidden">
+      <motion.div
+        className="logo-container"
+        variants={item}
+        ref={ref}
+        animate={controls}
+        initial="hidden"
+      >
         <img className="skill-logo" src={acc} alt="adobecreative-cloud-logo" />
         <img className="skill-logo" src={figma} alt="figma-logo" />{" "}
         <img className="skill-logo" src={git} alt="git-logo" />{" "}

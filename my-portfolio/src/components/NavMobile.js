@@ -33,7 +33,12 @@ const Nav = () => {
     <motion.div variants={item3} animate="hidden">
       <div className="navbackground-mobile">
         <div className="nav-right">
-          <p className="nav-heading">Silva's Portfoilo</p>
+          <motion.p
+            className="nav-heading"
+            whileTap={{ scale: [0.7, 1.1], color: "#356394" }}
+          >
+            Silva's Portfoilo
+          </motion.p>
         </div>
 
         <motion.div className="nav-left">

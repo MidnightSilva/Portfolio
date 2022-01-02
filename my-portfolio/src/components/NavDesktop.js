@@ -21,7 +21,12 @@ const NavDesktop = () => {
    };
   return (
     <div className="navbackground-desktop">
-      <div className="nav-heading">Silva's Portfoilo</div>
+      <motion.div
+        className="nav-heading"
+        whileTap={{ scale: [0.7, 1.1], color: "#356394" }}
+      >
+        Silva's Portfoilo
+      </motion.div>
       <motion.div className="nav-right" variants={item2} animate="hidden">
         <Link activeClass="active" to="aboutme" spy={true} smooth={true}>
           <motion.p
