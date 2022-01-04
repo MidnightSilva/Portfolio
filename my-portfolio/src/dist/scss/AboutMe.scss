@@ -51,7 +51,7 @@
     line-height: 15px;
     color: #E8E8E8;
     padding-bottom: 7px;
-    border-bottom: solid 1.5px #356394;
+   
 }
 
 .aboutme-nav-2 {
@@ -64,7 +64,7 @@
     line-height: 15px;
     color: #E8E8E8;
     padding-bottom: 7px;
-    border-bottom: solid 1.5px #356394;
+   
 }
 .aboutme-nav-2Show {
    margin: 8px;
@@ -96,7 +96,7 @@
     line-height: 15px;
     color: #E8E8E8;
     padding-bottom: 7px;
-    border-bottom: solid 1.5px #356394;
+
 }
 //process
 .process{
@@ -220,7 +220,7 @@ width: 72%;
 width: 12%;
 }
 .process{
-        justify-content: space-around;
+        
 }
 .process-step1-des-container{    
     width: 15rem;
@@ -255,35 +255,43 @@ width: 12%;
     margin-bottom: 2rem;
 }
 .process-step1{
-     height: 6.5rem; 
+     height: 4.5rem; 
+     
 }
 .process-step1Show{
-      height: 6.5rem; 
+   height: 4.5rem; 
 }
 .process-step2{
-    height: 6.5rem;
+  height: 4.5rem; 
 }
 .process-step2Show {
  
-    height: 6.5rem;
+   height: 4.5rem; 
 }
 .process-step3{
-    height: 6.5rem;
+    height: 4.5rem; 
 }
 .process-step3Show{
-    height: 6.5rem;
+  height: 4.5rem; 
 }
 .process-step4{
-    height: 6.5rem;
+  height: 4.5rem; 
 }
 .process-step4Show{
-    height: 6.5rem;
+  height: 4.5rem; 
 }
 }
 @media only screen and (min-width: 1200px) {
     .aboutme-whoiam {
     width: 240px;
 }
+.aboutMeSection {
+
+    height: 88vh;}
+    .jorge-img {
+    margin-top: 3rem;}
+
+
 }
 @media only screen and (min-width: 1400px) {
    .aboutme-whoiam {

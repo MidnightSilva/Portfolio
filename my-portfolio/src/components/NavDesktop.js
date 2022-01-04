@@ -7,23 +7,44 @@ const NavDesktop = () => {
   const item2 = {
     hidden: {
       y: [120, 20],
-      opacity: [0, 0, 0, 0.5, 1],
-      transition: { duration: 5 },
+      opacity: [ 0.5, 1],
+      transition: { duration: 2 },
     },
   };
    const item3 = {
      hidden: {
-       rotateX: 360,
-       opacity: [0, 0, 0, 0.5, 1],
-       transition: { duration: 9 },
+       rotateX: 1440,
+       opacity: [ 0.5, 1],
+       transition: { duration: 3 },
        
      },
    };
+    const item4 = {
+      hidden: {
+        rotateX: 1440,
+        opacity: [0.5, 1],
+        transition: { duration: 5 },
+      },
+    };
+     const item5 = {
+       hidden: {
+         rotateX: 1440,
+         opacity: [0.5, 1],
+         transition: { duration: 7 },
+       },
+     };
+      const item6 = {
+        hidden: {
+          rotateX: 1440,
+          opacity: [0.5, 1],
+          transition: { duration: 8 },
+        },
+      };
+
   return (
     <div className="navbackground-desktop">
       <motion.div
         className="nav-heading"
-        whileTap={{ scale: [0.7, 1.1], color: "#356394" }}
       >
         Silva's Portfoilo
       </motion.div>
@@ -34,7 +55,6 @@ const NavDesktop = () => {
             variants={item3}
             animate="hidden"
             whileHover={{ scale: 1.5, color: "#356394" }}
-            whileTap={{ scale: 0.7, rotateX: 360, color: "#356394" }}
           >
             About Me
           </motion.p>
@@ -42,10 +62,9 @@ const NavDesktop = () => {
         <Link activeClass="active" to="project" spy={true} smooth={true}>
           <motion.p
             className="link2"
-            variants={item3}
+            variants={item4}
             animate="hidden"
             whileHover={{ scale: 1.5, color: "#356394" }}
-            whileTap={{ scale: 0.7, rotateX: 360, color: "#356394" }}
           >
             Projects
           </motion.p>
@@ -54,10 +73,9 @@ const NavDesktop = () => {
         <Link activeClass="active" to="form" spy={true} smooth={true}>
           <motion.p
             className="link3"
-            variants={item3}
+            variants={item5}
             animate="hidden"
             whileHover={{ scale: 1.5, color: "#356394" }}
-            whileTap={{ scale: 0.7, rotateX: 360, color: "#356394" }}
           >
             Contact Me
           </motion.p>
@@ -67,20 +85,18 @@ const NavDesktop = () => {
             src={linkedin}
             className="linkedinlogo"
             alt="linkedin-logo"
-            variants={item3}
+            variants={item5}
             animate="hidden"
             whileHover={{ scale: 1.5, color: "#356394" }}
-            whileTap={{ scale: 0.7, rotateX: 360, color: "#356394" }}
           />
         </a>
         <a href="https://github.com/MidnightSilva">
           <motion.img
             src={github}
             className="githublogo"
-            variants={item3}
+            variants={item6}
             animate="hidden"
             whileHover={{ scale: 1.5, color: "#356394" }}
-            whileTap={{ scale: 0.7, rotateX: 360, color: "#356394" }}
             alt="github-logo"
           />
         </a>

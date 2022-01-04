@@ -154,6 +154,9 @@ animation-name: wave-animation;  /* Refers to the name of your @keyframes elemen
 @media only screen and (min-device-width: 992px) {
 }
 @media only screen and (min-width: 1200px) {
+  .landing-tile {
+    margin-top: 16rem;
+  }
 }
 @media only screen and (min-width: 1400px) {
 }

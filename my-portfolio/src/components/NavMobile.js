@@ -7,6 +7,11 @@ import { motion } from "framer-motion";
 
 const Nav = () => {
     const [hamburgermenuToggle, setHamburgerMenuToggle] = useState(false);
+    const [siteHeadingToggle, setSiteHeadingToggle] = useState(false);
+
+    const toggleSiteHeading =()=>{
+      siteHeadingToggle ? setSiteHeadingToggle(true) : setSiteHeadingToggle(false)
+    }
 
     const toggleHamburgerMenu = () => {
       hamburgermenuToggle ? setHamburgerMenuToggle(false) : setHamburgerMenuToggle(true);
@@ -19,6 +24,7 @@ const Nav = () => {
           ? setHamburgerMenuToggle(false)
           : setHamburgerMenuToggle(true);
      };
+
 
  
   const item3 = {
@@ -34,8 +40,8 @@ const Nav = () => {
       <div className="navbackground-mobile">
         <div className="nav-right">
           <motion.p
-            className="nav-heading"
-            whileTap={{ scale: [0.7, 1.1], color: "#356394" }}
+            className={`nav-heading ${hamburgermenuToggle ? "Show" : ""}`}
+            onClick={toggleSiteHeading}
           >
             Silva's Portfoilo
           </motion.p>

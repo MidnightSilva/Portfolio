@@ -1,5 +1,7 @@
-import React, { useState, } from "react";
 
+import React, { useEffect, useState } from "react";
+import { useAnimation, motion } from "framer-motion";
+import { useInView } from "react-intersection-observer";
 import projectJson from "../Projects.json";
 import Project from "../components/DevelopmentProject";
 import { v4 as uuidv4 } from "uuid";
@@ -17,14 +19,52 @@ const ProjectSection = () => {
   //   toggle ? setToggle(false) : setToggle(true);
   //   design ? setDesign(false) : setDesign(true);
   // };
+
+
+  const controls = useAnimation();
+  const [ref, inView] = useInView({
+    threshold: 0.5,
+  });
+
+  useEffect(() => {
+    if (inView) {
+      controls.start("visible");
+    } else {
+      controls.start("hidden");
+    }
+  }, [controls, inView]);
+
+  const item = {
+    visible: {
+      opacity: [0.5, 1],
+      scale: 1,
+      transition: { duration: 2 },
+    },
+    hidden: { opacity: 0.2},
+   
+  };
+
+  
+
+
+
+
+
   const toggleProject2 = () => {
-    design ? setDesign(false) : setDesign(true);
+        design ? setDesign(false) : setDesign(true);
     toggle ? setToggle(false) : setToggle(true);
   };
 
 
   return (
-    <div className="Project-sec" id="project">
+    <motion.div
+      variants={item}
+      ref={ref}
+      animate={controls}
+      initial="hidden"
+      className="Project-sec"
+      id="project"
+    >
       <h1 className="heading4" data-aos="fade-left">
         Projects
       </h1>
@@ -49,8 +89,7 @@ const ProjectSection = () => {
               alt="desgin"
               onClick={toggleProject2}
             />
-            <p
-              className={`project-svg-desgin${design ? "Show" : ""}`}>
+            <p className={`project-svg-desgin${design ? "Show" : ""}`}>
               Desgin
             </p>
           </div>
@@ -76,7 +115,7 @@ const ProjectSection = () => {
           : null}
       </div>
       <label></label>
-    </div>
+    </motion.div>
   );
 };
 

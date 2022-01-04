@@ -10,12 +10,13 @@ display: none;
   display: flex;
   width: 100vw;
 justify-content: space-between;
-top: 1rem;
+top: 0rem;
 font-weight: 300;
 font-size: 1.5rem;
 text-transform: capitalize;
 line-height: 19px;
  color: $heading;
+     background-color: #35639417;
 }
 .nav-right {
     text-transform: capitalize;
@@ -56,6 +57,12 @@ text-transform: capitalize;
     justify-content: space-evenly;
     font-weight: 500;
     font-size: 22px;}
+
+.nav-heading.Show{
+  scale: 1.5;
+  color: #356394}
+
+
 //hamburger menu mobile toggle
 .hamburger-menu-icon{
 
@@ -71,13 +78,14 @@ text-transform: capitalize;
     display: flex;
     position: fixed;
     flex-direction: column;
-     border-top: 1px solid #356394;
         border-bottom: 1px solid #356394;
       align-items: center;
     width: 40%;
     margin-left: 60%;
-       margin-top: 17.2%;
+      
+    margin-top: 15.6%;
     z-index: 100;
+    background-color: #35639417;
 }
 .link{
     text-transform: capitalize;
@@ -135,7 +143,9 @@ text-transform: capitalize;
   .navbackground-mobile {
 display: none;
 
-}
+  }
+  .nav-heading {scale: 1.5;
+  color: #356394}
 .nav-right{
       text-transform: capitalize;
     font-family: Antonio;
@@ -147,9 +157,10 @@ display: none;
     justify-content: space-between;
     display: flex;
     align-items: center;
+    ;
 }
 .navbackground-desktop {
-    align-items: center;
+    align-items: flex-end;
   position: fixed;
   display: flex;
   width: 100vw;

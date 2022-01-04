@@ -20,23 +20,19 @@ const AboutMeNavigation = () => {
 
   const item = {
     visible: {
-      scale: [0.0, 1],
-      opacity: [0, 0, 0, 0.5, 1],
-      transition: { duration: 3 },
+      opacity: [0.5, 1],
+      scale: 1,
+      transition: { duration: 2 },
     },
-    hidden: { opacity: 0, scale: 0 },
-    transition: { duration: 1 },
+    hidden: { opacity: 0.2 },
   };
 
   const item3 = {
     visible: {
-      rotateX: 1440,
-      opacity: [0, 0, 0, 0.5, 1],
-      scale: 1,
-      transition: { duration: 5 },
+      opacity: [0.5, 1],
+      transition: { duration: 2 },
     },
-    hidden: { opacity: 0, scale: 0 },
-    transition: { duration: 1 },
+    hidden: { opacity: 0.2 },
   };
 
 
@@ -73,10 +69,16 @@ tech ? setTech(true) : setTech(true);
 
 
   return (
-    <div className="aboutme-navigation">
+    <motion.div
+      variants={item3}
+      ref={ref}
+      animate={controls}
+      initial="hidden"
+      className="aboutme-navigation"
+    >
       <motion.h1
         className="Heading2"
-        variants={item}
+        variants={item3}
         ref={ref}
         animate={controls}
         initial="hidden"
@@ -91,7 +93,8 @@ tech ? setTech(true) : setTech(true);
             ref={ref}
             animate={controls}
             initial="hidden"
-            variants={item3}
+            variants={item}
+            whileHover={{ scale: 1.5, color: "#356394" }}
             className={`aboutme-nav-1${who ? "Show" : ""}`}
             onClick={() => handleWhoUnderline(!handleWhoUnderline)}
           >
@@ -105,6 +108,7 @@ tech ? setTech(true) : setTech(true);
             animate={controls}
             initial="hidden"
             variants={item3}
+            whileHover={{ scale: 1.5, color: "#356394" }}
             className={`aboutme-nav-2${tech ? "Show" : ""}`}
             onClick={() => handleTechUnderline(!handleTechUnderline)}
           >
@@ -118,6 +122,7 @@ tech ? setTech(true) : setTech(true);
             animate={controls}
             initial="hidden"
             variants={item3}
+            whileHover={{ scale: 1.5, color: "#356394" }}
             className={`aboutme-nav-3${process ? "Show" : ""}`}
             onClick={() => handleProcessUnderline(!handleProcessUnderline)}
           >
@@ -125,7 +130,7 @@ tech ? setTech(true) : setTech(true);
           </motion.il>
         </Link>
       </ul>
-    </div>
+    </motion.div>
   );
 };
 

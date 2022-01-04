@@ -5,7 +5,7 @@ import { useInView } from "react-intersection-observer";
 const LandingSection = (  ) => {
   const controls = useAnimation();
   const [ref, inView, ] = useInView({
-    threshold: 0.5,
+    threshold: 0.9,
   });
 
   useEffect(() => {
@@ -18,54 +18,39 @@ const LandingSection = (  ) => {
 
   const item = {
     visible: {
-      scale: [ .0, 1],
-      opacity: [0, 0, 0, 0.5, 1],
+      scale: [0.8, 1],
+      opacity: [0.2, 1],
       transition: { duration: 3 },
     },
-    hidden: { opacity: 0, scale: 0 },
+    hidden: { opacity: 0.2, scale: 0.9 },
     transition: { duration: 1 },
   };
 
-  const item2 = {
-    visible: {
-      scale: [0.0, 1],
-      opacity: [0, 0, 0, 0.5, 1],
-      transition: { duration: 3 },
-    },
-    hidden: { opacity: 0, scale: 0 },
-    transition: { duration: 1 },
-  };
 
-  const item3 = {
-  visible: {
-      rotateX:1440,
-      opacity: [0, 0, 0, 0.5, 1],
-      scale:1,
-      transition: { duration: 5 },
-    },
-    hidden: { opacity: 0, scale: 0 },
-    transition: { duration: 1 },
-  };
+    const item3 = {
+      visible: {
+           rotateX:1440,
+        scale: [0.9, 1],
+        opacity: [0.2, 0.7],
+        transition: { duration: 5 },
+      },
+      hidden: { opacity: 0.2, scale: 0.9 },
+      transition: { duration: 1 },
+    };
 
   return (
-    <div className="landing-tile">
-      <motion.h2
-        className="landing-greeting"
-        variants={item}
-        ref={ref}
-        animate={controls}
-        initial="hidden"
-      >
+    <motion.div
+      variants={item}
+      ref={ref}
+      animate={controls}
+      initial="hidden"
+      className="landing-tile"
+    >
+      <h2 className="landing-greeting">
         Welcome to my portfoilo <motion.span className="hand">👋🏼</motion.span>
-      </motion.h2>
+      </h2>
 
-      <motion.p
-        className="word"
-        variants={item2}
-        ref={ref}
-        animate={controls}
-        initial="hidden"
-      >
+      <motion.p className="word">
         My name is Jorge. I am a
         <motion.span
           className="highlight"
@@ -98,7 +83,7 @@ const LandingSection = (  ) => {
         </motion.span>{" "}
         Experience.
       </motion.p>
-    </div>
+    </motion.div>
   );
 };
 

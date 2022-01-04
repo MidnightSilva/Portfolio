@@ -19,8 +19,8 @@ import { useInView } from "react-intersection-observer";
 const Tech = () => {
 
   const controls = useAnimation();
-  const [ref, inView] = useInView({
-    threshold: 1,
+  const [ref1, inView] = useInView({
+    threshold: .7,
   });
 
   useEffect(() => {
@@ -34,18 +34,18 @@ const Tech = () => {
 
   const item = {
     visible: {
-      scale: [0.0, 1],
-      opacity: [0, 0.5, 0.7],
-      transition: { duration: 5 },
+      scale: [0.9, 1],
+      opacity: [0.2,  0.7],
+      transition: { duration: 3 },
     },
-    hidden: { opacity: 0, scale: 0 },
-    transition: { duration: 5 },
+    hidden: { opacity: 0.2, scale: .9 },
+    transition: { duration: 1 },
   };
   return (
     <div className="tech" id="tech">
       <motion.div
         variants={item}
-        ref={ref}
+        ref={ref1}
         animate={controls}
         initial="visible"
         className="aboutme-tech"
@@ -59,7 +59,7 @@ const Tech = () => {
       <motion.div
         className="logo-container"
         variants={item}
-        ref={ref}
+        ref={ref1}
         animate={controls}
         initial="hidden"
       >

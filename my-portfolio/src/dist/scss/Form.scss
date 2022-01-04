@@ -33,7 +33,7 @@
 }
 
 .formpage {
-
+margin-bottom: 2rem;
     display: flex;
     flex-direction: column;
     align-content: center;}
@@ -90,7 +90,7 @@
     margin-top: 1rem;
     height: 2rem;
     width: 18.5rem;
-    background-color: #356394;
+    border:1px solid #356394a4;
     color: white;
     margin: 8px;
     text-transform: capitalize;

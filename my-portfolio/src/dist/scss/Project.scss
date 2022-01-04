@@ -460,6 +460,11 @@ margin: 4px 8px;
 .heading4{
       padding: 8px 0px 0px 3rem;
 }
+.project-container {
+ 
+    flex-direction: row;
+  height: 29rem;}
+
   .Modal{
        left: 3%;
   }
@@ -467,10 +472,12 @@ margin: 4px 8px;
 .Modal.Show{
   margin-top: 2rem;
 }
+
   .project-broad {
     width: 68%; 
     align-items: baseline;
      flex-direction: row;
+      margin-bottom: 4rem
 }
 .mindPassge{
 align-self: center;
@@ -481,7 +488,7 @@ width: 19rem;
     width: 18rem;
 }
 .development-description {
-    margin-bottom: 3rem;}
+    margin-bottom: 6rem;}
 .project-svgShow {
     height: 13rem;
 }
@@ -497,8 +504,14 @@ width: 19rem;
   .process-contianer {
     width: 9%;
    padding-left: 0rem;
-    }
+    margin-top: 13rem;
 
+
+    }
+.process {
+
+    align-items: center;
+}
 }
 @media only screen and (min-width: 1400px) {
 
