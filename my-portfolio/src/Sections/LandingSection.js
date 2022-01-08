@@ -45,6 +45,7 @@ const LandingSection = (  ) => {
       animate={controls}
       initial="hidden"
       className="landing-tile"
+      id="banner"
     >
       <h2 className="landing-greeting">
         Welcome to my portfoilo <motion.span className="hand">👋🏼</motion.span>

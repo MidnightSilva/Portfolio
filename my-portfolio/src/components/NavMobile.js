@@ -39,12 +39,20 @@ const Nav = () => {
     <motion.div variants={item3} animate="hidden">
       <div className="navbackground-mobile">
         <div className="nav-right">
-          <motion.p
-            className={`nav-heading ${hamburgermenuToggle ? "Show" : ""}`}
-            onClick={toggleSiteHeading}
+          <Link
+            activeClass="active"
+            to="banner"
+            spy={true}
+            offset={-50}
+            smooth={true}
           >
-            Silva's Portfoilo
-          </motion.p>
+            <motion.p
+              className={`nav-heading ${hamburgermenuToggle ? "Show" : ""}`}
+              onClick={toggleSiteHeading}
+            >
+              Silva's Portfoilo
+            </motion.p>
+          </Link>
         </div>
 
         <motion.div className="nav-left">
@@ -65,7 +73,13 @@ const Nav = () => {
       <motion.div
         className={`hamburgerMenu ${hamburgermenuToggle ? "Show" : ""}`}
       >
-        <Link activeClass="active" to="aboutme" spy={true} smooth={true}>
+        <Link
+          activeClass="active"
+          to="aboutme"
+          spy={true}
+          offset={-50}
+          smooth={true}
+        >
           <motion.p
             variants={item3}
             className="link"
@@ -74,7 +88,13 @@ const Nav = () => {
             About Me
           </motion.p>
         </Link>
-        <Link activeClass="active" to="project" spy={true} smooth={true}>
+        <Link
+          activeClass="active"
+          to="project"
+          spy={true}
+          offset={-50}
+          smooth={true}
+        >
           <motion.p
             variants={item3}
             whileTap={{ scale: [0.7, 1] }}
@@ -84,7 +104,13 @@ const Nav = () => {
             Projects
           </motion.p>
         </Link>
-        <Link activeClass="active" to="form" spy={true} smooth={true}>
+        <Link
+          activeClass="active"
+          to="form"
+          spy={true}
+          offset={-50}
+          smooth={true}
+        >
           <p className="link" onClick={handleMessageModal}>
             Contact Me
           </p>

@@ -101,7 +101,7 @@ const ProjectSection = () => {
         </p>
       </div>
 
-      <div className="project-broad">
+      <motion.div className="project-broad">
         {toggle === true && design === true
           ? projectJson.Project.map((project, i) => (
               <Project {...project} key={uuidv4()} />
@@ -113,7 +113,7 @@ const ProjectSection = () => {
               <DesignProject {...designProjects} key={uuidv4()} />
             ))
           : null}
-      </div>
+      </motion.div>
       <label></label>
     </motion.div>
   );

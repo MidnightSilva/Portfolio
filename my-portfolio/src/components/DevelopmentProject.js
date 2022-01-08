@@ -1,13 +1,41 @@
-import React, { useState } from "react";
+import React, { useState , useEffect } from "react";
+import { useAnimation, motion } from "framer-motion";
+import { useInView } from "react-intersection-observer";
 
 
 const Project = (props) => {
   const [displayModal, setDisplayModal] = useState(false);
+ const controls = useAnimation();
+ const [ref, inView] = useInView({
+   threshold: 0.9,
+ });
 
+ useEffect(() => {
+   if (inView) {
+     controls.start("visible");
+   } else {
+     controls.start("hidden");
+   }
+ }, [controls, inView]);
 
+const item = {
+  visible: {
+    scale: [0.8, 1],
+    opacity: [0.2, 1],
+    transition: { duration: 3 },
+  },
+  hidden: { opacity: 0.2, scale: 0.9 },
+  transition: { duration: 1 },
+};
   const image = require("../assets/Images/" + props.image).default;
   return (
-    <div className='project-container'>
+    <motion.div
+      ariants={item}
+      ref={ref}
+      animate={controls}
+      initial="hidden"
+      className="project-container"
+    >
       <div className="project" onClick={() => setDisplayModal(!displayModal)}>
         <img className="mindPassge" src={image} alt="Project-img" />
         <div className="project-tag-title-container">
@@ -15,7 +43,13 @@ const Project = (props) => {
           <span className="project-tag">{props.tag}</span>
         </div>
       </div>
-      <div className={`Modal ${displayModal ? "Show" : ""}`}>
+      <motion.div
+        ariants={item}
+        ref={ref}
+        animate={controls}
+        initial="hidden"
+        className={`Modal ${displayModal ? "Show" : ""}`}
+      >
         <div class="modal-dialog">
           <p className="project-des">{props.projectDescription}</p>
           <div className="tag-container">
@@ -45,8 +79,8 @@ const Project = (props) => {
             </div>
           </div>
         </div>
-      </div>
-    </div>
+      </motion.div>
+    </motion.div>
   );
 };
 

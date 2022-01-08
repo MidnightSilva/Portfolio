@@ -195,8 +195,8 @@ margin: 4px 8px;
     line-height: 20px;
     letter-spacing: 1.5px;
     border-radius: 15px;
-    background-color: #3563948c;
-    color: #eee;
+    border: 1px solid #356394a4;
+    color: white;
     margin: 4px 2px;
   
     width: fit-content;
@@ -237,7 +237,7 @@ justify-content: space-between;
 }
 
 .p-link1 {
-    background-color: #356394;
+     border: 1px solid #356394a4;
     color: white;
     width: 40%;
     height: 1.4rem;
@@ -254,7 +254,7 @@ justify-content: space-between;
 }
 
 .p-link-2 {
-      background-color: #356394;
+      border: 1px solid #356394a4;
     color: white;
     width: 40%;
     height: 1.4rem;
@@ -274,9 +274,10 @@ justify-content: space-between;
     font-family: "Inter", sans-serif;
     font-size: 16px;
     width: 91%;
-    padding: 0rem 1rem 0rem 1rem;
-    color: #1b0004;
+    padding: 0rem 1rem 1rem 1rem;
+    color: whitesmoke;
     margin: 8px 0px 9px 0px;
+        text-align: center;
 }
   
 .project-des2 {
@@ -294,15 +295,12 @@ display: none;
 }
 .Modal.Show {
     display: flex;
-    background-color: #121213;
     width: 80%;
     color: white;
     width: 73%;
-      background: #dddddd6c;
     border-radius: 9px;
         margin-top: 0.9rem;
         padding: .5rem .2rem .5rem .2rem;
-       filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(110, 110, 110, 0.5));
 }
 .Overlay {
   // background-color: rgba(0, 0, 0, 0.55);
@@ -461,7 +459,8 @@ margin: 4px 8px;
       padding: 8px 0px 0px 3rem;
 }
 .project-container {
- 
+     justify-content: space-between;
+    width: 100%;
     flex-direction: row;
   height: 29rem;}
 
@@ -474,7 +473,7 @@ margin: 4px 8px;
 }
 
   .project-broad {
-    width: 68%; 
+     width: 83%;
     align-items: baseline;
      flex-direction: row;
       margin-bottom: 4rem
@@ -483,43 +482,32 @@ margin: 4px 8px;
 align-self: center;
 height: 13rem;
 width: 19rem;
+cursor: pointer;
 }
 .Modal.Show {
-    width: 18rem;
+    width: 26rem;
 }
-.development-description {
-    margin-bottom: 6rem;}
 .project-svgShow {
     height: 13rem;
 }
 }
-
-
 .project-svg-deignShow{
 
    height: 13rem;
 }
 
 @media only screen and (min-width: 1200px) {
+  .project-broad {
+      width: 73%;}
   .process-contianer {
     width: 9%;
    padding-left: 0rem;
     margin-top: 13rem;
-
-
     }
 .process {
 
     align-items: center;
 }
 }
-@media only screen and (min-width: 1400px) {
 
-.modal-header{
-    
-}
-// .mindPassge{
-//   margin-top: 0;
-// }
-}
 
