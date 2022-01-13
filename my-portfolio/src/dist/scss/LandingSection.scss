@@ -1,5 +1,11 @@
 @import "./Variables";
 @import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100;200;300;400;600;700&display=swap');
+
+.banner{
+      background: rgba(0, 0, 0, 0.473);
+      height: 100vh;
+      width: 100vw;
+}
 .landing-tile {
  margin-top: 9rem;
     margin-bottom: 3.9rem;
@@ -8,6 +14,7 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    
 }
 .stars {
   transform: rotate(104deg);
@@ -81,7 +88,7 @@ animation-name: wave-animation;  /* Refers to the name of your @keyframes elemen
 }
 .highlight{
       filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(241, 241, 241, 0.123));
-    color: #356394;
+    color: #cb330c;
     padding: .2rem;
 
 }

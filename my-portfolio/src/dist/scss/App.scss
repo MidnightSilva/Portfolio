@@ -2,7 +2,7 @@
 body {
   margin: 0;
   padding: 0;
-background: #131318 }
+background: #011818 }
 a{
     text-decoration: none;
     // border-bottom: 1px solid white;
@@ -13,25 +13,18 @@ a{
   flex-direction: column;
   align-items: center;
 }
-
 .Main-Sec {
-  height: 95vh;
-  display: flex;
-  overflow: visible;
-  flex-direction: column;
-  align-items: center;
-  // background-image: url("../../assets/Svgs/sphere.svg");
-    background-repeat: no-repeat;
-    background-size: 10rem;
+    height: 100vh;
+    display: flex;
+    overflow: visible;
+    flex-direction: column;
+    align-items: center;
+  background-image: url("../../assets/Images/AdobeStock_443709176.jpeg");
+    background-size: cover;
     background-position: bottom;
-// animation: animatedBackground  10s linear infinite;
 }
-.sphere{
-  height: 10rem;
-  position: fixed;
-  top:16rem
 
-}
+
 
 @keyframes animatedBackground {
 	from { background-position:0rem 53rem; 

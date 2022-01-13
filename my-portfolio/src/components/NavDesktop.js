@@ -6,7 +6,6 @@ import { motion } from "framer-motion";
 const NavDesktop = () => {
   const item2 = {
     hidden: {
-      y: [120, 20],
       opacity: [ 0.5, 1],
       transition: { duration: 2 },
     },
@@ -64,7 +63,7 @@ const NavDesktop = () => {
             className="link1"
             variants={item3}
             animate="hidden"
-            whileHover={{ scale: 1.5, color: "#356394" }}
+            whileHover={{ scale: 1.5, color: "#cb330c" }}
           >
             About Me
           </motion.p>
@@ -80,7 +79,7 @@ const NavDesktop = () => {
             className="link2"
             variants={item4}
             animate="hidden"
-            whileHover={{ scale: 1.5, color: "#356394" }}
+            whileHover={{ scale: 1.5, color: "#cb330c" }}
           >
             Projects
           </motion.p>
@@ -97,7 +96,7 @@ const NavDesktop = () => {
             className="link3"
             variants={item5}
             animate="hidden"
-            whileHover={{ scale: 1.5, color: "#356394" }}
+            whileHover={{ scale: 1.5, color: "#cb330c" }}
           >
             Contact Me
           </motion.p>

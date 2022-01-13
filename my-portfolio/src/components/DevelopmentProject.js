@@ -34,7 +34,7 @@ const item = {
       ref={ref}
       animate={controls}
       initial="hidden"
-      className="project-container"
+      className={`project-container ${displayModal ? "Show": ""}`}
     >
       <div className="project" onClick={() => setDisplayModal(!displayModal)}>
         <img className="mindPassge" src={image} alt="Project-img" />

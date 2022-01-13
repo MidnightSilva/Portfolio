@@ -39,52 +39,54 @@ const LandingSection = (  ) => {
     };
 
   return (
-    <motion.div
-      variants={item}
-      ref={ref}
-      animate={controls}
-      initial="hidden"
-      className="landing-tile"
-      id="banner"
-    >
-      <h2 className="landing-greeting">
-        Welcome to my portfoilo <motion.span className="hand">👋🏼</motion.span>
-      </h2>
+    <div className="banner">
+      <motion.div
+        variants={item}
+        ref={ref}
+        animate={controls}
+        initial="hidden"
+        className="landing-tile"
+        id="banner"
+      >
+        <h2 className="landing-greeting">
+          Welcome to my portfoilo <motion.span className="hand">👋🏼</motion.span>
+        </h2>
 
-      <motion.p className="word">
-        My name is Jorge. I am a
-        <motion.span
-          className="highlight"
-          variants={item3}
-          ref={ref}
-          animate={controls}
-          initial="hidden"
-        >
-          {" "}
-          USN Veteran,
-        </motion.span>
-        <motion.span
-          className="highlight"
-          ref={ref}
-          animate={controls}
-          initial="hidden"
-          variants={item3}
-        >
-          Full Stack dev,
-        </motion.span>{" "}
-        with some{" "}
-        <motion.span
-          className="highlight"
-          ref={ref}
-          animate={controls}
-          initial="hidden"
-          variants={item3}
-        >
-          UXUI
-        </motion.span>{" "}
-        Experience.
-      </motion.p>
-    </motion.div>
+        <motion.p className="word">
+          My name is Jorge. I am a
+          <motion.span
+            className="highlight"
+            variants={item3}
+            ref={ref}
+            animate={controls}
+            initial="hidden"
+          >
+            {" "}
+            USN Veteran,
+          </motion.span>
+          <motion.span
+            className="highlight"
+            ref={ref}
+            animate={controls}
+            initial="hidden"
+            variants={item3}
+          >
+            Full Stack dev,
+          </motion.span>{" "}
+          with some{" "}
+          <motion.span
+            className="highlight"
+            ref={ref}
+            animate={controls}
+            initial="hidden"
+            variants={item3}
+          >
+            UXUI
+          </motion.span>{" "}
+          Experience.
+        </motion.p>
+      </motion.div>
+    </div>
   );
 };
 

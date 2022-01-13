@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { useAnimation, motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
-import jorgeImg from "../assets/Svgs/avatar.svg";
+import jorgeImg from "../assets/Images/FullSizeRender.jpg";
 
 
 const WhoIAm = () => {

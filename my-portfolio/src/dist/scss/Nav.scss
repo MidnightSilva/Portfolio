@@ -6,17 +6,19 @@ display: none;
 }
 
 .navbackground-mobile {
-  position: fixed;
-  display: flex;
-  width: 100vw;
-justify-content: space-between;
-top: 0rem;
-font-weight: 300;
-font-size: 1.5rem;
-text-transform: capitalize;
-line-height: 19px;
- color: $heading;
- z-index: 1001
+position: fixed;
+    display: flex;
+    width: 100vw;
+    height: 3rem;
+    justify-content: space-between;
+    align-items: center;
+    top: 0rem;
+    font-weight: 300;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    line-height: 19px;
+    color: #DDDDDD;
+    z-index: 1001;
 
 }
 
@@ -65,8 +67,7 @@ text-transform: capitalize;
   z-index: 1001;}
 
 .nav-heading.Show{
-  scale: 1.5;
-  color: #203b58}
+  color: #cb330c}
 
 
 //hamburger menu mobile toggle
@@ -90,7 +91,7 @@ text-transform: capitalize;
     width: 100%;
     height: 100vh;
     z-index: 100;
-    background-color: #35639417;
+    background-color: #011818a9;
 }
 .link{
     text-transform: capitalize;
@@ -103,12 +104,12 @@ text-transform: capitalize;
     align-items: center;
     align-self: center;
     width: 100%;
- color:$subtext;
+ color:#cb330c;
 }
 .link-a{
 text-transform: capitalize;
     text-decoration: none;
-    color: white;
+    color: #cb330c;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -150,7 +151,7 @@ display: none;
 
   }
   .nav-heading {scale: 1.5;
-  color: #356394}
+  color: #cb330c}
 .nav-right{
   cursor: pointer;
       text-transform: capitalize;
@@ -166,13 +167,14 @@ display: none;
     ;
 }
 .navbackground-desktop {
-    align-items: flex-end;
+ background: rgba(0, 0, 0, 0.575);
   position: fixed;
   display: flex;
   width: 100vw;
 justify-content: space-between;
   top: 0rem;
   z-index: 6;
+  align-items: center;
 }
 .linkedinlogo{margin: 0;
     height: 1.8rem;}
