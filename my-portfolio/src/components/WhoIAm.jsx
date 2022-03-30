@@ -47,13 +47,16 @@ const WhoIAm = () => {
         animate={controls}
         initial="hidden"
       >
-        I’m a Navy Veteran with a wide range of experience, including
-        maintaining steam engines, fire sprinklers and other complex systems. I
-        have a deep interest in understanding systems holistically and
-        implementing strategic solutions based on research. I’ve moved into the
-        field of technology, web development and user experience design. I enjoy
-        leveraging my skills of storytelling and photo editing to enhance my
-        projects and connect with the community.
+        I’m a Navy Veteran with a wide range of experience. I attended College
+        after the Navy However I was forced into the workforce before being able
+        to complete my studies. When covid Hit I took it as a second opportunity
+        to enter the technology field, by attending Brainstation. While Enrolled
+        Their I gained skills to develop full-stack applications while keeping
+        user experience in mind. My current skillset & past experience makes me
+        very adaptable. levering my skills to come up with unique solutions to
+        the table Currently, I am a Tech Trainer for Everise, I got promoted
+        after being with the company for only 7 months while continuing to
+        improve my skills in pursuit of a developer role.
       </motion.p>
     </div>
   );
