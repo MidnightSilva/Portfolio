@@ -196,10 +196,11 @@ opacity: 1;
 
 /// Tech 
 .tech{
-display: flex;
-flex-direction: column;
-color: white; 
-width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+    color: white;
+    justify-content: space-around;
 }
 .aboutme-tech{
  align-self: center;
@@ -253,7 +254,7 @@ width: 12%;
     }
     .jorge-img {
     width: auto;
-    height: 20rem;
+    height: 15rem;
     border-radius: 17px;
     margin-bottom: -39px;
     filter: grayscale(0.9);}
@@ -262,13 +263,38 @@ width: 12%;
     filter: grayscale(0.1);}
 
 .aboutme-whoiam{
-   margin: 0;
-   width: 17rem;
+    padding: 2rem 2rem;
+    width: 22rem;
+    border: 1px solid #cb330c;
+ &:before {
+       content: "";
+    border: 1px solid #cb330c;
+    width: 28rem;
+    position: absolute;
+    height: 22rem;
+    z-index: 1;
+    top: 1.5rem;
+    left: -1rem;
+    border-radius: 8px;
+    }
 }
+
 .aboutme-tech{
     width: 45%;
     line-height: 2rem;
     margin-bottom: 2rem;
+        border: 1px solid #cb330c;
+        &::before{
+    content: "";
+    border: 1px solid #cb330c;
+    width: 28.3rem;
+    position: absolute;
+    height: 9rem;
+    z-index: 1;
+    top: -0.5rem;
+    left: 0.8rem;
+    border-radius: 8px;
+        }
 }
 .process-step1{
      height: 4.5rem; 
@@ -298,9 +324,9 @@ width: 12%;
 }
 }
 @media only screen and (min-width: 1200px) {
-    .aboutme-whoiam {
-    width: 240px;
-}
+//     .aboutme-whoiam {
+//     width: 240px;
+// }
 .aboutMeSection {
 
     height: fit-content;}
@@ -310,10 +336,8 @@ width: 12%;
 
 }
 @media only screen and (min-width: 1400px) {
-   .aboutme-whoiam {
-    
-           padding: 2rem 0rem 2rem 0rem;
-               width: 262px;
+.tech {
+    height: 35rem;
 }
     .aboutme-tech {
     width: 31%;
@@ -327,7 +351,7 @@ width: 12%;
 
 }
 .jorge-img {
-      width: 25rem;
+      width: 21rem;
     margin-top: -4rem;
 }
 }

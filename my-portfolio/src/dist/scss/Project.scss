@@ -467,6 +467,7 @@ margin: 4px 8px;
 .heading4{
       padding: 8px 0px 0px 3rem;
 }
+/// tigger
 .project-container.Show {
      justify-content: space-between;
     width: 100%;
@@ -480,12 +481,18 @@ margin: 4px 8px;
 .Modal.Show{
   margin-top: 2rem;
 }
-
+// when on show it 
+//needs to change when tigger changes 
   .project-broad {
+        flex-wrap: wrap;
      width: 83%;
     align-items: baseline;
-     flex-direction: row;
-      margin-bottom: 4rem
+     flex-direction: column;
+      margin-bottom: 4rem;
+
+    align-items: center;
+
+
 }
 .mindPassge{
       margin-top: 5rem;

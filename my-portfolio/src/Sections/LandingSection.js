@@ -71,6 +71,7 @@ const LandingSection = (  ) => {
             initial="hidden"
             variants={item3}
           >
+            
             Full Stack dev,
           </motion.span>{" "}
           with some{" "}

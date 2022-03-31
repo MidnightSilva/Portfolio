@@ -47,16 +47,19 @@ const WhoIAm = () => {
         animate={controls}
         initial="hidden"
       >
-        I’m a Navy Veteran with a wide range of experience. I attended College
-        after the Navy However I was forced into the workforce before being able
-        to complete my studies. When covid Hit I took it as a second opportunity
-        to enter the technology field, by attending Brainstation. While Enrolled
-        Their I gained skills to develop full-stack applications while keeping
-        user experience in mind. My current skillset & past experience makes me
-        very adaptable. levering my skills to come up with unique solutions to
-        the table Currently, I am a Tech Trainer for Everise, I got promoted
-        after being with the company for only 7 months while continuing to
-        improve my skills in pursuit of a developer role.
+        I’m a <span className="highlight">Navy Veteran</span> with a wide range
+        of experience. I attended College after the Navy However I was forced
+        into the workforce before being able to complete my studies. When covid
+        Hit I took it as a second opportunity to enter the technology field, by
+        attending <span className="highlight">Brainstation.</span> While
+        Enrolled Their I gained skills to develop full-stack applications while
+        keeping user experience in mind. My current skillset & past experience
+        makes me <span className="highlight">very adaptable.</span> levering my
+        skills to come up with unique solutions to the table Currently, I am a
+        <span className="highlight">Tech Trainer</span> for{" "}
+        <span className="highlight">Everise</span>, I got promoted after being
+        with the company for only 7 months while continuing to improve my skills
+        in pursuit of a developer role.
       </motion.p>
     </div>
   );
