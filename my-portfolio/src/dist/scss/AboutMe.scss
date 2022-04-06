@@ -183,21 +183,33 @@ opacity: 1;
     filter: grayscale(.2);
 }
 .aboutme-whoiam{
-  margin-top: 3.7rem;
+     margin-top: 3.7rem;
     margin-left: 0.2rem;
     line-height: 1.5rem;
     order: 2;
     color: white;
+    padding: 1rem;
+    border: 1px solid #cb330c;
     width: 17rem;
     filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(124, 120, 120, 0.5));
     border-radius: 9px;
 
 }
-
+.aboutme-whoiam:before {
+       content: "";
+    border: 1px solid #cb330c;
+    width: 18.7rem;
+    position: absolute;
+    height: 30.5rem;
+    z-index: 1;
+    top: 0.5rem;
+    left: -0.5rem;
+    border-radius: 8px;
+}
 /// Tech 
 .tech{
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: column;
     width: 100%;
     color: white;
     justify-content: space-around;
@@ -229,7 +241,6 @@ width: 12%;
 .aboutme-whoiam{
     padding: 1rem 0 0;
     margin-top: 4rem;
-    margin: 13px 0px 0px 4rem;
     line-height: 1.5rem;
     order: 2;
     color: white;
@@ -261,20 +272,25 @@ width: 12%;
  .jorge-img:hover {
   
     filter: grayscale(0.1);}
-
+.tech{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;}
 .aboutme-whoiam{
-    padding: 2rem 2rem;
-    width: 22rem;
+     width: 31rem;
+    line-height: 1.7rem;
+    margin-bottom: 2rem;
     border: 1px solid #cb330c;
+    padding: 1rem 2rem;
  &:before {
-       content: "";
+      content: "";
     border: 1px solid #cb330c;
-    width: 28rem;
+    width: 35rem;
     position: absolute;
-    height: 22rem;
+    height: 21rem;
     z-index: 1;
-    top: 1.5rem;
-    left: -1rem;
+    top: -3.5rem;
+    left: -1.3rem;
     border-radius: 8px;
     }
 }
@@ -324,9 +340,12 @@ width: 12%;
 }
 }
 @media only screen and (min-width: 1200px) {
-//     .aboutme-whoiam {
-//     width: 240px;
-// }
+.aboutme-tech::before {
+    content: "";
+    border: 1px solid #cb330c;
+    width: 32.3rem;
+    z-index: 1;}
+
 .aboutMeSection {
 
     height: fit-content;}

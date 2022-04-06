@@ -175,13 +175,13 @@ font-weight: 600;}
     margin-top: -2.7rem;
 }
 .mindPassge {
-  opacity: .9;
+     opacity: 0.9;
     border-radius: 7px;
     align-self: center;
-    height: 16rem;
-     margin-top: -3rem;
+    height: 13rem;
+    margin-top: -1rem;
     width: auto;
-        filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5));
+    filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5));
 }
 .mindPassge-desgin {
   opacity: .9;
@@ -487,7 +487,7 @@ margin: 4px 8px;
         flex-wrap: wrap;
      width: 83%;
     align-items: baseline;
-     flex-direction: column;
+     flex-direction: row;
       margin-bottom: 4rem;
 
     align-items: center;
@@ -498,7 +498,7 @@ margin: 4px 8px;
       margin-top: 5rem;
 align-self: center;
 height: 13rem;
-width: 19rem;
+width: 16rem;
 cursor: pointer;
 }
 .Modal.Show {
