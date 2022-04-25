@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import { useAnimation, motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
+import Compass from "./../components/compass"
 
 const LandingSection = (  ) => {
   const controls = useAnimation();
@@ -51,8 +52,13 @@ const LandingSection = (  ) => {
         <h2 className="landing-greeting">
           Welcome to my portfoilo <motion.span className="hand">👋🏼</motion.span>
         </h2>
+        <ul>
+          <il>USN Veteran</il>
+          <il>Full Stack developer</il>
+          <il>Tech Trainer</il>
+        </ul>
 
-        <motion.p className="word">
+        {/* <motion.p className="word">
           My name is Jorge. I am a
           <motion.span
             className="highlight"
@@ -71,7 +77,6 @@ const LandingSection = (  ) => {
             initial="hidden"
             variants={item3}
           >
-            
             Full Stack dev,
           </motion.span>{" "}
           with some{" "}
@@ -85,8 +90,9 @@ const LandingSection = (  ) => {
             UXUI
           </motion.span>{" "}
           Experience.
-        </motion.p>
+        </motion.p> */}
       </motion.div>
+      <Compass />
     </div>
   );
 };
