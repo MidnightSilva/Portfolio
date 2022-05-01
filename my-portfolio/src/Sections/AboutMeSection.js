@@ -1,9 +1,8 @@
 import AboutMeNavigation from "../components/AboutMeNavigation.jsx"
-// import Resume from "../components/Resume";
+
 import {Route,BrowserRouter } from "react-router-dom";
 import WhoIAm from "../components/WhoIAm.jsx";
 import Tech from "../components/Tech.jsx";
-import Process from "../components/Process.jsx";
 
 const AboutMeSection = () => {
  
@@ -14,7 +13,6 @@ const AboutMeSection = () => {
         <AboutMeNavigation />
         <Route exact path="/"  component={WhoIAm} />
         <Route path="/tech" component={Tech} />
-        <Route path="/process" component={Process} />
       </div>
     </BrowserRouter>
   );

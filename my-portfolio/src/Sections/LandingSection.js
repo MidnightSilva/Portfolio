@@ -27,16 +27,16 @@ const LandingSection = (  ) => {
   };
 
 
-    const item3 = {
-      visible: {
-           rotateX:1440,
-        scale: [0.9, 1],
-        opacity: [0.2, 0.7],
-        transition: { duration: 5 },
-      },
-      hidden: { opacity: 0.2, scale: 0.9 },
-      transition: { duration: 1 },
-    };
+    // const item3 = {
+    //   visible: {
+    //        rotateX:1440,
+    //     scale: [0.9, 1],
+    //     opacity: [0.2, 0.7],
+    //     transition: { duration: 5 },
+    //   },
+    //   hidden: { opacity: 0.2, scale: 0.9 },
+    //   transition: { duration: 1 },
+    // };
 
   return (
     <div className="banner">
@@ -49,10 +49,17 @@ const LandingSection = (  ) => {
         id="banner"
       >
         <h2 className="landing-greeting">
-          Welcome to my portfoilo <motion.span className="hand">👋🏼</motion.span>
+          Welcome <motion.span className="hand">👋🏼</motion.span>
+          <br />
+          <span className="greeting-2">to my portfoilo, </span><span className="greeting-3">I'm Silva an :</span>{" "}
         </h2>
+        <ul className="word-container">
+          <il className="word">Frontend dev</il>
+          <il className="word">Tech Trainer</il>
+          <il className="word">Navy Veteran</il>
+        </ul>
 
-        <motion.p className="word">
+        {/* <motion.p className="word">
           My name is Jorge. I am a
           <motion.span
             className="highlight"
@@ -71,7 +78,6 @@ const LandingSection = (  ) => {
             initial="hidden"
             variants={item3}
           >
-            
             Full Stack dev,
           </motion.span>{" "}
           with some{" "}
@@ -85,7 +91,7 @@ const LandingSection = (  ) => {
             UXUI
           </motion.span>{" "}
           Experience.
-        </motion.p>
+        </motion.p> */}
       </motion.div>
     </div>
   );

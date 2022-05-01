@@ -49,7 +49,7 @@
     font-weight: 100;
     font-size: 16px;
     line-height: 15px;
-    color: #E8E8E8;
+    color:$specialtext; 
     padding-bottom: 7px;
    
 }
@@ -94,7 +94,7 @@
     font-weight: 100;
     font-size: 16px;
     line-height: 15px;
-    color: #E8E8E8;
+    color: $specialtext;
     padding-bottom: 7px;
 
 }
@@ -187,7 +187,7 @@ opacity: 1;
     margin-left: 0.2rem;
     line-height: 1.5rem;
     order: 2;
-    color: white;
+    color: $text;
     padding: 1rem;
     border: 1px solid #cb330c;
     width: 17rem;
@@ -211,7 +211,7 @@ opacity: 1;
     display: flex;
     flex-direction: column;
     width: 100%;
-    color: white;
+    color: $text;
     justify-content: space-around;
 }
 .aboutme-tech{

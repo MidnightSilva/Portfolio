@@ -96,19 +96,6 @@ const AboutMeNavigation = () => {
           </motion.il>
         </Link>
 
-        {/* <Link to="/process">
-          <motion.il
-            ref={ref}
-            animate={controls}
-            initial="hidden"
-            variants={item3}
-            whileHover={{ scale: 1.5, color: "#356394" }}
-            className={`aboutme-nav-3${process ? "Show" : ""}`}
-            onClick={() => handleProcessUnderline(!handleProcessUnderline)}
-          >
-            Process
-          </motion.il>
-        </Link> */}
       </motion.ul>
     </motion.div>
   );
