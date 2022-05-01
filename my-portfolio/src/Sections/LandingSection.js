@@ -1,7 +1,6 @@
 import React, { useEffect } from "react";
 import { useAnimation, motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
-import Compass from "./../components/compass"
 
 const LandingSection = (  ) => {
   const controls = useAnimation();
@@ -28,16 +27,16 @@ const LandingSection = (  ) => {
   };
 
 
-    const item3 = {
-      visible: {
-           rotateX:1440,
-        scale: [0.9, 1],
-        opacity: [0.2, 0.7],
-        transition: { duration: 5 },
-      },
-      hidden: { opacity: 0.2, scale: 0.9 },
-      transition: { duration: 1 },
-    };
+    // const item3 = {
+    //   visible: {
+    //        rotateX:1440,
+    //     scale: [0.9, 1],
+    //     opacity: [0.2, 0.7],
+    //     transition: { duration: 5 },
+    //   },
+    //   hidden: { opacity: 0.2, scale: 0.9 },
+    //   transition: { duration: 1 },
+    // };
 
   return (
     <div className="banner">
