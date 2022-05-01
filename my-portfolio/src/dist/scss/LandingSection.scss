@@ -17,7 +17,7 @@
     height: 25rem;
     flex-direction: column;
     justify-content: space-around;
-    align-items: center;
+
     
 }
 .stars {
@@ -53,11 +53,12 @@
 }
 
 .landing-greeting {
+   padding-left:1rem;
       filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5));
   color: white;
   font-family: "Inter", sans-serif;
   font-weight: 600;
-  align-self: center;
+
 }
 .morphing {
   opacity: 0;
@@ -71,18 +72,30 @@
 }
 
 .word {
-display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
+  padding-left:1rem;
+    display: flex;
+    justify-content: start;
+    color: #e5e5e5;
     font-family: Antonio;
-    font-style: normal;
     flex-flow: wrap;
-        width: 80%;
     font-weight: 300;
+    font-size: 19px;
     letter-spacing: 0.05em;
-        filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5));
+    background: darkslategrey;
+    width: 85%;
+    height: 2rem;
+    /* display: flex; */
+    align-content: center;
+    background: linear-gradient(105deg, #ffffff66 16%, #ffffff00 80%);
 }
+.word-container{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    height: 30vh;
+    justify-content: space-evenly;
+}
+
 .hand{
 animation-name: wave-animation;  /* Refers to the name of your @keyframes element below */
   animation-duration: 2.5s;        /* Change to speed up or slow down */
@@ -90,9 +103,20 @@ animation-name: wave-animation;  /* Refers to the name of your @keyframes elemen
   transform-origin: 70% 70%;       /* Pivot around the bottom-left palm */
   display: inline-block;
 }
+.greeting-2{
+
+    font-size: 12px;
+
+}
+.greeting-3{
+
+    font-size: 12px;
+
+}
+
 .highlight{
       filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(241, 241, 241, 0.123));
-    color: #cb330c;
+    color:$specialtext;
     padding: .2rem;
 
 }

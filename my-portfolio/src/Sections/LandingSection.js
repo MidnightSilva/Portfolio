@@ -50,12 +50,14 @@ const LandingSection = (  ) => {
         id="banner"
       >
         <h2 className="landing-greeting">
-          Welcome to my portfoilo <motion.span className="hand">👋🏼</motion.span>
+          Welcome <motion.span className="hand">👋🏼</motion.span>
+          <br />
+          <span className="greeting-2">to my portfoilo, </span><span className="greeting-3">I'm Silva an :</span>{" "}
         </h2>
-        <ul>
-          <il>USN Veteran</il>
-          <il>Full Stack developer</il>
-          <il>Tech Trainer</il>
+        <ul className="word-container">
+          <il className="word">Frontend dev</il>
+          <il className="word">Tech Trainer</il>
+          <il className="word">Navy Veteran</il>
         </ul>
 
         {/* <motion.p className="word">
@@ -92,7 +94,6 @@ const LandingSection = (  ) => {
           Experience.
         </motion.p> */}
       </motion.div>
-      <Compass />
     </div>
   );
 };
