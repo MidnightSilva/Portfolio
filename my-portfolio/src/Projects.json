@@ -24,7 +24,7 @@
       "projectPoint6": "Used Axios to send user data to the backend",
       "projectPoint7": "Used SendGrid to send an email to the user once account was created and to reset password"
     },{
-      "title": "Plante Fact Site",
+      "title": "Blog Site",
       "image": "planetfactsitelaptop.png",
       "tag": "Development",
       "tag1": "React",
@@ -38,17 +38,17 @@
       "link2": "https://github.com/Jorge1772/c38_final_counseling",
       "code": "pgithub.svg",
       "info": "pinfo.svg",
-      "projectDescription": "Mind Passage provides users with a place to find theraphists and mental health tips.",
-      "modalTitle": "MindPassage",
-      "projectPoint1": "Created a custom journal",
-      "projectPoint2": "Brought in react calender and connected to the custom built journal allowing users to save their entery and mood.",
-      "projectPoint3": "Implented Sweet Alert to notify the user when a post was saved or if somthing went wrong.",
-      "projectPoint4": "Assited with CSS throughtout the project",
-      "projectPoint5": "Implented Bootstrap for frontend compinents",
-      "projectPoint6": "Used Axios to send user data to the backend",
-      "projectPoint7": "Used SendGrid to send an email to the user once account was created and to reset password"
+      "projectDescription": "coming Soon",
+      "modalTitle": "Blog Site",
+      "projectPoint1": "coming Soon",
+      "projectPoint2": "coming Soon.",
+      "projectPoint3": "coming Soon",
+      "projectPoint4": "coming Soon",
+      "projectPoint5": "coming Soon",
+      "projectPoint6": "coming Soon",
+      "projectPoint7": "coming Soon"
     },{
-      "title": "Plante Fact Site",
+      "title": "Kitchen Helper",
       "image": "planetfactsitelaptop.png",
       "tag": "Development",
       "tag1": "React",
@@ -62,15 +62,14 @@
       "link2": "https://github.com/Jorge1772/c38_final_counseling",
       "code": "pgithub.svg",
       "info": "pinfo.svg",
-      "projectDescription": "Mind Passage provides users with a place to find theraphists and mental health tips.",
-      "modalTitle": "MindPassage",
-      "projectPoint1": "Created a custom journal",
-      "projectPoint2": "Brought in react calender and connected to the custom built journal allowing users to save their entery and mood.",
-      "projectPoint3": "Implented Sweet Alert to notify the user when a post was saved or if somthing went wrong.",
-      "projectPoint4": "Assited with CSS throughtout the project",
-      "projectPoint5": "Implented Bootstrap for frontend compinents",
-      "projectPoint6": "Used Axios to send user data to the backend",
-      "projectPoint7": "Used SendGrid to send an email to the user once account was created and to reset password"
+      "projectDescription": "coming Soon",
+      "projectPoint1": "coming Soon",
+      "projectPoint2": "coming Soon.",
+      "projectPoint3": "coming Soon",
+      "projectPoint4": "coming Soon",
+      "projectPoint5": "coming Soon",
+      "projectPoint6": "coming Soon",
+      "projectPoint7": "coming Soon"
     }
   ],
   "designProjects": [

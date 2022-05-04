@@ -10,10 +10,11 @@
     height: 100vh;
     width: 100vw;}
 .landing-tile {
-    margin-top: 7rem;
+     margin-top: 9rem;
+    margin-left: 2rem;
     margin-bottom: 3.9rem;
     display: flex;
-    height: 33rem;
+    height: 22rem;
     flex-direction: column;
     justify-content: space-between;
     
@@ -71,28 +72,27 @@
 }
 
 .word {
-    padding-left: 1rem;
+  margin-top: -4rem;
+padding-left: 1rem;
     display: flex;
     justify-content: start;
     color: #cb330c;
-    font-family: Antonio;
+    font-family: "Satisfy", cursive;
     flex-flow: wrap;
     font-weight: 300;
-    font-size: 19px;
+    font-size: 18px;
     letter-spacing: 0.05em;
-    background: darkslategrey;
     width: 85%;
     height: 2rem;
-    /* display: flex; */
-    /* align-content: center; */
-    background: linear-gradient(105deg, #ffffff66 16%, #ffffff00 80%);
 }
 .word-container{
-    display: flex;
+ display: flex;
     flex-direction: column;
     padding: 0;
-    height: 30vh;
+    height: 21vh;
     justify-content: space-evenly;
+    margin-top: -3rem;
+    margin-left: 11rem;
 }
 
 .hand{
