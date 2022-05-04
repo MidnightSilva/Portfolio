@@ -51,7 +51,8 @@ const LandingSection = (  ) => {
         <h2 className="landing-greeting">
           Welcome <motion.span className="hand">👋🏼</motion.span>
           <br />
-          <span className="greeting-2">to my portfoilo, </span><span className="greeting-3">I'm Silva an :</span>{" "}
+          <span className="greeting-2">to my portfoilo, </span>
+          <span className="greeting-3">I'm Silva an :</span>{" "}
         </h2>
         <ul className="word-container">
           <il className="word">Frontend dev</il>
