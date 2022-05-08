@@ -6,7 +6,7 @@ import projectJson from "../Projects.json";
 import Project from "../components/DevelopmentProject";
 import { v4 as uuidv4 } from "uuid";
 import DesignProjects from "../assets/Svgs/DesginProject.svg";
-import Projectlayout from "../components/Projectlayout";
+// import Projectlayout from "../components/Projectlayout";
 
 const ProjectSection = () => {
   const [toggle, setToggle] = useState(true);
