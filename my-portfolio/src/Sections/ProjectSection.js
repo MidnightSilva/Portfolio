@@ -89,12 +89,12 @@ const ProjectSection = () => {
         {projectJson.PlanetFactSite.map((project, i) => (
           <Project {...project} key={uuidv4()} />
         ))}
-        {projectJson.BlogSite.map((project, i) => (
+        {/* {projectJson.BlogSite.map((project, i) => (
           <Project {...project} key={uuidv4()}  />
         ))}
         {projectJson.KitchenHelper.map((project, i) => (
           <Project {...project} key={uuidv4()} />
-        ))}
+        ))} */}
       </motion.div>
       <label></label>
     </motion.div>
