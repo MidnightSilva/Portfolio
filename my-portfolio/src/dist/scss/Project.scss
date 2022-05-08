@@ -171,7 +171,7 @@ font-weight: 600;}
     width: 100%;
     justify-content: space-around;
     height: fit-content;
-    margin-top: -2.7rem;
+    margin-top: -1.7rem;
 }
 .mindPassge {
      opacity: 0.9;
@@ -280,7 +280,7 @@ justify-content: space-between;
 /* project description */
 .project-des {
     font-family: "Inter", sans-serif;
-    font-size: 16px;
+    font-size: 14px;
     width: 91%;
     padding: 0rem 1rem 1rem 1rem;
     color: $text;
@@ -435,7 +435,7 @@ line-height: 1.2rem;
 }
 
 .modal-dialog {
-    margin: 15px 0px 0px 0px;
+
 }
 .Modal.Show {
     width: 40%;
@@ -461,39 +461,37 @@ margin: 4px 8px;
 /// tigger
 .project-container.Show {
      justify-content: space-between;
-    width: 100%;
   height: fit-content;
-  flex-direction: row;;}
+  flex-direction: column;;}
 
   .Modal{
        left: 3%;
   }
 
 .Modal.Show{
-  margin-top: 2rem;
+
 }
 // when on show it 
 //needs to change when tigger changes 
   .project-broad {
-        flex-wrap: wrap;
-     width: 83%;
     align-items: baseline;
      flex-direction: row;
       margin-bottom: 4rem;
 
-    align-items: center;
+    align-items: flex-start;
 
 
 }
 .mindPassge{
-      margin-top: 5rem;
 align-self: center;
-height: 13rem;
-width: 16rem;
+    height: 10rem;
+    width: 13rem;
 cursor: pointer;
 }
 .Modal.Show {
-    width: 26rem;
+      width: 19rem;
+          margin: 0;
+
 }
 .project-svgShow {
     height: 13rem;
@@ -506,7 +504,7 @@ cursor: pointer;
 
 @media only screen and (min-width: 1200px) {
   .project-broad {
-      width: 73%;}
+          justify-content: space-between;}
   .process-contianer {
     width: 9%;
    padding-left: 0rem;
@@ -515,6 +513,9 @@ cursor: pointer;
 .process {
 
     align-items: center;
+}
+.Modal.Show {
+    width: 21rem
 }
 }
 

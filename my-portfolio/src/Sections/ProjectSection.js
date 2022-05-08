@@ -6,7 +6,7 @@ import projectJson from "../Projects.json";
 import Project from "../components/DevelopmentProject";
 import { v4 as uuidv4 } from "uuid";
 import DesignProjects from "../assets/Svgs/DesginProject.svg";
-
+import Projectlayout from "../components/Projectlayout";
 
 const ProjectSection = () => {
   const [toggle, setToggle] = useState(true);
@@ -41,7 +41,7 @@ const ProjectSection = () => {
 
 
 
-
+   console.log(projectJson)
 
   const toggleProject2 = () => {
         design ? setDesign(false) : setDesign(true);
@@ -85,7 +85,14 @@ const ProjectSection = () => {
       </div>
 
       <motion.div className="project-broad">
-        {projectJson.Project.map((project, i) => (
+      
+        {projectJson.PlanetFactSite.map((project, i) => (
+          <Project {...project} key={uuidv4()} />
+        ))}
+        {projectJson.BlogSite.map((project, i) => (
+          <Project {...project} key={uuidv4()}  />
+        ))}
+        {projectJson.KitchenHelper.map((project, i) => (
           <Project {...project} key={uuidv4()} />
         ))}
       </motion.div>

@@ -40,7 +40,7 @@ const item = {
         <img className="mindPassge" src={image} alt="Project-img" />
         <div className="project-tag-title-container">
           <span className="project-title">{props.title} </span>
-          <span className="project-tag">{props.tag}</span>
+          {/* <span className="project-tag">{props.tag}</span> */}
         </div>
       </div>
       <motion.div

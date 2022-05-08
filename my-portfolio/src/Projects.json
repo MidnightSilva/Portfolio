@@ -1,5 +1,7 @@
 {
-  "Project": [{
+  "PlanetFactSite": [
+    {
+      "id": 1,
       "title": "Plante Fact Site",
       "image": "planetfactsitelaptop.png",
       "tag": "Development",
@@ -23,7 +25,11 @@
       "projectPoint5": "Implented Bootstrap for frontend compinents",
       "projectPoint6": "Used Axios to send user data to the backend",
       "projectPoint7": "Used SendGrid to send an email to the user once account was created and to reset password"
-    },{
+    }
+  ],
+  "BlogSite": [
+    {
+      "id": 2,
       "title": "Blog Site",
       "image": "planetfactsitelaptop.png",
       "tag": "Development",
@@ -47,7 +53,11 @@
       "projectPoint5": "coming Soon",
       "projectPoint6": "coming Soon",
       "projectPoint7": "coming Soon"
-    },{
+    }
+  ],
+  "KitchenHelper": [
+    {
+      "id": 3,
       "title": "Kitchen Helper",
       "image": "planetfactsitelaptop.png",
       "tag": "Development",
@@ -70,21 +80,6 @@
       "projectPoint5": "coming Soon",
       "projectPoint6": "coming Soon",
       "projectPoint7": "coming Soon"
-    }
-  ],
-  "designProjects": [
-    {
-      "title": "Outpost",
-      "image": "Outpost.png",
-      "tag": "Design",
-      "link1": "https://jorgesilva1892.myportfolio.com/outpost",
-      "site": "p1compassrose.svg",
-      "link2": "https://www.figma.com/file/I9MyTuFeOSC4i6BWgsun6T/Outpost?node-id=0%3A1",
-      "code": "Figma.svg",
-      "info": "pinfo.svg",
-      "projectDescription": "Outpost is to address suicide among veterans.",
-      "modalTitle": "Outpost",
-      "modalBody": "Coming soon"
     }
   ]
 }
