@@ -6,7 +6,6 @@
 
 }
 .banner{
-    background: #e2e2e2;
     height: 100vh;
     width: 100vw;}
 .landing-tile {
@@ -54,7 +53,7 @@
 .landing-greeting {
     padding-left: 1rem;
     filter: drop-shadow(0.35rem -0.65rem 0.45rem rgba(0, 0, 0, 0.4));
-    color: $text;
+    color: $heading;
     font-family: "Inter", sans-serif;
     /* font-weight: 600; */
     font-size: 3rem;
@@ -76,7 +75,7 @@
 padding-left: 1rem;
     display: flex;
     justify-content: start;
-    color: #cb330c;
+    color: $specialtext;
     font-family: "Satisfy", cursive;
     flex-flow: wrap;
     font-weight: 300;
