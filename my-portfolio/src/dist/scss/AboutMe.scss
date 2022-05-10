@@ -18,7 +18,7 @@
 }
 .Heading2 {
     align-self: baseline;
-    font-family: Antonio;
+    font-family: $firstletterofheading;
     font-style: normal;
     font-weight: 300;
     font-size: 2.3rem;
@@ -176,11 +176,9 @@ opacity: 1;
     flex-direction: column;
 }
 .jorge-img{
-    width: 17rem;
-    border-radius: 17px;
-    margin-bottom: -39px;
-      -webkit-filter: invert(100%); /* Safari/Chrome */
-    filter: grayscale(.2);
+     width: 15rem;
+    /* border-radius: 17px; */
+    margin-bottom: 0rem;
 }
 .aboutme-whoiam{
      margin-top: 3.7rem;
@@ -191,21 +189,24 @@ opacity: 1;
     padding: 1rem;
     border: 1px solid #cb330c;
     width: 17rem;
-    filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(124, 120, 120, 0.5));
     border-radius: 9px;
+        background-image: url('../../assets/Images/trail.jpg');
+        background-size: 5rem;
+    background-repeat: no-repeat;
+    background-position: bottom;
 
 }
-.aboutme-whoiam:before {
-       content: "";
-    border: 1px solid #cb330c;
-    width: 18.7rem;
-    position: absolute;
-    height: 30.5rem;
-    z-index: 1;
-    top: 0.5rem;
-    left: -0.5rem;
-    border-radius: 8px;
-}
+// .aboutme-whoiam:before {
+//        content: "";
+//     border: 1px solid #cb330c;
+//     width: 18.7rem;
+//     position: absolute;
+//     height: 30.5rem;
+//     z-index: 1;
+//     top: 0.5rem;
+//     left: -0.5rem;
+//     border-radius: 8px;
+// }
 /// Tech 
 .tech{
     display: flex;
@@ -239,11 +240,23 @@ width: 12%;
     width: 15rem;
 }
 .aboutme-whoiam{
-    padding: 1rem 0 0;
+    padding: 1rem;
     margin-top: 4rem;
     line-height: 1.5rem;
     order: 2;
+        width: 30rem;
    
+}
+.aboutme-whoiam:before {
+    content: "";
+    border: 1px solid #cb330c;
+    width: 33.6rem;
+    position: absolute;
+    height: 16.5rem;
+    z-index: 1;
+    top: 0.2rem;
+    left: -0.9rem;
+    border-radius: 8px;
 }
 .aboutme-tech{
         width: 73%;

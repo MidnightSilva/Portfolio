@@ -59,7 +59,7 @@ const ProjectSection = () => {
       id="project"
     >
       <h1 className="heading4" data-aos="fade-left">
-        Projects
+        <span className="firstletterofheading">P</span>rojects
       </h1>
 
       <div className="project-des-heading">
@@ -85,7 +85,6 @@ const ProjectSection = () => {
       </div>
 
       <motion.div className="project-broad">
-      
         {projectJson.PlanetFactSite.map((project, i) => (
           <Project {...project} key={uuidv4()} />
         ))}

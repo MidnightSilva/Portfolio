@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
 // directional
 @mixin flexCenter {
   display: flex;
@@ -14,9 +14,10 @@ $font-size-project-mobile: 13px;
 //all heading color
 $heading:#212120;
 
+$firstletterofheading: "Satisfy", cursive;
 $subheading:#242424;
 $text:#242424;
-$specialtext : #ff734f ; 
+$specialtext : #cb330c ; 
 $subtext:#242424;
 
 $color-links: white;
