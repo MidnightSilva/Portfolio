@@ -22,10 +22,10 @@ const WhoIAm = () => {
   const item = {
     visible: {
       scale: [0.9, 1],
-      opacity: [0.2, 0.7],
+      // opacity: [0.2, 0.7],
       transition: { duration: 3 },
     },
-    hidden: { opacity: 0.2, scale: 0.9 },
+    // hidden: { opacity: 0.2, scale: 0.9 },
     transition: { duration: 1 },
   };
 

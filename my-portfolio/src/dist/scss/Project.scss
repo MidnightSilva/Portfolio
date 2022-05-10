@@ -12,7 +12,7 @@
 /* heading  and describtion */
 .heading4 {
     align-self: baseline;
-    font-family: Antonio;
+    font-family: $firstletterofheading;
     font-style: normal;
     font-weight: 300;
     font-size: 2rem;
@@ -20,6 +20,7 @@
     padding: 8px 0px 0px 16px;
     color: $heading
 }
+
 .project-svg-container-development{
   display: flex;
   flex-direction: column;
