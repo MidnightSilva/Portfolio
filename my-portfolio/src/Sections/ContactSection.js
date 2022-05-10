@@ -10,7 +10,7 @@ const ContactSection = () => {
   const [ref, inView] = useInView({
     threshold: 0.9,
   });
-const [message , setMessage] = useState(false);
+const [message ] = useState(false);
   useEffect(() => {
     if (inView) {
       controls.start("visible");
