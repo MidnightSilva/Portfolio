@@ -1,6 +1,6 @@
 import MyForm from "../components/Myform.js";
-import paperPlane from "../assets/Images/paperplanewithtrail.jpg"
 
+import PaperPlane  from "../components/paperPlane"
 import React, { useState,useEffect } from "react";
 import { useAnimation, motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
@@ -10,7 +10,12 @@ const ContactSection = () => {
   const [ref, inView] = useInView({
     threshold: 0.9,
   });
-const [message ] = useState(false);
+const [message, setMessage ] = useState(false);
+
+  const toggleMessage = () => {
+       message ? setMessage(false) : setMessage(true)  
+   
+  };
   useEffect(() => {
     if (inView) {
       controls.start("visible");
@@ -38,18 +43,14 @@ const [message ] = useState(false);
       initial="hidden"
       className="form-img"
     >
-      <div className="formpage" id="form">
+      <div className="formpage" id="form" onClick={toggleMessage}>
         <h2 className="heading5">Contact me</h2>
         <p className="subheading5">
-          Leave a message and I'll get back to you as soon as I can. Looking
-          forward to hearing from you.
+          Click on the Paper Plane to send me a message, Looking foward to
+          hearing from you all!
         </p>
 
-        {message ? (
-          <MyForm />
-        ) : (
-          <img className="message-plane" alt="paper plane" src={paperPlane} />
-        )}
+        {message ? <MyForm /> : <PaperPlane />}
       </div>
     </motion.div>
   );
