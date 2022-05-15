@@ -106,7 +106,7 @@ opacity: 1;
 }
 .development-description {
     order: 2;
-    width: 72%;
+    width: 80%;
     border-radius: 9px;
       padding: 0rem 0.7rem 0.7rem 0.7rem;
     line-height: 1.5rem;
@@ -247,7 +247,7 @@ justify-content: space-between;
 
 .p-link1 {
      border: 1px solid #cb330c;
-    color: white;
+    color:$specialtext;
     width: 40%;
     height: 1.4rem;
     border-radius: 14px;
@@ -264,7 +264,7 @@ justify-content: space-between;
 
 .p-link-2 {
       border: 1px solid #cb330c;
-    color: white;
+    color:$specialtext;
     width: 40%;
     height: 1.4rem;
     border-radius: 14px;

@@ -16,7 +16,7 @@ const ProjectSection = () => {
 
   const controls = useAnimation();
   const [ref, inView] = useInView({
-    threshold: 0.5,
+    threshold: 0.8,
   });
 
   useEffect(() => {
@@ -79,8 +79,7 @@ const ProjectSection = () => {
         </div>
         <p className="development-description">
           {" "}
-          Below are the projects that I’ve gotten a chance to work on. Feel free
-          to move between development or desgin Projects.
+          Below are some of the project I have worked on, please feel free to check out the website or the github account you'll find all links inculded wtih each project.
         </p>
       </div>
 
