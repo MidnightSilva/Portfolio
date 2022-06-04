@@ -247,17 +247,17 @@ width: 12%;
         width: 30rem;
    
 }
-.aboutme-whoiam:before {
-    content: "";
-    border: 1px solid #cb330c;
-    width: 33.6rem;
-    position: absolute;
-    height: 16.5rem;
-    z-index: 1;
-    top: 0.2rem;
-    left: -0.9rem;
-    border-radius: 8px;
-}
+// .aboutme-whoiam:before {
+//     content: "";
+//     border: 1px solid #cb330c;
+//     width: 33.6rem;
+//     position: absolute;
+//     height: 16.5rem;
+//     z-index: 1;
+//     top: 0.2rem;
+//     left: -0.9rem;
+//     border-radius: 8px;
+// }
 .aboutme-tech{
         width: 73%;
 }
@@ -294,17 +294,6 @@ width: 12%;
     margin-bottom: 2rem;
     border: 1px solid #cb330c;
     padding: 1rem 2rem;
- &:before {
-      content: "";
-    border: 1px solid #cb330c;
-    width: 35rem;
-    position: absolute;
-    height: 21rem;
-    z-index: 1;
-    top: -3.5rem;
-    left: -1.3rem;
-    border-radius: 8px;
-    }
 }
 
 .aboutme-tech{
@@ -312,17 +301,6 @@ width: 12%;
     line-height: 2rem;
     margin-bottom: 2rem;
         border: 1px solid #cb330c;
-        &::before{
-    content: "";
-    border: 1px solid #cb330c;
-    width: 28.3rem;
-    position: absolute;
-    height: 9rem;
-    z-index: 1;
-    top: -0.5rem;
-    left: 0.8rem;
-    border-radius: 8px;
-        }
 }
 .process-step1{
      height: 4.5rem; 
@@ -352,11 +330,7 @@ width: 12%;
 }
 }
 @media only screen and (min-width: 1200px) {
-.aboutme-tech::before {
-    content: "";
-    border: 1px solid #cb330c;
-    width: 32.3rem;
-    z-index: 1;}
+
 
 .aboutMeSection {
 
@@ -383,6 +357,7 @@ width: 12%;
 }
 .jorge-img {
       width: 21rem;
+          height: auto;
     margin-top: -4rem;
 }
 }
