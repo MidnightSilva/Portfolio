@@ -191,10 +191,10 @@ opacity: 1;
     border: 1px solid #cb330c;
     width: 17rem;
     border-radius: 9px;
-        background-image: url('../../assets/Images/trail.jpg');
-background-size: 5rem;
-    background-repeat: no-repeat;
-    background-position: bottom right;
+//         background-image: url('../../assets/Images/trail.jpg');
+// background-size: 5rem;
+//     background-repeat: no-repeat;
+//     background-position: bottom right;
 
 }
 // .aboutme-whoiam:before {
@@ -218,7 +218,7 @@ background-size: 5rem;
 }
 .aboutme-tech{
  align-self: center;
-    display: flex;
+
 width: 80%;
     border-radius: 9px;
     padding: 1rem;
@@ -279,11 +279,7 @@ width: 12%;
     width: auto;
     height: 15rem;
     border-radius: 17px;
-    margin-bottom: -39px;
-    filter: grayscale(0.9);}
- .jorge-img:hover {
-  
-    filter: grayscale(0.1);}
+    margin-bottom: -39px;}
 .tech{
     display: flex;
     flex-direction: row-reverse;

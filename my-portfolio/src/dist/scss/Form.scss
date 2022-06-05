@@ -75,8 +75,8 @@ margin-bottom: 2rem;
   width: 18rem;
   opacity: 0.9;
   border: 1px solid $specialtext;
-  border-radius: 4px;
-  background: rgba(198, 198, 198, 0.74);
+   border-radius: 12px;
+    background: #cb330c17;
   margin-bottom: 8px;
   
 }
@@ -85,8 +85,8 @@ margin-bottom: 2rem;
   height: 8rem;
   width: 18rem;
  border: 1px solid $specialtext;
-  border-radius: 4px;
- background: rgba(198, 198, 198, 0.74);
+   border-radius: 12px;
+    background: #cb330c17;
   margin-bottom: 8px;
 
 }
@@ -149,6 +149,7 @@ margin-bottom: 2rem;
 }
 .subheading5{
     width: auto;
+        margin-bottom: 2rem;
 }
 .form-img {
     background-position: bottom;

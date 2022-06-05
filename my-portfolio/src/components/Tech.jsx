@@ -51,9 +51,15 @@ const Tech = () => {
         className="aboutme-tech"
       >
         {" "}
-        Integrating what I learned about Full Stack Development & User
-        experience design from BrainStation,I am able to fully create create
-        Wireframes, Prototypes, fully reponsive sites.
+        My current skillset & <span className="highlight">
+          past experience
+        </span>{" "}
+        makes me <span className="highlight">very adaptable.</span> levering my
+        skills to come up with{" "}
+        <span className="highlight">unique solutions </span>Integrating what I
+        learned. about Full Stack Development & User experience design from
+        BrainStation,I am able to fully create create Wireframes, Prototypes,
+        fully reponsive sites.
       </motion.div>
 
       <motion.div

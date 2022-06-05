@@ -1,28 +1,28 @@
 import MyForm from "../components/Myform.js";
 
 import PaperPlane  from "../components/paperPlane"
-import React, { useState,useEffect } from "react";
+import React, { useState } from "react";
 import { useAnimation, motion } from "framer-motion";
-import { useInView } from "react-intersection-observer";
+// import { useInView } from "react-intersection-observer";
 const ContactSection = () => {
 
   const controls = useAnimation();
-  const [ref, inView] = useInView({
-    threshold: 0.9,
-  });
+  // const [ref, inView] = useInView({
+  //   threshold: 0.9,
+  // });
 const [message, setMessage ] = useState(false);
 
   const toggleMessage = () => {
        message ? setMessage(false) : setMessage(true)  
    
   };
-  useEffect(() => {
-    if (inView) {
-      controls.start("visible");
-    } else {
-      controls.start("hidden");
-    }
-  }, [controls, inView]);
+  // useEffect(() => {
+  //   if (inView) {
+  //     controls.start("visible");
+  //   } else {
+  //     controls.start("hidden");
+  //   }
+  // }, [controls, inView]);
 
   const item = {
     visible: {
@@ -30,7 +30,7 @@ const [message, setMessage ] = useState(false);
       scale: 1,
       transition: { duration: 2 },
     },
-    hidden: { opacity: 0.2},
+    hidden: { opacity: 1},
  
   };
 
@@ -38,7 +38,7 @@ const [message, setMessage ] = useState(false);
   return (
     <motion.div
       variants={item}
-      ref={ref}
+      // ref={ref}
       animate={controls}
       initial="hidden"
       className="form-img"
