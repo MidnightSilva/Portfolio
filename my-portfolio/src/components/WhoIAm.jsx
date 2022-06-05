@@ -53,9 +53,7 @@ const WhoIAm = () => {
         Hit I took it as a second opportunity to enter the technology field, by
         attending <span className="highlight">Brainstation.</span> While
         Enrolled Their I gained skills to develop full-stack applications while
-        keeping user experience in mind. My current skillset & past experience
-        makes me <span className="highlight">very adaptable.</span> levering my
-        skills to come up with unique solutions to the table Currently, I am a
+        keeping user experience in mind. Currently, I am a
         <span className="highlight">Tech Trainer</span> for{" "}
         <span className="highlight">Everise</span>, I got promoted after being
         with the company for only 7 months while continuing to improve my skills

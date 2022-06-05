@@ -5,6 +5,14 @@ import { useInView } from "react-intersection-observer";
 
 const Project = (props) => {
   const [displayModal, setDisplayModal] = useState(false);
+
+
+//  const onlyOneProject =() =>{
+
+//  displayModal ? setDisplayModal(true) : setDisplayModal(false);
+//  displayModal ? setDisplayModal(false) : setDisplayModal(true);
+//  }
+
  const controls = useAnimation();
  const [ref, inView] = useInView({
    threshold: 0.9,
@@ -27,16 +35,17 @@ const item = {
   hidden: { opacity: 0.2, scale: 0.9 },
   transition: { duration: 1 },
 };
-  const image = require("../assets/Images/" + props.image).default;
+  const image = require("../../assets/Images/" + props.image).default;
   return (
     <motion.div
       ariants={item}
       ref={ref}
       animate={controls}
       initial="hidden"
-      className={`project-container ${displayModal ? "Show": ""}`}
+      onClick={() => setDisplayModal(!displayModal)}
+      className="project-container .Show"
     >
-      <div className="project" onClick={() => setDisplayModal(!displayModal)}>
+      <div className="project">
         <img className="mindPassge" src={image} alt="Project-img" />
         <div className="project-tag-title-container">
           <span className="project-title">{props.title} </span>
@@ -48,9 +57,10 @@ const item = {
         ref={ref}
         animate={controls}
         initial="hidden"
-        className={`Modal ${displayModal ? "Show" : ""}`}
+        className="Modal.show"
+        onClick={() => setDisplayModal(!displayModal)}
       >
-        <div class="modal-dialog">
+        {/* <div class="modal-dialog">
           <p className="project-des">{props.projectDescription}</p>
           <div className="tag-container">
             <p className="tags">{props.tag1}</p>
@@ -78,7 +88,8 @@ const item = {
               </a>
             </div>
           </div>
-        </div>
+        </div>  */}
+        
       </motion.div>
     </motion.div>
   );

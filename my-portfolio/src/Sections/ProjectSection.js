@@ -1,31 +1,30 @@
 
-import React, { useEffect, useState } from "react";
+// import React, {  useState } from "react";
 import { useAnimation, motion } from "framer-motion";
-import { useInView } from "react-intersection-observer";
+// import { useInView } from "react-intersection-observer";
 import projectJson from "../Projects.json";
-import Project from "../components/DevelopmentProject";
-import { v4 as uuidv4 } from "uuid";
-import DesignProjects from "../assets/Svgs/DesginProject.svg";
 // import Projectlayout from "../components/Projectlayout";
-
+import PlanttFactSiteProject from "../components/Projects/PlanttFactSiteProject";
+// import BlogSiteProject from "../components/BlogSiteProject";
+// import KitchenHelperProject from "../components/KitchenHelperProject";
 const ProjectSection = () => {
-  const [toggle, setToggle] = useState(true);
-  const [design, setDesign] = useState(true);
+  // const [toggle, setToggle] = useState(true);
+  // const [design, setDesign] = useState(true);
 
 
 
   const controls = useAnimation();
-  const [ref, inView] = useInView({
-    threshold: 0.8,
-  });
+  // const [ref, inView] = useInView({
+  //   threshold: 1.5,
+  // });
 
-  useEffect(() => {
-    if (inView) {
-      controls.start("visible");
-    } else {
-      controls.start("hidden");
-    }
-  }, [controls, inView]);
+  // useEffect(() => {
+  //   if (inView) {
+  //     controls.start("visible");
+  //   } else {
+  //     controls.start("hidden");
+  //   }
+  // }, [controls, inView]);
 
   const item = {
     visible: {
@@ -33,7 +32,7 @@ const ProjectSection = () => {
       scale: 1,
       transition: { duration: 2 },
     },
-    hidden: { opacity: 0.2},
+    hidden: { opacity: 1},
    
   };
 
@@ -43,16 +42,16 @@ const ProjectSection = () => {
 
    console.log(projectJson)
 
-  const toggleProject2 = () => {
-        design ? setDesign(false) : setDesign(true);
-    toggle ? setToggle(false) : setToggle(true);
-  };
+  // const toggleProject2 = () => {
+  //       design ? setDesign(false) : setDesign(true);
+  //   toggle ? setToggle(false) : setToggle(true);
+  // };
 
 
   return (
     <motion.div
       variants={item}
-      ref={ref}
+      // ref={ref}
       animate={controls}
       initial="hidden"
       className="Project-sec"
@@ -63,20 +62,6 @@ const ProjectSection = () => {
       </h1>
 
       <div className="project-des-heading">
-        <div className="project-toggle">
-          <div className="project-svg-container-desgin">
-            {" "}
-            <img
-              className={`project-svg-deign${design ? "" : "Show"}`}
-              src={DesignProjects}
-              alt="desgin"
-              onClick={toggleProject2}
-            />
-            <p className={`project-svg-desgin${design ? "Show" : ""}`}>
-              Desgin
-            </p>
-          </div>
-        </div>
         <p className="development-description">
           {" "}
           Below are some of the project I have worked on, please feel free to check out the website or the github account you'll find all links inculded wtih each project.
@@ -84,15 +69,10 @@ const ProjectSection = () => {
       </div>
 
       <motion.div className="project-broad">
-        {projectJson.PlanetFactSite.map((project, i) => (
-          <Project {...project} key={uuidv4()} />
-        ))}
-        {/* {projectJson.BlogSite.map((project, i) => (
-          <Project {...project} key={uuidv4()}  />
-        ))}
-        {projectJson.KitchenHelper.map((project, i) => (
-          <Project {...project} key={uuidv4()} />
-        ))} */}
+
+        < PlanttFactSiteProject />
+        {/* <BlogSiteProject />
+        <KitchenHelperProject/> */}
       </motion.div>
       <label></label>
     </motion.div>
