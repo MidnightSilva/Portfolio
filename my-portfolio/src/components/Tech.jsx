@@ -50,16 +50,13 @@ const Tech = () => {
         initial="visible"
         className="aboutme-tech"
       >
+
+
         {" "}
-        My current skillset & <span className="highlight">
-          past experience
-        </span>{" "}
-        makes me <span className="highlight">very adaptable.</span> levering my
-        skills to come up with{" "}
-        <span className="highlight">unique solutions </span>Integrating what I
-        learned. about Full Stack Development & User experience design from
-        BrainStation,I am able to fully create create Wireframes, Prototypes,
-        fully reponsive sites.
+        My leveraging <span className="highlight">past experience</span> along side the Tools above, allow
+        me to create  <span className="highlight">unique solutions.</span>No matter the <span className="highlight">obstacle</span> that presents
+        itself, there is always a solution you just need to
+        <span className="highlight">shift the perspective to find it</span> at times.
       </motion.div>
 
       <motion.div

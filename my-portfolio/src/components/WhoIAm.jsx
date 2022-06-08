@@ -47,17 +47,25 @@ const WhoIAm = () => {
         animate={controls}
         initial="hidden"
       >
-        I’m a <span className="highlight">Navy Veteran</span> with a wide range
-        of experience. I attended College after the Navy However I was forced
-        into the workforce before being able to complete my studies. When covid
-        Hit I took it as a second opportunity to enter the technology field, by
-        attending <span className="highlight">Brainstation.</span> While
-        Enrolled Their I gained skills to develop full-stack applications while
-        keeping user experience in mind. Currently, I am a
-        <span className="highlight">Tech Trainer</span> for{" "}
-        <span className="highlight">Everise</span>, I got promoted after being
-        with the company for only 7 months while continuing to improve my skills
-        in pursuit of a developer role.
+        I’m Jorge Silva. I go by <span className="highlight">Silva</span>. I
+        have a <span className="highlight">non tradional</span> background that
+        of being an <span className="highlight">USN Veteran</span>
+        with a <span className="highlight">wide range </span> of experience from
+        maintaining <span className="highlight">Steam engines</span>
+        to <span className="highlight">developing Software</span>, While keeping
+        the User's experience in mind. <br />
+        When Covid hit I made my transition into the Techonlongy field by
+        enrolling <span className="highlight">Brainstation.</span>While enrolled
+        at Brainstation I gained:
+        <br /> Currently, I am a<span className="highlight">
+          Tech Trainer
+        </span>{" "}
+        for <span className="highlight">Everise</span>, While I come to my{" "}
+        <span className="highlight">first year </span> at everise I have taken a
+        very active role{" "}
+        <span className="highlight"> improving the experience</span>
+        for both agents and customer Training new agents, creating job aids, and working on a call guide, all 
+        while I gain more experience developing and desgining software to land a dream dev role.
       </motion.p>
     </div>
   );

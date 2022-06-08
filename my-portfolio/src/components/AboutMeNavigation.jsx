@@ -92,7 +92,7 @@ const AboutMeNavigation = () => {
             whileHover={{ scale: 1.5, color: "#cb330c" }}
             className={`aboutme-nav-2${tech ? "Show" : ""}`}
           >
-            Tech
+            Skill
           </motion.il>
         </Link>
 
