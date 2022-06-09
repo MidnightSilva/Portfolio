@@ -46,8 +46,8 @@ const [message, setMessage ] = useState(false);
       <div className="formpage" id="form" onClick={toggleMessage}>
         <h2 className="heading5">Contact me</h2>
         <p className="subheading5">
-          Click on the Paper Plane to send me a message, Looking foward to
-          hearing from you all!
+          Looking to work together? have a project in mind, go ahead and shoot me a message! 
+          Looking forward to hearing from you all!
         </p>
 
         {message ? <MyForm /> : <PaperPlane />}

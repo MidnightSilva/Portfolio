@@ -60,7 +60,7 @@ const item = {
         className="Modal.show"
         onClick={() => setDisplayModal(!displayModal)}
       >
-        {/* <div class="modal-dialog">
+        <div class="modal-dialog">
           <p className="project-des">{props.projectDescription}</p>
           <div className="tag-container">
             <p className="tags">{props.tag1}</p>
@@ -88,7 +88,7 @@ const item = {
               </a>
             </div>
           </div>
-        </div>  */}
+        </div> 
         
       </motion.div>
     </motion.div>

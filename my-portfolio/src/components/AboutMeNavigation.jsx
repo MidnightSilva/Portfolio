@@ -65,10 +65,7 @@ const AboutMeNavigation = () => {
         About Me
       </motion.h1>
 
-      <motion.ul
-        whileHover={{  color: "#cb330c" }}
-        className="aboutme-points"
-      >
+      <motion.ul whileHover={{ color: "#cb330c" }} className="aboutme-points">
         <Link to="/">
           {" "}
           <motion.il
@@ -95,7 +92,6 @@ const AboutMeNavigation = () => {
             Skill
           </motion.il>
         </Link>
-
       </motion.ul>
     </motion.div>
   );

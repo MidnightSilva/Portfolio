@@ -2,7 +2,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100;200;300;400;600;700&display=swap');
 
-
+.plane-container{
+display: flex;
+flex-direction: column;
+}
 .form-img{
       background-position: center;
     background-repeat: no-repeat;
@@ -37,11 +40,24 @@ margin-bottom: 2rem;
     flex-direction: column;
     align-content: center;
         align-items: center;;}
-
-    .message-plane{
-      margin-bottom: 3rem;
+.trail{
+        margin-bottom: 1rem;
    margin-top: 3rem;
-      width: 10rem;
+      width: 4rem;
+          transform: rotate(20deg);
+}
+    .message-plane{
+    margin-bottom: 2rem;
+    margin-left: 4rem;
+    width: 4rem;
+    animation-name: wave-animation;  /* Refers to the name of your @keyframes element below */
+  animation-duration: 2.5s;        /* Change to speed up or slow down */
+  animation-iteration-count: infinite;  /* Never stop waving :) */
+  transform-origin: 70% 70%;       /* Pivot around the bottom-left palm */
+  display: inline-block;
+    } .message-plane::after{
+      content: "click me";
+
     }
 .form {
 
@@ -58,7 +74,7 @@ margin-bottom: 2rem;
     font-size: 13px;
     line-height: 1.3rem;
     color: $text;
-    padding-right: 15.2rem;
+    padding-right: 14.2rem;
     margin-bottom: 8px;
 }
 .message {
@@ -67,12 +83,12 @@ margin-bottom: 2rem;
     font-size: 13px;
     line-height: 1.3rem;
     color: $text;
-    padding-right: 14.2rem;
+    padding-right: 13.2rem;
     margin-bottom: 8px;
 }
 .input1 {
   height: 2rem;
-  width: 18rem;
+  width: 16rem;
   opacity: 0.9;
   border: 1px solid $specialtext;
    border-radius: 12px;
@@ -83,7 +99,7 @@ margin-bottom: 2rem;
 .input2 {
   opacity: 0.9;
   height: 8rem;
-  width: 18rem;
+  width: 16rem;
  border: 1px solid $specialtext;
    border-radius: 12px;
     background: #cb330c17;
