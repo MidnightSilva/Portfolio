@@ -47,25 +47,25 @@ const WhoIAm = () => {
         animate={controls}
         initial="hidden"
       >
-        I’m Jorge Silva. I go by <span className="highlight">Silva</span>. I
-        have a <span className="highlight">non tradional</span> background that
-        of being an <span className="highlight">USN Veteran</span>
-        with a <span className="highlight">wide range </span> of experience from
-        maintaining <span className="highlight">Steam engines</span>
-        to <span className="highlight">developing Software</span>, While keeping
-        the User's experience in mind. <br />
+        I’m <span className="highlight">Silva</span>. I have a 
+        <span className="highlight">non-traditional</span>  background of being
+        a <span className="highlight">USN Veteran</span> with a wide range of
+        experience from maintaining 
+        <span className="highlight">Steam engines</span> to
+        <span className="highlight">developing Software</span>.
+        <br />
+        <br />
         When Covid hit I made my transition into the Techonlongy field by
         enrolling <span className="highlight">Brainstation.</span>While enrolled
         at Brainstation I gained:
-        <br /> Currently, I am a<span className="highlight">
-          Tech Trainer
-        </span>{" "}
-        for <span className="highlight">Everise</span>, While I come to my{" "}
+        <br /> <br /> Currently, I am a
+        <span className="highlight">Tech Trainer</span> for{" "}
+        <span className="highlight">Everise</span>, While I come to my{" "}
         <span className="highlight">first year </span> at everise I have taken a
         very active role{" "}
         <span className="highlight"> improving the experience</span>
-        for both agents and customer Training new agents, creating job aids, and working on a call guide, all 
-        while I gain more experience developing and desgining software to land a dream dev role.
+        for both agents and customer Training new agents, creating job aids, and
+        working on a call guides. 
       </motion.p>
     </div>
   );

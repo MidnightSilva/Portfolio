@@ -1,5 +1,5 @@
-import github from "../assets/Svgs/Github.svg";
-import linkedin from "../assets/Svgs/linkedin.svg";
+import github from "../assets/Svgs/Githubwhite.svg";
+import linkedin from "../assets/Svgs/linkedinwhite.svg";
 import { Link } from "react-scroll";
 import hamburgermenu from "../assets/Svgs/hamburgerMenu.svg"
 import { useState } from "react";
