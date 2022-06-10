@@ -57,7 +57,7 @@ const item = {
         ref={ref}
         animate={controls}
         initial="hidden"
-        className="Modal.show"
+        className="Modalshow"
         onClick={() => setDisplayModal(!displayModal)}
       >
         <div class="modal-dialog">
