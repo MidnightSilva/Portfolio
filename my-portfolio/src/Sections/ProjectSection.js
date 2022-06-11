@@ -5,7 +5,7 @@ import { useAnimation, motion } from "framer-motion";
 import projectJson from "../Projects.json";
 // import Projectlayout from "../components/Projectlayout";
 import PlanttFactSiteProject from "../components/Projects/PlanttFactSiteProject";
-// import BlogSiteProject from "../components/BlogSiteProject";
+import BlogSiteProject from "../components/Projects/BlogSiteProject";
 // import KitchenHelperProject from "../components/KitchenHelperProject";
 const ProjectSection = () => {
   // const [toggle, setToggle] = useState(true);
@@ -71,8 +71,8 @@ const ProjectSection = () => {
       <motion.div className="project-broad">
 
         < PlanttFactSiteProject />
-        {/* <BlogSiteProject />
-        <KitchenHelperProject/> */}
+        <BlogSiteProject />
+        {/* <KitchenHelperProject/> */}
       </motion.div>
       <label></label>
     </motion.div>

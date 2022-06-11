@@ -18,7 +18,7 @@
     font-size: 2rem;
     line-height: 19px;
     padding: 8px 0px 0px 16px;
-    color: $heading
+    color:$specialtext;
 }
 
 .project-svg-container-development{
@@ -455,6 +455,10 @@ margin: 4px 8px;
 }
 
 @media only screen and (min-width: 992px) {
+  .project-broad, .project-container, .project-container.Show {
+    justify-content: space-around;
+    flex-direction: row;
+}
 .heading4{
       padding: 8px 0px 0px 3rem;
 }
@@ -468,14 +472,19 @@ margin: 4px 8px;
        left: 3%;
   }
 
-.Modal.Show{
-
+.Modalshow {
+    display: flex;
+    color: white;
+    width: 66%;
+    border-radius: 9px;
+    margin-top: 0.9rem;
+    padding: 0.5rem 0.2rem 0.5rem 0.2rem;
 }
 // when on show it 
 //needs to change when tigger changes 
   .project-broad {
     align-items: baseline;
-     flex-direction: row;
+     flex-direction: column;
       margin-bottom: 4rem;
 
     align-items: flex-start;

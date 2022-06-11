@@ -1,6 +1,6 @@
-import projectJson from "../Projects.json";
+import projectJson from "../../Projects.json";
 import Project from "../Projects/DevelopmentProject"
-import { v4 as uuidv4 } from "uuid";
+
 
  const BlogSiteProject = () => {
   return (
