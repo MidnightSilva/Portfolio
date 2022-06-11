@@ -1,6 +1,4 @@
 import MyForm from "../components/Myform.js";
-
-import PaperPlane  from "../components/paperPlane"
 import React, { useState } from "react";
 import { useAnimation, motion } from "framer-motion";
 // import { useInView } from "react-intersection-observer";
@@ -50,7 +48,7 @@ const [message, setMessage ] = useState(false);
           Looking forward to hearing from you all!
         </p>
 
-        {message ? <MyForm /> : <PaperPlane />}
+      <MyForm /> 
       </div>
     </motion.div>
   );

@@ -65,7 +65,7 @@ const WhoIAm = () => {
         very active role{" "}
         <span className="highlight"> improving the experience</span>
         for both agents and customer Training new agents, creating job aids, and
-        working on a call guides. 
+        working on a call guide. 
       </motion.p>
     </div>
   );
