@@ -57,7 +57,8 @@ const item = {
         ref={ref}
         animate={controls}
         initial="hidden"
-        className="Modalshow"
+        // className="Modalshow"
+        className={`Modal${displayModal ? "Show" : ""}`}
         onClick={() => setDisplayModal(!displayModal)}
       >
         <div class="modal-dialog">
@@ -88,8 +89,7 @@ const item = {
               </a>
             </div>
           </div>
-        </div> 
-        
+        </div>
       </motion.div>
     </motion.div>
   );
